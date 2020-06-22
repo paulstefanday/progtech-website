@@ -8,12 +8,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import PageHeading from "../components/PageHeading";
 import Container from "../components/Container";
 
-
-
-
-
-const Description = () => <Box width={[1, 1 / 2]} pr={5}></Box>;
-
 const Form = () => {
 const [name, setName] = useState('');
 const [email, setEmail] = useState('');
