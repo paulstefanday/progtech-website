@@ -18,6 +18,8 @@ const list = [
   { url: "/images/team-clo.jpg", name: "Clodagh Schofield", bio: "" },
   { url: "/images/team-harry.jpg", name: "Harry Cossar-Gilbert", bio: "" },
   { url: "/images/team-moira.jpg", name: "Moira Cully", bio: "" },
+  { url: "/images/team-edie.jpg", name: "Edie Shepherd", bio: "" },
+  { url: "/images/team-paul.jpg", name: "Paul Day", bio: "" },
 ];
 
 const Team = () => (
