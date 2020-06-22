@@ -17,7 +17,7 @@ const Form = () => (
       py={3}
     >
       <p style={{ marginTop: 0}}>
-        If you have any questions or want to get involed get in touch via{" "}
+        Thoughts? Questions? Feedback? Get in touch via{" "}
         <a href="mailto:hello@progtech.net.au">email</a> or fill out this form.
       </p>
       <br />
