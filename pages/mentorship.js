@@ -17,6 +17,7 @@ const marginBottom = "60px";
 const Form = () => (
   <>
     <Box width={[1]} as="form" onSubmit={(e) => e.preventDefault()} py={3}>
+    <Heading variant="highlight.pink">Apply Here</Heading>
       <Flex flexWrap="wrap" mb={3}>
         <Box width={1 / 2}>
           <Label htmlFor="name">Name</Label>
@@ -58,7 +59,39 @@ const Form = () => (
 const Description = () => (
   <Box width={[1, 1 / 2]} pr={5}>
     <p style={{ marginTop: 0 }}>
-      We don't have applications open for our next mentorshop program yet but please register your interest and we will get back to you. 
+      <Heading variant="highlight.pink">Overview</Heading>
+      <p>
+        We’re seeking applications for people to be both mentors and mentees in
+        an 8 week trial. This mentorship project seeks to provide mentees with
+        practical support with a tech challenge they’re struggling with, as well
+        as have a broader conversation aimed at demystifying careers in tech.
+      </p>
+      <br /><br />
+      <Heading variant="highlight.orange">Who you are</Heading>
+
+      <p>
+        You’re working in or around tech - this covers both technical and
+        non-technical roles (eg maybe you’re not a developer, but you’re working
+        with digital platforms and technologies).
+      </p>
+
+      <p>
+        You can commit to 4 mentorship meetings over an 8 week period (via video
+        calls), plus participating in an evaluation.
+      </p>
+      <br /><br />
+      <Heading variant="highlight.purple">Mentees</Heading>
+      <p>
+        For this small trial, we’ll only be taking applications from women and
+        people of colour.{" "}
+      </p>
+      <br /><br />
+      <Heading variant="highlight.green">Mentors</Heading>
+      <p>
+        if you’ve never mentored someone before, no worries! You’ll be provided
+        with sample questions and conversation guides to support you to step up.
+      </p>
+      {/* We don't have applications open for our next mentorshop program yet but please register your interest and we will get back to you.  */}
       {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

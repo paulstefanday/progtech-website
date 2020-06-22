@@ -7,22 +7,72 @@ import Container from "../components/Container";
 
 const Description = () => (
   <Box width={[1, 1 / 2]} pr={5}>
-    <Heading variant="highlight.pink">What does being a partner look like?</Heading>
-    <p style={{ marginBottom: "60px" }}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+    <Heading variant="highlight.pink">
+      What does being a partner look like?
+    </Heading>
+    <p>
+      We have so much to gain from working together. Joining the network means
+      sharing what you have to offer - be it your experience with a tool, code
+      your organisation has to link systems, a website theme, a custom tool, or
+      a list of great contractors.
     </p>
+
+    <p>
+      We don’t have a minimum requirement of what you share - we assume good
+      faith of each other, because we all share the same goals. We’re working
+      together to prevent climate devastation, and to create a society where
+      everyone, no matter your background, your gender, your ability or your
+      skin colour, can thrive.
+    </p>
+
+    <p>
+      Where we receive help from each other, we make sure to credit each other
+      and to give thanks within our means. In the future, we might decide
+      together to ask larger organisations who can afford it to contribute
+      money. For now, we’re asking everyone to contribute what you can - because
+      we can’t afford not to help each other.
+    </p>
+< br/>< br/>
+    <Heading variant="highlight.orange">
+      What you have to give, and to gain
+    </Heading>
+    <ul>
+      <li>
+        Apps and tools you’ve built (think doorknocking apps, texting apps,
+        metrics tools)
+      </li>
+      <li>
+        Maps of your tech stack (all your tools and websites, and how they
+        connect) so that other teams considering your tools can ask your advice
+      </li>
+      <li>
+        Your expertise, running a one off training, a series, or mentoring
+        someone one on one
+      </li>
+      <li>Spreadsheets of MP contact details</li>
+      <li>
+        Spreadsheets with superb formulas in them useful for other campaigners,
+        organisers, ops workers, techies, fundraisers
+      </li>
+      <li>
+        Your time, or that of other techies or tech volunteers in your
+        community, to help other organisations and campaigners build, deploy,
+        and troubleshoot tech
+      </li>
+      <li>
+        Your time organising the community - running induction calls for
+        volunteers, surveying new organisations, reaching out to campaigning
+        groups of marginalised people to see where our community can support
+        their work
+      </li>
+    </ul>
+    < br/>< br/>
     <Heading variant="highlight.green">Once you have applied</Heading>
     <p>
-      A member of the ProgTech team will get in touch to
-      discuss your application. We'll then form a membership agreement that
-      outlines in detail what your organisation can share, and the key ways the
-      network will support you in the tech you need to bring on a better world.
+      A member of the ProgTech team will get in touch to discuss your
+      application. We'll then form a membership agreement that outlines in
+      detail what your organisation can share, and the key ways the network will
+      support you in the tech you need to bring on a better world.
     </p>
     <p>
       If your membership application is accepted, you and the tech & digital
@@ -37,24 +87,23 @@ const Description = () => (
 const Form = () => (
   <>
     <Description />
-    <Box width={[1, 1 / 2]} as="form" onSubmit={(e) => e.preventDefault()} py={3}>
+    <Box
+      width={[1, 1 / 2]}
+      as="form"
+      onSubmit={(e) => e.preventDefault()}
+      py={3}
+    >
       <Flex flexWrap="wrap" mb={3}>
         <Box width={1 / 2}>
-          <Label htmlFor="name">
-            Name
-          </Label>
+          <Label htmlFor="name">Name</Label>
           <Input id="name" name="name" defaultValue="" />
         </Box>
         <Box width={1 / 2}>
-          <Label htmlFor="email">
-            Email
-          </Label>
+          <Label htmlFor="email">Email</Label>
           <Input id="email" name="email" defaultValue="" />
         </Box>
         <Box width={1 / 2}>
-          <Label htmlFor="organisationName">
-            Organisation Name
-          </Label>
+          <Label htmlFor="organisationName">Organisation Name</Label>
           <Input
             id="organisationName"
             name="organisationName"
@@ -62,9 +111,7 @@ const Form = () => (
           />
         </Box>
         <Box width={1 / 2}>
-          <Label htmlFor="role">
-            Role
-          </Label>
+          <Label htmlFor="role">Role</Label>
           <Input id="role" name="role" defaultValue="" />
         </Box>
         <Box width={1}>
