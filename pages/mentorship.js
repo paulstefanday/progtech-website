@@ -85,8 +85,8 @@ your work as a progressive campaigner.
       <br /><br />
       <Heading variant="highlight.green">Who Mentors are</Heading>
       <p>
-        Our mentors are seasoned techie keen to build skills in our movement, particularly in people 
-who've had less access to tech because of gender, race, class and other factors. If you’re 
+        Our mentors are seasoned techies keen to build skills in our movement, particularly in people 
+who've had less access to tech skills because of gender, race, class and other factors. If you’re 
 interested but you've never mentored someone before, please apply! Mentors are provided with 
 support to step up.
       </p>

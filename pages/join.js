@@ -13,25 +13,20 @@ const Description = () => (
     </Heading>
     <p>
       We have so much to gain from working together. Joining the network means
-      sharing what you have to offer - be it your experience with a tool, code
-      your organisation has to link systems, a website theme, a custom tool, or
-      a list of great contractors.
+      sharing what you have to offer - which is different for different organisations.
+      If you're interested in seeing your organisation join the network, share what you're
+      keen to get out of it, and what your organisation could offer in the form. Partner
+      organisations share custom tools, research and analysis, staff time through participation
+      in mentorship and support, and financial contributions.
     </p>
 
     <p>
-      We don’t have a minimum requirement of what you share - we assume good
-      faith of each other, because we all share the same goals. We’re working
-      together to prevent climate devastation, and to create a society where
-      everyone, no matter your background, your gender, your ability or your
+      Partners gain access to shared tools, mentorship programs, trainings, and conversations
+      about next steps on developing tools identified as key to the success of our movements. 
+      We share with each other in good faith, and ensure we share on clear terms - because we 
+      all share the same goals. We’re working together to prevent climate devastation, and to 
+      create a society where everyone, no matter your background, your gender, your ability or your
       skin colour, can thrive.
-    </p>
-
-    <p>
-      Where we receive help from each other, we make sure to credit each other
-      and to give thanks within our means. In the future, we might decide
-      together to ask larger organisations who can afford it to contribute
-      money. For now, we’re asking everyone to contribute what you can - because
-      we can’t afford not to help each other.
     </p>
     <br />
     <br />
@@ -40,7 +35,7 @@ const Description = () => (
     </Heading>
     <ul>
       <li>
-        Apps and tools you’ve built (think doorknocking apps, texting apps,
+        Apps and tools you’ve built (think doorknocking apps, dialling apps,
         metrics tools)
       </li>
       <li>
@@ -69,12 +64,12 @@ const Description = () => (
       </li>
     </ul>
     < br/>< br/> */}
-    <Heading variant="highlight.green">Once you have applied</Heading>
+    <Heading variant="highlight.green">Once you have expressed interest</Heading>
     <p>
-      A member of the ProgTech team will get in touch to discuss your
-      application. We'll then form a membership agreement that outlines in
-      detail what your organisation can share, and the key ways the network will
-      support you in the tech you need to bring on a better world.
+      A member of the ProgTech team will get in touch to discuss further. We'll 
+      then form a membership agreement that outlines in detail what your organisation 
+      can share, and the key ways the network will support you in the tech you need 
+      to bring on a better world.
     </p>
     <p>
       If your membership application is accepted, you and the tech & digital
