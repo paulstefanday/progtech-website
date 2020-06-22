@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Box, Flex, Button, Heading } from "rebass";
 import { Input, Label, Textarea } from "@rebass/forms";
+import { ToastContainer, toast } from 'react-toastify';
 
 import PageHeading from "../components/PageHeading";
 import Container from "../components/Container";
@@ -32,7 +33,8 @@ const Description = () => (
       money. For now, we’re asking everyone to contribute what you can - because
       we can’t afford not to help each other.
     </p>
-< br/>< br/>
+    <br />
+    <br />
     {/* <Heading variant="highlight.orange">
       Examples of what you could give, and could gain
     </Heading>
@@ -84,70 +86,139 @@ const Description = () => (
   </Box>
 );
 
-const Form = () => (
-  <>
-    <Description />
-    <Box
-      width={[1, 1 / 2]}
-      as="form"
-      onSubmit={(e) => e.preventDefault()}
-      py={3}
-    >
-      <Flex flexWrap="wrap" mb={3}>
-        <Box width={1 / 2}>
-          <Label htmlFor="name">Name</Label>
-          <Input id="name" name="name" defaultValue="" />
-        </Box>
-        <Box width={1 / 2}>
-          <Label htmlFor="email">Email</Label>
-          <Input id="email" name="email" defaultValue="" />
-        </Box>
-        <Box width={1 / 2}>
-          <Label htmlFor="organisationName">Organisation Name</Label>
-          <Input
-            id="organisationName"
-            name="organisationName"
-            defaultValue=""
-          />
-        </Box>
-        <Box width={1 / 2}>
-          <Label htmlFor="role">Role</Label>
-          <Input id="role" name="role" defaultValue="" />
-        </Box>
-        <Box width={1}>
-          <Label htmlFor="keyChallenges">
-            What are the key challenges your organisation faces with tech and
-            data?
-          </Label>
-          <Textarea id="keyChallenges" name="keyChallenges" />
-        </Box>
-        <Box width={1}>
-          <Label htmlFor="wishYouCouldDo">
-            What are the things you wish you could do?
-          </Label>
-          <Textarea id="wishYouCouldDo" name="wishYouCouldDo" />
-        </Box>
-        <Box width={1}>
-          <Label htmlFor="keyBenefits">
-            What are the key ways your organisation could benefit from
-            collaboration with other organisations and the network?
-          </Label>
-          <Textarea id="keyBenefits" name="keyBenefits" />
-        </Box>
-        <Box width={1}>
-          <Label htmlFor="canOffer">
-            What are the key things your organisation has to offer and share
-            with other progressive organisations and the network?
-          </Label>
-          <Textarea id="canOffer" name="canOffer" />
-        </Box>
-        <Box textAlign="right" width={1}>
-          <Button width={1 / 2}>Join</Button>
-        </Box>
-      </Flex>
-    </Box>
-  </>
-);
+const Form = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [organisation, setOrganisation] = useState("");
+  const [role, setRole] = useState("");
+  const [keyChallenges, setKeyChallenges] = useState("");
+  const [wishYouCouldDo, setWishYouCouldDo] = useState("");
+  const [keyBenefits, setKeyBenefits] = useState("");
+  const [canOffer, setCanOffer] = useState("");
+  const [buttonText, setButtonText] = useState("Join");
+
+  const submit = async (e) => {
+    e.preventDefault();
+    const body = {
+      name,
+      email,
+      data: { role, organisation, keyChallenges, wishYouCouldDo, keyBenefits, canOffer },
+      form: "PARTNER",
+    };
+    const url = `${window.location.protocol}://${window.location.hostname}${
+      window.location.port && ":" + window.location.port
+    }`;
+    setButtonText("Loading...");
+    try {
+      const res = await fetch(`/api/submission`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      const data = await res.json();
+      setButtonText("Success");
+      toast.dark("Thanks for your submission")
+    } catch (error) {
+      console.error(error);
+      setButtonText("An Error Occured");
+    }
+  };
+  return (
+    <>
+      <Description />
+      <Box width={[1, 1 / 2]} as="form" onSubmit={submit} py={3}>
+        <Flex flexWrap="wrap" mb={3}>
+          <Box width={1 / 2}>
+            <Label htmlFor="name">Name</Label>
+            <Input
+              id="name"
+              name="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />
+          </Box>
+          <Box width={1 / 2}>
+            <Label htmlFor="email">Email</Label>
+            <Input
+              id="email"
+              name="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </Box>
+          <Box width={1 / 2}>
+            <Label htmlFor="organisation">Organisation Name</Label>
+            <Input
+              id="organisation"
+              name="organisation"
+              value={organisation}
+              onChange={(e) => setOrganisation(e.target.value)}
+            />
+          </Box>
+          <Box width={1 / 2}>
+            <Label htmlFor="role">Role</Label>
+            <Input
+              id="role"
+              name="role"
+              value={role}
+              onChange={(e) => setRole(e.target.value)}
+            />
+          </Box>
+          <Box width={1}>
+            <Label htmlFor="keyChallenges">
+              What are the key challenges your organisation faces with tech and
+              data?
+            </Label>
+            <Textarea
+              id="keyChallenges"
+              name="keyChallenges"
+              value={keyChallenges}
+              onChange={(e) => setKeyChallenges(e.target.value)}
+            />
+          </Box>
+          <Box width={1}>
+            <Label htmlFor="wishYouCouldDo">
+              What are the things you wish you could do?
+            </Label>
+            <Textarea
+              id="wishYouCouldDo"
+              name="wishYouCouldDo"
+              value={wishYouCouldDo}
+              onChange={(e) => setWishYouCouldDo(e.target.value)}
+            />
+          </Box>
+          <Box width={1}>
+            <Label htmlFor="keyBenefits">
+              What are the key ways your organisation could benefit from
+              collaboration with other organisations and the network?
+            </Label>
+            <Textarea
+              id="keyBenefits"
+              name="keyBenefits"
+              value={keyBenefits}
+              onChange={(e) => setKeyBenefits(e.target.value)}
+            />
+          </Box>
+          <Box width={1}>
+            <Label htmlFor="canOffer">
+              What are the key things your organisation has to offer and share
+              with other progressive organisations and the network?
+            </Label>
+            <Textarea
+              id="canOffer"
+              name="canOffer"
+              value={canOffer}
+              onChange={(e) => setCanOffer(e.target.value)}
+            />
+          </Box>
+          <Box textAlign="right" width={1}>
+            <Button width={1 / 2}>{buttonText}</Button>
+          </Box>
+        </Flex>
+      </Box>
+    </>
+  );
+};
 
 const App = (props) => {
   return (

@@ -1,10 +1,12 @@
+const formColor = "#6e6e6e";
+
 const theme = {
   forms: {
     input: {
       borderTop: "0px",
       borderLeft: "0px",
       borderRight: "0px",
-      borderColor: "#a5a5a5",
+      borderColor: formColor,
       px: 2,
       mb: 4,
     },
@@ -15,14 +17,14 @@ const theme = {
       borderTop: "0px",
       borderLeft: "0px",
       borderRight: "0px",
-      borderColor: "#a5a5a5",
+      borderColor: formColor,
       px: 2,
       mb: 4,
     },
     label: {
       mb: 2,
       fontSize: "12px",
-      color: "#a5a5a5"
+      color: formColor 
     },
     radio: {},
     checkbox: {},

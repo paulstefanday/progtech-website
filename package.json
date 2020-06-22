@@ -8,15 +8,19 @@
     "start": "next start"
   },
   "dependencies": {
+    "@prisma/client": "^2.0.1",
     "@rebass/forms": "^4.0.6",
     "emotion-theming": "^10.0.27",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^9.3.3",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-toastify": "^6.0.6",
     "rebass": "^4.0.7",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
+    "@prisma/cli": "^2.0.1",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.21.2",
