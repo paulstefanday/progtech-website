@@ -33,8 +33,8 @@ const Description = () => (
       we can’t afford not to help each other.
     </p>
 < br/>< br/>
-    <Heading variant="highlight.orange">
-      What you have to give, and to gain
+    {/* <Heading variant="highlight.orange">
+      Examples of what you could give, and could gain
     </Heading>
     <ul>
       <li>
@@ -66,7 +66,7 @@ const Description = () => (
         their work
       </li>
     </ul>
-    < br/>< br/>
+    < br/>< br/> */}
     <Heading variant="highlight.green">Once you have applied</Heading>
     <p>
       A member of the ProgTech team will get in touch to discuss your
