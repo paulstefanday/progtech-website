@@ -21,7 +21,7 @@ const Programmes = () => {
               tools like custom metrics for Nationbuilder, website themes, and
               code for integrations between common platforms.
             </Text>
-            <Link href="/sharecode"><Button variant="primary">Get Involved</Button></Link>
+            {/* <Link href="/sharecode"><Button variant="primary">Get Involved</Button></Link> */}
           </Box>
         </Box>
   
@@ -38,7 +38,7 @@ const Programmes = () => {
               practical support with a tech challenge they’re struggling with, as
               well as demystifying careers in tech.
             </Text>
-            <Link href="/mentorship"><Button variant="primary">Apply</Button></Link>
+            {/* <Link href="/mentorship"><Button variant="primary">Apply</Button></Link> */}
           </Box>
         </Box>
   
@@ -55,7 +55,7 @@ const Programmes = () => {
               organisers online sessions, through to coding fellowships. Watch
               this space!
             </Text>
-            <Link href="/events"><Button variant="primary">Learn more</Button></Link>
+            {/* <Link href="/events"><Button variant="primary">Learn more</Button></Link> */}
           </Box>
         </Box>
   

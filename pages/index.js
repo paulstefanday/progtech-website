@@ -9,6 +9,7 @@ import Programmes from "../components/Programmes";
 import Slider from "../components/Slider";
 import Partners from "../components/Partners";
 import JoinNetwork from "../components/JoinNetwork";
+import Link from 'next/link';
 
 const sliderContent = [
   {
@@ -34,11 +35,15 @@ const JumboContent = () => (
         It’s time we teamed up on progressive tech, don’t you think?
       </Heading>
     </Box>
-    <Box width={1}>
-      <Flex
-        sx={{ boxShadow: "0 2px 20px rgba(0, 0, 0, 0.225)", maxWidth: "500px" }}
+    <Box width={1} sx={{maxWidth: "500px" 
+        }}>
+      <Box
+        sx={{ 
+          // boxShadow: "0 2px 20px rgba(0, 0, 0, 0.225)", 
+          maxWidth: "500px" 
+        }}
       >
-        <Input
+        {/* <Input
           bg="white"
           width={3 / 5}
           mb={0}
@@ -47,11 +52,16 @@ const JumboContent = () => (
           name="email"
           type="email"
           placeholder="Your Email"
-        />
-        <Button width={2 / 5} variant="primary">
-          Join the Network
-        </Button>
-      </Flex>
+        /> */}
+        <Link href="/overview"><Button mr={3} variant="primary">
+          Learn more
+        </Button></Link>
+        <Link href="/join"><Button variant="secondary" sx={{ 
+          boxShadow: "0 2px 20px rgba(0, 0, 0, 0.225)", 
+        }}>
+          Become a Partner
+        </Button></Link>
+      </Box>
     </Box>
   </Container>
 );
@@ -63,8 +73,8 @@ const App = (props) => {
         <JumboContent />
       </Jumbotron>
       <Programmes />
-      <Slider content={sliderContent} />
-      <Partners />
+      {/* <Slider content={sliderContent} /> */}
+      {/* <Partners /> */}
       <JoinNetwork />
     </Flex>
   );

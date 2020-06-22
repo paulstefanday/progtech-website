@@ -79,7 +79,7 @@ class Nav extends React.Component {
             <Box className="dropdown-content">
               <Link href="/overview">Overview</Link>
               {/* <Link href="#!">News</Link> */}
-              <Link href="/partners">Partners</Link>
+              {/* <Link href="/partners">Partners</Link> */}
               <Link href="/team">Team</Link>
               <Link href="/contact">Contact Us</Link>
             </Box>
@@ -88,8 +88,8 @@ class Nav extends React.Component {
             Programmes
             <Box className="dropdown-content">
               <Link href="/mentorship">Mentorship</Link>
-              <Link href="/events">Workshops & events</Link>
-              <Link href="/sharecode">Tools & Code</Link>
+              {/* <Link href="/events">Workshops & events</Link>
+              <Link href="/sharecode">Tools & Code</Link> */}
             </Box>
           </Link>
           <Link className="active" href="/join">

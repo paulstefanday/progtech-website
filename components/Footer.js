@@ -40,8 +40,8 @@ const Footer = () => (
     <Flex flexDirection="column" p={5} width={[1, 1 / 3]}>
       <Heading>Quick Links</Heading>
       <Link href="/overview">About</Link>
-      <Link href="/partners">Partners</Link>
-      <Link href="/join">Become a partner</Link>
+      {/* <Link href="/partners">Partners</Link> */}
+      <Link href="/join">Become a Partner</Link>
       <Link href="/contact">Contact Us</Link>
     </Flex>
   </Flex>
