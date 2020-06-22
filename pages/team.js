@@ -15,14 +15,15 @@ const colors = [
 ]
 
 const list = [
-  { url: "/images/team-clo.jpg", name: "Clodagh", bio: "" },
-  { url: "/images/team-harry.jpg", name: "Harry", bio: "" },
+  { url: "/images/team-clo.jpg", name: "Clodagh Schofield", bio: "" },
+  { url: "/images/team-harry.jpg", name: "Harry Cossar-Gilbert", bio: "" },
+  { url: "/images/team-moira.jpg", name: "Moira Cully", bio: "" },
 ];
 
 const Team = () => (
-  <Flex width={[1, 1 / 2]} flexWrap="wrap">
+  <Flex width={[1]} flexWrap="wrap">
     {list.map(({ url, name, bio }, index) => (
-      <Box textAlign="center" width={1 / 2} minHeight={230} sx={styles}>
+      <Box textAlign="center" width={1 / 4} minHeight={230} sx={styles}>
         <div style={{ width: "100%", height: "240px", overflow:"hidden"}}><Image src={url} mb={2} width="100%" /></div>
         <br /><Heading variant={`highlight.${colors[getRandomInt(4)]}`}>{name}</Heading>
       </Box>
