@@ -1,0 +1,19 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "CreateField",
+      "model": "Submissions",
+      "field": "data",
+      "type": "Json",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Submissions",
+      "field": "privateData",
+      "type": "Json",
+      "arity": "Required"
+    }
+  ]
+}

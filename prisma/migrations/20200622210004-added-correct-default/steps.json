@@ -1,0 +1,26 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "UpdateEnum",
+      "enum": "Form",
+      "createdValues": [
+        "UNASSSIGNED"
+      ]
+    },
+    {
+      "tag": "UpdateArgument",
+      "location": {
+        "tag": "Directive",
+        "path": {
+          "tag": "Field",
+          "model": "Submissions",
+          "field": "form"
+        },
+        "directive": "default"
+      },
+      "argument": "",
+      "newValue": "UNASSSIGNED"
+    }
+  ]
+}

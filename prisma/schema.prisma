@@ -1,0 +1,41 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Form {
+  SHARE_TOOLS
+  NEWSLETTER
+  MENTORSHIP
+  PARTNER
+  CONTACT
+  UNASSSIGNED
+}
+
+enum Team {
+  UNASSSIGNED
+  CLO
+  PAUL
+  SARA
+  EDIE
+  HARRY
+  MOIRA
+}
+
+model Submissions {
+  id          Int      @default(autoincrement()) @id
+  name        String?
+  email       String?
+  form        Form     @default(UNASSSIGNED)
+  owner       Team     @default(UNASSSIGNED)
+  data        Json?
+  privateData Json?
+  createdAt   DateTime @default(now())
+}

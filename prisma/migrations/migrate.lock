@@ -1,0 +1,7 @@
+# Prisma Migrate lockfile v1
+
+20200622205642
+20200622205715-start
+20200622210004-added-correct-default
+20200622214551-added-created-at-field
+20200622214816-make-json-optional
