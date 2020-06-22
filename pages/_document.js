@@ -41,6 +41,7 @@ and activists have the best tools possible, and the skills & support to use them
         <Main />
         <NextScript />
       </body>
+      
     </Html>
   );
 }

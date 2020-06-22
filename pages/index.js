@@ -1,7 +1,9 @@
 /* eslint no-unused-vars: 0 */
-import React from "react";
+import React, { useState } from "react";
 import { Flex, Heading, Button, Box } from "rebass";
 import { Input } from "@rebass/forms";
+// import dynamic from "next/dynamic";
+import { ToastContainer, toast } from 'react-toastify';
 
 import Jumbotron from "../components/Jumbotron";
 import Container from "../components/Container";
@@ -9,7 +11,14 @@ import Programmes from "../components/Programmes";
 import Slider from "../components/Slider";
 import Partners from "../components/Partners";
 import JoinNetwork from "../components/JoinNetwork";
-import Link from 'next/link';
+import Link from "next/link";
+
+// const ReactTypeformEmbed = dynamic(
+//   () => import("react-typeform-embed/lib/ReactTypeformEmbed"),
+//   {
+//     ssr: false,
+//   }
+// );
 
 const sliderContent = [
   {
@@ -28,43 +37,70 @@ const sliderContent = [
   },
 ];
 
-const JumboContent = () => (
+const JumboContent = () => {
+  const [email, setEmail] = useState("");
+  const [buttonText, setButtonText] = useState("Sign up to hear about the next steps");
+
+  const submit = async (e) => {
+    e.preventDefault();
+    
+    const body = {
+      email,
+      form: "NEWSLETTER",
+    };
+    const url = `${window.location.protocol}://${window.location.hostname}${
+      window.location.port && ":" + window.location.port
+    }`;
+    setButtonText("Loading...");
+    try {
+      const res = await fetch(`/api/submission`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      const data = await res.json();
+      setButtonText("Success");
+      setEmail("");
+    toast.dark("Thanks. We will be in touch.")
+    } catch (error) {
+      console.error(error);
+      setButtonText("An Error Occured");
+    }
+  };
+  return (
   <Container maxWidth={1200}>
     <Box width={1}>
       <Heading fontSize={[25, 50]} sx={{ maxWidth: "500px" }}>
         It’s time we teamed up on progressive tech, don’t you think?
       </Heading>
     </Box>
-    <Box width={1} sx={{maxWidth: "500px" 
-        }}>
-      <Box
-        sx={{ 
-          // boxShadow: "0 2px 20px rgba(0, 0, 0, 0.225)", 
-          maxWidth: "500px" 
+    <Box width={1} sx={{ maxWidth: "500px" }}>
+      <Flex
+        sx={{
+          boxShadow: "0 2px 20px rgba(0, 0, 0, 0.225)",
+          maxWidth: "500px",
         }}
       >
-        {/* <Input
+        <Input
           bg="white"
-          width={3 / 5}
+          width={[1, 1/3]}
           mb={0}
           sx={{ borderBottom: 0 }}
           id="email"
           name="email"
           type="email"
           placeholder="Your Email"
-        /> */}
-        <Link href="/overview"><Button mr={3} variant="primary">
-          Learn more
-        </Button></Link>
-        <Link href="/join"><Button variant="secondary" sx={{ 
-          boxShadow: "0 2px 20px rgba(0, 0, 0, 0.225)", 
-        }}>
-          Become a Partner
-        </Button></Link>
-      </Box>
+          value={email}
+          onChange={e => setEmail(e.target.value)}
+        />
+          <Button onClick={submit} width={[1, 2/3]} variant="primary">
+          {buttonText}
+          </Button>
+      </Flex>
     </Box>
   </Container>
 );
+      }
 
 const App = (props) => {
   return (
@@ -75,6 +111,11 @@ const App = (props) => {
       <Programmes />
       {/* <Slider content={sliderContent} /> */}
       {/* <Partners /> */}
+      {/* <Container maxWidth={1200}>
+        <Box width={1}>
+          <ReactTypeformEmbed url="https://form.typeform.com/to/C8Sthe" />
+        </Box>
+      </Container> */}
       <JoinNetwork />
     </Flex>
   );

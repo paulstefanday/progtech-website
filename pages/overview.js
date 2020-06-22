@@ -34,7 +34,7 @@ const Description = () => (
       Longer term, ProgTech aims to follow in the footstep of projects like the Movement Cooperative in the
       US - collective bargaining, and pooling resources to build the tools we need for powerful, intersectional,
       and just movements. Through collaboration, we can create tools that are driven not by profit motives, or 
-      the needs of large US based organisations - but by the needs of those at the forefronts of our movements here.
+      the needs of large US based organisations - but by the needs of those at the forefronts of our movements here.</p>
 
     <p style={{ marginBottom }}>
       Our founding team is a group of people working across the progressive
@@ -96,7 +96,7 @@ const Description = () => (
     <p> You can express interest in your organisation joining <a href="https://progtech.net.au/join">here</a>, and a member of the team
       will be in touch. ProgTech is for progressive campaigning and movement building organisations,
       and the technologists and vendors that support us - apolitical businesses contribute great things,
-      but aren't a fit for this network. ProgTech is also not a network for political parties.
+      but aren't a fit for this network. ProgTech is also not a network for political parties.</p>
 
     <Heading variant="highlight.orange">What have we done to date? </Heading>
     <p>

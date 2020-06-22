@@ -92,8 +92,11 @@ class Nav extends React.Component {
               <Link href="/sharecode">Tools & Code</Link> */}
             </Box>
           </Link>
-          <Link className="active" href="/join">
+          <Link href="/join">
             Join
+          </Link>
+          <Link target="_blank" className="active" href="https://form.typeform.com/to/C8Sthe">
+            Survey
           </Link>
         </Flex>
       );

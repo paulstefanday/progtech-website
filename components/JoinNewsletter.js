@@ -26,9 +26,6 @@ const JoinNewsletter = ({ inverse }) => {
         body: JSON.stringify(body),
       });
       const data = await res.json();
-      toast("Thanks for your submission", {
-          position: "bottom-right",
-      })
       setButtonText("Success");
       setEmail("");
     toast.dark("Thanks for your submission")
