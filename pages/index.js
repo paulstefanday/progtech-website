@@ -12,9 +12,9 @@ import JoinNetwork from "../components/JoinNetwork";
 
 const sliderContent = [
   {
-    title: "Share tools & code",
+    title: "Share tools, resources & code",
     copy:
-      "Our movement is resource starved, but we build the same tools over and over again. We’re starting a shared library of tech - includingtools like custom metrics for Nationbuilder, website themes, andcode for integrations between common platforms.",
+      "Our ambitious movements need the best tools we can get - but often, we end up build the same tools over and over, reinventing the wheel in isolation from each other. We’re starting a shared library of tech - including tools like custom metrics for Nationbuilder, website themes, and code for integrations between common platforms.",
     buttonText: "Get Involved",
     buttonLink: "/sharecode",
   },
