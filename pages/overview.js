@@ -120,11 +120,6 @@ const Description = () => (
       structured mentorships, and technical volunteering programs to bring in expertise from inside and
       outside the sector to add extra support without the extra hassle. 
     </p>
-<p>
-      Before launching in late August, ProgTech is focussing on consulting with the organisations
-      and activists at the forefront of progressive change - first nations and people of colour led
-      groups - to ensure the network is grounded from the start in supporting this vital work.
-    </p>
   </Box>
 );
 
