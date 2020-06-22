@@ -26,7 +26,7 @@ const Programmes = () => {
         </Box>
   
         <Box sx={{ position: "relative", overflow: "hidden" }} width={[1, 1 / 3]}>
-          <Bg url="/images/3.jpg" opacity="1" />
+          <Bg url="/images/generic-4.jpg" opacity="1" />
         </Box>
   
         <Box sx={{ position: "relative", overflow: "hidden" }} bg="test7" width={[1, 1 / 3]}>

@@ -10,7 +10,7 @@ import Container from "../components/Container";
 import Programmes from "../components/Programmes";
 import Slider from "../components/Slider";
 import Partners from "../components/Partners";
-import JoinNetwork from "../components/JoinNetwork";
+import SingleAction from "../components/SingleAction";
 import Link from "next/link";
 
 // const ReactTypeformEmbed = dynamic(
@@ -116,7 +116,7 @@ const App = (props) => {
           <ReactTypeformEmbed url="https://form.typeform.com/to/C8Sthe" />
         </Box>
       </Container> */}
-      <JoinNetwork />
+      <SingleAction />
     </Flex>
   );
 };
