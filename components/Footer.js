@@ -32,9 +32,11 @@ const Footer = () => (
       </Box> */}
       <JoinNewsletter />
       <p width={1} p={1}>
-        ProgTech acknowledges the Traditional Custodians of the lands on which
-        we work. We pay respect to First Nations Elders past, present and
-        emerging
+        ProgTech acknowledges the Traditional Custodians of the stolen lands on which
+        we work. We pay respect to First Nations elders past, present and
+        emerging - sovereignty has never been ceded, and the process of colonisation
+        continues today. We are committed to supporting the leadership of Aboriginal 
+        and Torres Strait Islander peoples in the progressive space.
       </p>
     </Flex>
     <Flex flexDirection="column" p={5} width={[1, 1 / 3]}>
