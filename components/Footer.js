@@ -45,6 +45,7 @@ const Footer = () => (
       {/* <Link href="/partners">Partners</Link> */}
       <Link href="/join">Become a Partner</Link>
       <Link href="/contact">Contact Us</Link>
+      <Link href="/privacy">Privacy Policy</Link>
     </Flex>
   </Flex>
 );

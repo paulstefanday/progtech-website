@@ -86,17 +86,17 @@ const MobileNav = () => {
     >
       <Button
         onClick={() => setOpen(false)}
-        sx={{ position: "fixed", top: "10px", right: "10px" }}
+        sx={{ position: "fixed", top: "15px", right: "10px" }}
       >
-        x
+        Close
       </Button>
       {menu.map((item) =>
         item.target ? (
-          <Link width={1} {...item}>
+          <Link  width={1} {...item}>
             {item.title}
           </Link>
         ) : (
-            <Link width={1} {...item}>{item.title}</Link>
+            <Box py={2}><Link width={1} {...item}>{item.title}</Link></Box>
         )
       )}
     </Flex>
