@@ -22,7 +22,7 @@ const Partners = () => (
           <Link href="/partners"><Button>All Partners</Button></Link>
         </Box>
         {list.map((url) => (
-          <Box width={1 / 5} sx={styles} pr={5}>
+          <Box width={1 / 5} sx={styles} pr={[0, 5]}>
             <Image src={url} />
           </Box>
         ))}

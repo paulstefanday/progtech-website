@@ -107,7 +107,7 @@ const App = (props) => {
   return (
     <Flex flexWrap="wrap">
       <PageHeading heading="Mentorship" />
-      <Box width={1} p={5}>
+      <Box width={1} p={[4, 5]}>
         <Container maxWidth={1200}>
           <Description />
           <Box width={[1, 1 / 2]} flexWrap="wrap">

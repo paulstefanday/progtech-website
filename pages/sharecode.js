@@ -48,7 +48,7 @@ const App = (props) => {
   return (
     <Flex flexWrap="wrap">
       <PageHeading heading="Share tools & code" />
-      <Box width={1} p={5}>
+      <Box width={1} p={[4, 5]}>
         <Container maxWidth={1200}>
         <Form />
           <Box width={[1, 1 / 2]} flexWrap="wrap">

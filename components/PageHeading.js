@@ -12,8 +12,8 @@ const Jumbotron = ({ heading, image = "/images/2.jpg" }) => (
     <Bg url={image} />
     <Box
       px={[4, 5]}
-      pt={[3, 6]}
-      pb={[3, 4]}
+      pt={[6]}
+      pb={[4]}
       width={1}
       sx={{
         zIndex: 1,

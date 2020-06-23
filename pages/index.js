@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import { Flex, Heading, Button, Box } from "rebass";
 import { Input } from "@rebass/forms";
 // import dynamic from "next/dynamic";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from "react-toastify";
+import Head from "next/head";
 
 import Jumbotron from "../components/Jumbotron";
 import Container from "../components/Container";
@@ -39,11 +40,13 @@ const sliderContent = [
 
 const JumboContent = () => {
   const [email, setEmail] = useState("");
-  const [buttonText, setButtonText] = useState("Sign up to hear about the next steps");
+  const [buttonText, setButtonText] = useState(
+    "Sign up to hear about the next steps"
+  );
 
   const submit = async (e) => {
     e.preventDefault();
-    
+
     const body = {
       email,
       form: "NEWSLETTER",
@@ -61,51 +64,53 @@ const JumboContent = () => {
       const data = await res.json();
       setButtonText("Success");
       setEmail("");
-    toast.dark("Thanks. We will be in touch.")
+      toast.dark("Thanks. We will be in touch.");
     } catch (error) {
       console.error(error);
       setButtonText("An Error Occured");
     }
   };
   return (
-  <Container maxWidth={1200}>
-    <Box width={1}>
-      <Heading fontSize={[25, 50]} sx={{ maxWidth: "500px" }}>
-        It’s time we teamed up on progressive tech, don’t you think?
-      </Heading>
-    </Box>
-    <Box width={1} sx={{ maxWidth: "500px" }}>
-      <Flex
-        sx={{
-          boxShadow: "0 2px 20px rgba(0, 0, 0, 0.225)",
-          maxWidth: "500px",
-        }}
-      >
-        <Input
-          bg="white"
-          width={[1, 1/3]}
-          mb={0}
-          sx={{ borderBottom: 0 }}
-          id="email"
-          name="email"
-          type="email"
-          placeholder="Your Email"
-          value={email}
-          onChange={e => setEmail(e.target.value)}
-        />
-          <Button onClick={submit} width={[1, 2/3]} variant="primary">
-          {buttonText}
+    <Container maxWidth={1200}>
+      <Box width={1}>
+        <Heading fontSize={[25, 50]} sx={{ maxWidth: "500px" }}>
+          It’s time we teamed up on progressive tech, don’t you think?
+        </Heading>
+      </Box>
+      <Box width={1} sx={{ maxWidth: "500px" }}>
+        <Flex
+          sx={{
+            boxShadow: "0 2px 20px rgba(0, 0, 0, 0.225)",
+            maxWidth: "500px",
+          }}
+        >
+          <Input
+            bg="white"
+            width={[1, 1 / 3]}
+            mb={0}
+            sx={{ borderBottom: 0 }}
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Your Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <Button onClick={submit} width={[1, 2 / 3]} variant="primary">
+            {buttonText}
           </Button>
-      </Flex>
-    </Box>
-  </Container>
-);
-      }
+        </Flex>
+      </Box>
+    </Container>
+  );
+};
 
 const App = (props) => {
-  console.log(555, props)
   return (
     <Flex flexWrap="wrap">
+      <Head>
+        <title>ProgTech Network Australia</title>
+      </Head>
       <Jumbotron>
         <JumboContent />
       </Jumbotron>

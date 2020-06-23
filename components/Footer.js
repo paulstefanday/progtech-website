@@ -23,7 +23,7 @@ const styles = {
 
 const Footer = () => (
   <Flex flexWrap="wrap" sx={styles}>
-    <Flex flexWrap="wrap" p={5} width={[1, 2 / 3]}>
+    <Flex flexWrap="wrap" p={[4,5]} width={[1, 2 / 3]}>
       {/* <Box width={1 / 2}>
         <Button variant="secondary">Login</Button>
       </Box>
@@ -39,7 +39,7 @@ const Footer = () => (
         and Torres Strait Islander peoples in the progressive space.
       </p>
     </Flex>
-    <Flex flexDirection="column" p={5} width={[1, 1 / 3]}>
+    <Flex flexDirection="column" p={[4,5]} width={[1, 1 / 3]}>
       <Heading>Quick Links</Heading>
       <Link href="/overview">About</Link>
       {/* <Link href="/partners">Partners</Link> */}

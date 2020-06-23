@@ -7,7 +7,7 @@ import PageHeading from "../components/PageHeading";
 import Container from "../components/Container";
 
 const Description = () => (
-  <Box width={[1, 1 / 2]} pr={5}>
+  <Box width={[1, 1 / 2]} pr={[0, 5]}>
     <Heading variant="highlight.pink">
       What does being a partner look like?
     </Heading>
@@ -213,13 +213,13 @@ const Form = () => {
       </Box>
     </>
   );
-};
+}; 
 
 const App = (props) => {
   return (
     <Flex flexWrap="wrap">
       <PageHeading heading="Join the network - Expression of interest" />
-      <Flex p={5} width={1}>
+      <Flex p={[4,5]}width={1}>
         <Container maxWidth={1200}>
           <Form />
         </Container>

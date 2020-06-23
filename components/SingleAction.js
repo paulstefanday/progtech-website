@@ -9,7 +9,7 @@ const SingleAction = () => (
       <Box sx={styles} width={[1, 1 / 3]}>
         <Bg url="/images/2.jpg" opacity="1" />
       </Box>
-      <Box p={[5]} width={[1, 2 / 3]} textAlign="center" bg="test2">
+      <Box p={[4, 5]} width={[1, 2 / 3]} textAlign="center" bg="test2">
         <Container justifyContent="center">
           <Heading variant="highlight.purple">Sector Consultation</Heading>
           <Text variant="p">

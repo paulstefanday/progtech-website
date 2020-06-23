@@ -8,7 +8,7 @@ const Jumbotron = ({ children }) => (
       <Bg url="/images/2.jpg" />
       <Box
         px={[4, 5]}
-        py={[5, 7]}
+        py={[6, 7]}
         width={1}
         sx={{
           zIndex: 1,

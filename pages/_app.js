@@ -5,10 +5,14 @@ import theme from "../styles/theme";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import "react-toastify/dist/ReactToastify.css";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
+        <Head>
+        <title>ProgTech Network Australia</title>
+      </Head>
       <Nav {...pageProps} />
       <Component {...pageProps} />
       <Footer {...pageProps} />

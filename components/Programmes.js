@@ -6,7 +6,7 @@ import Bg from './Bg';
 
 const Programmes = () => {
     const props = {
-      p: 5,
+      p: [4, 5],
       textAlign: "center",
     };
     // test2
