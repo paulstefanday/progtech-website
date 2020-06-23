@@ -38,7 +38,7 @@ const JoinNewsletter = ({ inverse }) => {
     <>
       <Input
         height="40px"
-        width={3 / 5}
+        width={[1, 3 / 5]}
         mb={0}
         sx={{
           bg: inverse ? "white" : "black",
@@ -53,7 +53,7 @@ const JoinNewsletter = ({ inverse }) => {
       />
       <Button
         onClick={submit}
-        width={2 / 5}
+        width={[1, 2 / 5]}
         variant={inverse ? "primary" : "secondary"}
         height="40px"
       >

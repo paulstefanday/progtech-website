@@ -96,9 +96,7 @@ const MobileNav = () => {
             {item.title}
           </Link>
         ) : (
-          <NextLink {...item}>
-            <Link width={1}>{item.title}</Link>
-          </NextLink>
+            <Link width={1} {...item}>{item.title}</Link>
         )
       )}
     </Flex>

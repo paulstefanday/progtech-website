@@ -79,6 +79,7 @@ const JumboContent = () => {
       </Box>
       <Box width={1} sx={{ maxWidth: "500px" }}>
         <Flex
+          flexWrap="wrap"
           sx={{
             boxShadow: "0 2px 20px rgba(0, 0, 0, 0.225)",
             maxWidth: "500px",
