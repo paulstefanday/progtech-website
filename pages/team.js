@@ -20,6 +20,7 @@ const list = [
   { url: "/images/team-moira.jpg", name: "Moira Cully", bio: "" },
   { url: "/images/team-edie.jpg", name: "Edie Shepherd", bio: "" },
   { url: "/images/team-paul.jpg", name: "Paul Day", bio: "" },
+  { url: "/images/team-sara.jpg", name: "Sara Smylie", bio: "" },
 ];
 
 const Team = () => (
