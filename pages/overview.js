@@ -125,7 +125,7 @@ const Description = () => (
 
 const Partners = () => (
   <Box width={[1, 1 / 2]} flexWrap="wrap">
-    <Image height="auto" src="/images/generic-1.jpg" />
+    <Image height="auto" src="/images/team-all.jpg" />
   </Box>
 );
 

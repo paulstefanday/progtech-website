@@ -25,7 +25,7 @@ const list = [
 const Team = () => (
   <Flex width={[1]} flexWrap="wrap">
     {list.map(({ url, name, bio }, index) => (
-      <Box textAlign="center" width={1 / 4} minHeight={230} sx={styles}>
+      <Box textAlign="center" width={[1, 1/2, 1 / 4]} minHeight={230} mb={5} sx={styles}>
         <div style={{ width: "100%", height: "240px", overflow:"hidden"}}><Image src={url} mb={2} width="100%" /></div>
         <br /><Heading variant={`highlight.${colors[getRandomInt(4)]}`}>{name}</Heading>
       </Box>

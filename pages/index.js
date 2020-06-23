@@ -103,6 +103,7 @@ const JumboContent = () => {
       }
 
 const App = (props) => {
+  console.log(555, props)
   return (
     <Flex flexWrap="wrap">
       <Jumbotron>

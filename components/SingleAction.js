@@ -9,9 +9,9 @@ const SingleAction = () => (
       <Box sx={styles} width={[1, 1 / 3]}>
         <Bg url="/images/2.jpg" opacity="1" />
       </Box>
-      <Box p={[5]} width={[1, 2 / 3]} textAlign="center" bg="test7">
+      <Box p={[5]} width={[1, 2 / 3]} textAlign="center" bg="test2">
         <Container justifyContent="center">
-          <Heading variant="highlight.orange">Sector Consultation</Heading>
+          <Heading variant="highlight.purple">Sector Consultation</Heading>
           <Text variant="p">
             We have created a sector wide survey to better understand our shared problems and how we can work together to make tech better in progressive organisations. Click below and make your voice apart of how we plan our next programs. 
           </Text>

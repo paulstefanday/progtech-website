@@ -38,7 +38,7 @@ const Programmes = () => {
               practical support with a tech challenge they’re struggling with, as
               well as demystifying careers in tech.
             </Text>
-            <Link href="/mentorship"><Button variant="primary">Apply</Button></Link>
+            <Link href="/mentorship"><Button variant="primary">Learn More</Button></Link>
           </Box>
         </Box>
   

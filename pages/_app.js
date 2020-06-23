@@ -9,9 +9,9 @@ import "react-toastify/dist/ReactToastify.css";
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
-      <Nav />
+      <Nav {...pageProps} />
       <Component {...pageProps} />
-      <Footer />
+      <Footer {...pageProps} />
       <ToastContainer
         position="bottom-right"
         autoClose={5000}
@@ -29,7 +29,19 @@ function MyApp({ Component, pageProps }) {
 
 MyApp.getInitialProps = async (appContext) => {
   const appProps = await App.getInitialProps(appContext);
-  return { ...appProps };
+    let userAgent;
+    if (appContext.ctx.req) { // if you are on the server and you get a 'req' property from your context
+      userAgent = appContext.ctx.req.headers['user-agent'] // get the user-agent from the headers
+    } else {
+      userAgent = navigator.userAgent // if you are on the client you can access the navigator from the window object
+  
+      
+    }
+    console.log(333, appProps)
+    const isMobile = Boolean(userAgent.match(
+        /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i
+      ))
+  return { ...appProps, pageProps: { ...appProps.pageProps, isMobile } };
 };
 
 export default MyApp;

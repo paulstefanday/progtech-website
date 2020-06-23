@@ -1,18 +1,19 @@
-import React from "react";
-import { Box, Flex, Link, Image } from "rebass";
+import React, { useState } from "react";
+import { Box, Flex, Link, Image, Button } from "rebass";
+import NextLink from "next/link";
 
 const styles = {
   alignItems: "center",
-  flexDirection: ["column", "row"],
+  flexDirection: "row",
   zIndex: "100000",
-  position: ["inline-block", "fixed"],
+  position: "fixed",
   width: "100%",
   transition: "background-color 200ms linear",
   top: 0,
   left: 0,
   p: 2,
   img: {
-    width: "150px",
+    width: ["100px", "150px"],
   },
   a: {
     variant: "buttons.primary",
@@ -43,64 +44,146 @@ const styles = {
       bg: "rgba(255,255,255,0.3)",
     },
   },
-}
+};
+
+const MobileNav = () => {
+  const [open, setOpen] = useState(false);
+
+  const menu = [
+    { title: "About", href: "/overview" },
+    { title: "Mentorship", href: "/mentorship" },
+    { title: "Team", href: "/team" },
+    { title: "Join", href: "/join" },
+    { title: "Contact Us", href: "/contact" },
+    {
+      title: "Survey",
+      href: "https://form.typeform.com/to/C8Sthe",
+      target: "_blank",
+    },
+  ];
+  
+  if (!open)
+    return (
+      <>
+      <Box mx="auto" />
+        <Button onClick={() => setOpen(true)}>Menu</Button>
+      </>
+    );
+
+  return (
+    <Flex
+      bg="white"
+      flexDirection="column"
+      p={5}
+      sx={{
+        position: "fixed",
+        top: 0,
+        left: 0,
+        height: "100%",
+        width: "100%",
+        textAlign: "center",
+      }}
+    >
+      <Button
+        onClick={() => setOpen(false)}
+        sx={{ position: "fixed", top: "10px", right: "10px" }}
+      >
+        x
+      </Button>
+      {menu.map((item) =>
+        item.target ? (
+          <Link width={1} {...item}>
+            {item.title}
+          </Link>
+        ) : (
+          <NextLink {...item}>
+            <Link width={1}>{item.title}</Link>
+          </NextLink>
+        )
+      )}
+    </Flex>
+  );
+};
+
+const DesktopNav = () => (
+  <>
+    <Box mx="auto" />
+    <Link className="dropdown" href="/overview">
+      About
+      <Box className="dropdown-content">
+        <NextLink href="/overview">
+          <a>Overview</a>
+        </NextLink>
+        {/* <Link href="#!">News</Link> */}
+        {/* <Link href="/partners">Partners</Link> */}
+        <NextLink href="/team">
+          <a>Team</a>
+        </NextLink>
+        <NextLink href="/contact">
+          <a>Contact Us</a>
+        </NextLink>
+      </Box>
+    </Link>
+    <Link className="dropdown" href="#!">
+      Programmes
+      <Box className="dropdown-content">
+        <NextLink href="/mentorship">
+          <a>Mentorship</a>
+        </NextLink>
+        {/* <Link href="/events">Workshops & events</Link>
+              <Link href="/sharecode">Tools & Code</Link> */}
+      </Box>
+    </Link>
+    <NextLink href="/join">
+      <a>Join</a>
+    </NextLink>
+    <Link
+      target="_blank"
+      className="active"
+      href="https://form.typeform.com/to/C8Sthe"
+    >
+      Survey
+    </Link>
+  </>
+);
 
 class Nav extends React.Component {
-    state = { bg: "transparent" };
-  
-    componentDidMount() {
-      window.addEventListener("scroll", this.handleScroll);
-    }
-  
-    handleScroll = () => {
-      if (window.pageYOffset > 50) {
-        if (this.state.bg === "transparent") {
-          this.setState({ bg: "white" });
-        }
-      } else {
-        if (this.state.bg === "white") {
-          this.setState({ bg: "transparent" });
-        }
-      }
-    };
-  
-    render() {
-      return (
-        <Flex sx={{ 
-          ...styles, 
-          ...this.state.bg === "white" && { boxShadow:"0 2px 20px rgba(0, 0, 0, 0.255)" } 
-        }} bg={this.state.bg}>
-          <Link className="logo" href="/">
-            <Image src="/logo.png" />
-          </Link>
-          <Box mx="auto" />
-          <Link className="dropdown" href="/overview">
-            About
-            <Box className="dropdown-content">
-              <Link href="/overview">Overview</Link>
-              {/* <Link href="#!">News</Link> */}
-              {/* <Link href="/partners">Partners</Link> */}
-              <Link href="/team">Team</Link>
-              <Link href="/contact">Contact Us</Link>
-            </Box>
-          </Link>
-          <Link className="dropdown" href="#!">
-            Programmes
-            <Box className="dropdown-content">
-              <Link href="/mentorship">Mentorship</Link>
-              {/* <Link href="/events">Workshops & events</Link>
-              <Link href="/sharecode">Tools & Code</Link> */}
-            </Box>
-          </Link>
-          <Link href="/join">
-            Join
-          </Link>
-          <Link target="_blank" className="active" href="https://form.typeform.com/to/C8Sthe">
-            Survey
-          </Link>
-        </Flex>
-      );
-    }
+  state = { bg: "transparent" };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
   }
 
-  export default Nav
+  handleScroll = () => {
+    if (window.pageYOffset > 50) {
+      if (this.state.bg === "transparent") {
+        this.setState({ bg: "white" });
+      }
+    } else {
+      if (this.state.bg === "white") {
+        this.setState({ bg: "transparent" });
+      }
+    }
+  };
+
+  render() {
+    return (
+      <Flex
+        sx={{
+          ...styles,
+          ...(this.state.bg === "white" && {
+            boxShadow: "0 2px 20px rgba(0, 0, 0, 0.255)",
+          }),
+        }}
+        bg={this.state.bg}
+      >
+        <NextLink className="logo" href="/">
+          <Image src="/logo.png" />
+        </NextLink>
+        {this.props.isMobile ? <MobileNav /> : <DesktopNav />}
+      </Flex>
+    );
+  }
+}
+
+export default Nav;

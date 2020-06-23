@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 
 const JoinNewsletter = ({ inverse }) => {
   const [email, setEmail] = useState("");
-  const [buttonText, setButtonText] = useState("Join Mailing List");
+  const [buttonText, setButtonText] = useState("Join Newsletter");
 
   const submit = async (e) => {
     e.preventDefault();
