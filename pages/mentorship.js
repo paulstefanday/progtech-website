@@ -57,7 +57,7 @@ const Form = () => (
 );
 
 const Description = () => (
-  <Box width={[1, 1 / 2]} pr={5}>
+  <Box width={[1, 1 / 2]} pr={[0, 5]}>
     <p style={{ marginTop: 0 }}>
       <Heading variant="highlight.pink">Overview</Heading>
       <p>

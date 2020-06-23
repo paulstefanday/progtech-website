@@ -8,7 +8,7 @@ import Bg, { styles } from "../components/Bg";
 import JoinNewsletter from '../components/JoinNewsletter';
 
 const Description = () => (
-  <Flex flexDirection="column" width={[1, 1 / 2]} pr={5}>
+  <Flex flexDirection="column" width={[1, 1 / 2]} pr={[0, 5]}>
     <p style={{marginTop: 0}}>
       We don't currently have any upcomming workshop or events but join our newsletter and
       we can let you know when the next one is. Also if you have any skills you

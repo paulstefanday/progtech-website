@@ -15,7 +15,7 @@ const list = [
 const marginBottom = "60px" 
 
 const Description = () => (
-  <Box width={[1, 1 / 2]} pr={5}>
+  <Box width={[1, 1 / 2]} pr={[0, 5]}>
     <Heading variant="highlight.pink">Who are we?</Heading>
     <p>
       The Progressive Tech Network is a growing collective of progressive organisations

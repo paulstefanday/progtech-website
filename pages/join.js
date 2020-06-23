@@ -219,7 +219,7 @@ const App = (props) => {
   return (
     <Flex flexWrap="wrap">
       <PageHeading heading="Join the network - Expression of interest" />
-      <Flex p={[4,5]}width={1}>
+      <Flex p={[4,5]} width={1}>
         <Container maxWidth={1200}>
           <Form />
         </Container>

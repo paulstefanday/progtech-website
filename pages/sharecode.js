@@ -12,7 +12,7 @@ const Form = () => (
       width={[1, 1 / 2]}
       as="form"
       onSubmit={(e) => e.preventDefault()}
-      pr={5}
+      pr={[0, 5]}
     >
       <p style={{marginTop: 0}}>
         Let us know if want to contribute any code or tools for the network to

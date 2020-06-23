@@ -45,7 +45,7 @@ const submit = async (e) => {
     <>
       <Box
         width={[1, 1 / 2]}
-        pr={5}
+        pr={[0, 5]}
         as="form"
         onSubmit={submit}
         py={3}
@@ -82,7 +82,7 @@ const App = (props) => {
   return (
     <Flex flexWrap="wrap">
       <PageHeading heading="Contact Us" />
-      <Flex p={[4,5]}width={1}>
+      <Flex p={[4,5]} width={1}>
         <Container maxWidth={1200}>
           <Form />
           <Box width={[1, 1 / 2]} flexWrap="wrap">
