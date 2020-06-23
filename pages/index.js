@@ -31,7 +31,7 @@ const sliderContent = [
   {
     title: "Mentorship program",
     copy:
-      "We’re seeking applications for people to be both mentors and menteesin an 8 week trial. The program seeks to provide mentees withpractical support with a tech challenge they’re struggling with, aswell as demystifying careers in tech.",
+      "The next round of ProgTech's mentorship program is open for applications - providing practical support for women, non binary people, and BIPOC campaigners in building tech skills for progressive campaigning work, as well as demystifying careers in tech.",
     buttonText: "Apply",
     buttonLink: "/mentorship",
   },

@@ -13,9 +13,9 @@ const SingleAction = () => (
         <Container justifyContent="center">
           <Heading variant="highlight.purple">Sector Consultation</Heading>
           <Text variant="p">
-            We have created a sector wide survey to better understand our shared problems and how we can work together to make tech better in progressive organisations. Click below and make your voice apart of how we plan our next programs. 
+            For this project to work, we need to ensure we're identifying our common challenges, and the highest impact interventions we can collectively make with precision. That's why it's important that progressive organisations take part in this consultation in our founding stages - can you take the survey below on behalf of your organisation? Anonymised and aggregated analysis will be published in July - so we can all see the state of progressive tech in Australia.
           </Text>
-          <Link target="_blank" href="https://form.typeform.com/to/C8Sthe"><Button variant="primary">Tell us your story</Button></Link>
+          <Link target="_blank" href="https://form.typeform.com/to/C8Sthe"><Button variant="primary">Take the survey now</Button></Link>
         </Container>
       </Box>
     </>
