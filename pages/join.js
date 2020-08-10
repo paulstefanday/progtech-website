@@ -9,20 +9,29 @@ import Container from "../components/Container";
 const Description = () => (
   <Box width={[1, 1 / 2]} pr={[0, 5]}>
     <Heading variant="highlight.pink">
-      What does being a partner look like?
+      What does it mean to be a member organisation of the Progressive Tech Network?
     </Heading>
     <p>
+      ProgTech is made up of progressive campaigning organisations, grassroots groups, and 
+      the progressive agencies and vendors who support us. From launch, member organisations have 
+      access to mentorship programs, trainings, a growing shared library of tools, code and 
+      resources, skilled volunteers, and our Slack community. 
+         <br />
+      Member organisations with shared needs are connected, with pathways to shared solutions pitched.
+      Longer term, we'll look at developing shared tools identified as key to the success of our 
+      movements - but at these founding stages, ProgTech is focussing on redistributing the skills &
+      tools we have already, and collectively building allignment on the most strategic direction for
+      progressive tech in Australia 2021 and beyond. 
+      <br />
+      
+      If this is something your organisation or activist group would like to be a part of, get in touch.
       We have so much to gain from working together. Joining the network means
       sharing what you have to offer - which is different for different organisations.
       If you're interested in seeing your organisation join the network, share what you're
-      keen to get out of it, and what your organisation could offer in the form. Partner
-      organisations share custom tools, research and analysis, staff time through participation
-      in mentorship and support, and financial contributions.
+      keen to get out of it, and what your organisation could offer in the form. 
     </p>
 
     <p>
-      Partners gain access to shared tools, mentorship programs, trainings, and conversations
-      about next steps on developing tools identified as key to the success of our movements. 
       We share with each other in good faith, and ensure we share on clear terms - because we 
       all share the same goals. We’re working together to prevent climate devastation, and to 
       create a society where everyone, no matter your background, your gender, your ability or your
@@ -66,10 +75,10 @@ const Description = () => (
     < br/>< br/> */}
     <Heading variant="highlight.green">Once you have expressed interest</Heading>
     <p>
-      A member of the ProgTech team will get in touch to discuss further. We'll 
-      then form a membership agreement that outlines in detail what your organisation 
-      can share, and the key ways the network will support you in the tech you need 
-      to bring on a better world.
+      A member of the ProgTech team will get in touch to discuss further. If your organisation 
+      and the network are a good fit, we'll then form a membership agreement that outlines in 
+      detail what your organisation can share, and the key ways the network will support you 
+      in the tech you need to win and better our world. 
     </p>
     <p>
       If your membership application is accepted, you and the tech & digital
