@@ -6,7 +6,7 @@ import PageHeading from "../components/PageHeading";
 import Container from "../components/Container";
 import Bg, { styles } from "../components/Bg";
 
-const Form = () => (
+const Policy = () => (
   <>
     <Box
       width={[1]}
@@ -448,7 +448,7 @@ const App = (props) => {
       <PageHeading heading="Privacy Policy" />
       <Box width={1} p={[4, 5]}>
         <Container maxWidth={1200}>
-          <Form />
+          <Policy />
           {/* <Box width={[1, 1 / 2]} flexWrap="wrap">
             <Image height="auto" src="/images/4.jpg" />
           </Box> */}
