@@ -24,6 +24,7 @@ and activists have the best tools possible, and the skills & support to use them
         />
         <meta name="author" content="Progressive Tech Network" />
         <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+        <script src="https://embed.typeform.com/embed.js"></script>
         {/* <link rel="icon" href="/static/favicon.ico" /> */}
         <meta
           key="viewport"

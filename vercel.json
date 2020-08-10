@@ -6,5 +6,11 @@
     "env": {
       "DATABASE_URL": "@database_url"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/launch",
+      "destination": "https://progtech.typeform.com/to/ZAU0MgR5"
+    }
+  ]
 }
