@@ -13,7 +13,7 @@ const SingleAction = () => (
         <Container justifyContent="center">
           <Heading variant="highlight.purple">Sector Consultation</Heading>
           <Text variant="p">
-            For this project to work, we need to ensure we're identifying our common challenges, and the highest impact interventions we can collectively make with precision. That's why it's important that progressive organisations take part in this consultation in our founding stages - can you take the survey below on behalf of your organisation? Anonymised and aggregated analysis will be published in July - so we can all see the state of progressive tech in Australia.
+            We've wrapped on the formal consultations on progressive organisations and our tech tools - and analysts are putting together anonymised and aggregated analysis to be released Thursday August 13th 2020 so we can all see the state of progressive tech in Australia. Sign up for updates above to keep in the loop! If you'd like to share how your organisation is using tech, please do still fill out the survey - your input will support ProgTech in better identifying our common challenges, and the highest impact interventions we can collectively make with precision.
           </Text>
           <Link target="_blank" href="https://form.typeform.com/to/C8Sthe"><Button variant="primary">Take the survey now</Button></Link>
         </Container>
