@@ -141,7 +141,7 @@ const DesktopNav = () => (
       className="active"
       href="https://form.typeform.com/to/ZAU0MgR5"
     >
-      launch
+      our launch
     </Link>
   </>
 );
