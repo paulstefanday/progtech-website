@@ -32,6 +32,7 @@ const styles = {
     },
   },
   "& .logo": {
+    cursor: "pointer",
     ":hover,:focus": {
       bg: "transparent",
     },
@@ -138,9 +139,9 @@ const DesktopNav = () => (
     <Link
       target="_blank"
       className="active"
-      href="https://form.typeform.com/to/C8Sthe"
+      href="https://form.typeform.com/to/ZAU0MgR5"
     >
-      Survey
+      launch
     </Link>
   </>
 );
@@ -175,8 +176,8 @@ class Nav extends React.Component {
         }}
         bg={this.state.bg}
       >
-        <NextLink className="logo" href="/">
-          <Image src="/logo.png" />
+        <NextLink href="/">
+          <Image className="logo" src="/logo.png" />
         </NextLink>
         {this.props.isMobile ? <MobileNav /> : <DesktopNav />}
       </Flex>
