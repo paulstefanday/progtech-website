@@ -11,11 +11,11 @@ const SingleAction = () => (
       </Box>
       <Box p={[4, 5]} width={[1, 2 / 3]} textAlign="center" bg="test2">
         <Container justifyContent="center">
-          <Heading variant="highlight.purple">Sector Consultation</Heading>
+          <Heading variant="highlight.purple">State of Progressive Tech Report 2020</Heading>
           <Text variant="p">
-            We've wrapped on the formal consultations on progressive organisations and our tech tools - and analysts are putting together anonymised and aggregated analysis to be released Thursday August 13th 2020 so we can all see the state of progressive tech in Australia. Sign up for updates above to keep in the loop! If you'd like to share how your organisation is using tech, please do still fill out the survey - your input will support ProgTech in better identifying our common challenges, and the highest impact interventions we can collectively make with precision.
+          It’s hard enough to win progressive change. It’s harder when our tech doesn’t work for us, and when we’re trying to solve our common challenges in isolation. This survey makes the challenges clear: organisations report that they’re constantly reinventing the wheel, operating in silos, using inadequate tools with insufficient skills, making do with minimal investment, that the tech space is exclusionary, that tech staff are often unsupported, and that we’re not doing the long-term movement-wide thinking on tech that we need.
           </Text>
-          <Link target="_blank" href="https://form.typeform.com/to/C8Sthe"><Button variant="primary">Take the survey now</Button></Link>
+          <Link target="_blank" href="https://2020report.progtech.net.au/"><Button variant="primary">Read the report here</Button></Link>
         </Container>
       </Box>
     </>
