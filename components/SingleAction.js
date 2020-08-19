@@ -6,7 +6,7 @@ import Bg, { styles } from './Bg';
 
 const SingleAction = () => (
     <>
-      <Box sx={styles} width={[1, 1 / 3]}>
+      <Box sx={{ ...styles }} width={[1, 1 / 3]}>
         <Bg url="/images/2.jpg" opacity="1" />
       </Box>
       <Box p={[4, 5]} width={[1, 2 / 3]} textAlign="center" bg="test2">
