@@ -11,15 +11,13 @@ const SingleAction = () => (
       </Box>
       <Box p={[4, 5]} width={[1, 2 / 3]} textAlign="center" bg="test2">
         <Container justifyContent="center">
-          <Heading variant="highlight.purple">Launch Event</Heading>
-          <p><Text variant="p">
-         
-          We'll be hearing from Edie Shepherd (ProgTech, Original Power) on the tech support BIPOC activists need, Josh Nussbaum (Movement Cooperative US) on what US organisations have achieved through teaming up on tech, and the key learnings from the biggest consultation on where progressive tech is at in Australia.
-</Text>
+
+          <Heading variant="highlight.purple">State of Progressive Tech Report 2020</Heading>
           <Text variant="p">
-Join us at Thursday, Aug 27th at 11am AEST / 10.30 ACST / 9 AWST!
-          </Text></p>
-          <Link target="_blank" href="https://form.typeform.com/to/ZAU0MgR5"><Button variant="primary">Count me in</Button></Link>
+          It’s hard enough to win progressive change. It’s harder when our tech doesn’t work for us, and when we’re trying to solve our common challenges in isolation. This survey makes the challenges clear: organisations report that they’re constantly reinventing the wheel, operating in silos, using inadequate tools with insufficient skills, making do with minimal investment, that the tech space is exclusionary, that tech staff are often unsupported, and that we’re not doing the long-term movement-wide thinking on tech that we need.
+          </Text>
+          <Link target="_blank" href="https://2020report.progtech.net.au/"><Button variant="primary">Read the report here</Button></Link>
+
         </Container>
       </Box>
     </>
