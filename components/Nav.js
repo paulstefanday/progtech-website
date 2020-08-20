@@ -53,6 +53,9 @@ const MobileNav = () => {
   const menu = [
     { title: "About", href: "/overview" },
     { title: "Mentorship", href: "/mentorship" },
+    { title: "Volunteer", href: "/volunteer" },
+    { title: "Submit a project", href: "/submitaproject" },
+    { title: "Share Code", href: "/sharecode" },
     { title: "Team", href: "/team" },
     { title: "Join", href: "/join" },
     { title: "Contact Us", href: "/contact" },
@@ -129,8 +132,10 @@ const DesktopNav = () => (
         <NextLink href="/mentorship">
           <a>Mentorship</a>
         </NextLink>
-        {/* <Link href="/events">Workshops & events</Link>
-              <Link href="/sharecode">Tools & Code</Link> */}
+       <Link href="/events">Workshops & events</Link>
+              <Link href="/sharecode">Share Code</Link> 
+              <Link href="/volunteer">Volunteer</Link> 
+              <Link href="/submitaproject">Submit a project</Link> 
       </Box>
     </Link>
     <NextLink href="/join">

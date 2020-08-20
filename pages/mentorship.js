@@ -90,7 +90,7 @@ who've had less access to tech skills because of gender, race, class and other f
 interested but you've never mentored someone before, please apply! Mentors are provided with 
 support to step up.
       </p>
-      {/* We don't have applications open for our next mentorshop program yet but please register your interest and we will get back to you.  */}
+      <p>We don't have applications open for our next mentorshop program yet but please register your interest and we will get back to you. </p>
       {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -99,7 +99,7 @@ support to step up.
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum. */}
     </p>
-    {/* <Form /> */}
+    <Form />
   </Box>
 );
 

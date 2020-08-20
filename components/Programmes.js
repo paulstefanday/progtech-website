@@ -22,7 +22,7 @@ const Programmes = () => {
               including tools like custom metrics for Nationbuilder, website themes, and 
               code for integrations between common platforms.
             </Text>
-            {/* <Link href="/sharecode"><Button variant="primary">Get Involved</Button></Link> */}
+            <Link href="/sharecode"><Button variant="primary">Get Involved</Button></Link>
           </Box>
         </Box>
   

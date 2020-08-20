@@ -55,7 +55,7 @@ export default () => (
       .dropdown-content {
         display: none;
         position: absolute;
-        min-width: 160px;
+        min-width: 200px;
         /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
         padding: 0;
         z-index: 1;
@@ -64,6 +64,7 @@ export default () => (
         background-color: #ffd07e;
         text-align: left;
         width: 200px;
+        overflow:hidden;
       }
       
       .dropdown:hover .dropdown-content {
