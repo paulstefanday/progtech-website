@@ -14,11 +14,21 @@ const Form = () => (
       onSubmit={(e) => e.preventDefault()}
       pr={[0, 5]}
     >
-      <p style={{marginTop: 0}}>
-        We have a team of skilled volunteers and project managers to help support your organisation. Let us know what projects you need help with. Weather it's a big or small project we can try and bring resoruces together to help. Let us know a bit more about your idea and we will be in touch.
+      <p style={{ marginTop: 0 }}>
+        We have a team of skilled volunteers and project managers to help
+        support your organisation. Let us know what projects you need help with.
+        Weather it's a big or small project we can try and bring resoruces
+        together to help. Let us know a bit more about your idea and we will be
+        in touch.
       </p>
-  <br />
-      <Link href="https://progtech.typeform.com/to/iDIWKxGY" target="_blank"><Button>Apply Here</Button></Link>
+      <br />
+      <Link
+        variant="buttons.primary"
+        href="https://progtech.typeform.com/to/iDIWKxGY"
+        target="_blank"
+      >
+        Apply Here
+      </Link>
     </Box>
   </>
 );
@@ -28,11 +38,10 @@ const App = (props) => {
       <PageHeading heading="Submit a Project" />
       <Box width={1} p={[4, 5]}>
         <Container maxWidth={1200}>
-        <Form />
+          <Form />
           <Box width={[1, 1 / 2]} flexWrap="wrap">
             <Image height="auto" src="/images/4.jpg" />
           </Box>
-          
         </Container>
       </Box>
     </Flex>
