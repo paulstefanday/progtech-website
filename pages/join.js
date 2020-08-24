@@ -19,14 +19,18 @@ const Description = () => (
       launch, member organisations have access to mentorship programs,
       trainings, a growing shared library of tools, code and resources, skilled
       volunteers, and our Slack community.
-      <br />
+      </p>
+
+<p>
       Member organisations with shared needs are connected, with pathways to
       shared solutions pitched. Longer term, we'll look at developing shared
       tools identified as key to the success of our movements - but at these
       founding stages, ProgTech is focussing on redistributing the skills &
       tools we have already, and collectively building allignment on the most
       strategic direction for progressive tech in Australia 2021 and beyond.
-      <br />
+      </p>
+
+<p>
       If this is something your organisation or activist group would like to be
       a part of, get in touch. We have so much to gain from working together.
       Joining the network means sharing what you have to offer - which is
