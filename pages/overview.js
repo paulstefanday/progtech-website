@@ -77,8 +77,8 @@ const Description = () => (
     </p>
 
     <p>
-      Mentorship pilots ran in the first half of 2020 - pairing a cohort of women, first nations,
-      and non-binary campaigners, organisers, and communcations mentees with amazing
+      Mentorship pilots ran in the first half of 2020 - pairing a cohort of women, non-binary
+      and First Nations campaigners, organisers, and communcations mentees with amazing
       progressive technologists. Skills based trainings were trialled and refined - focussing on
       React and SQL, which were identified as key areas organisations wanted to see staff cultivate
       skills in.
