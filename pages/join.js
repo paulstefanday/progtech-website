@@ -22,13 +22,10 @@ const Description = () => (
       </p>
 
 <p>
-      Member organisations with shared needs are connected, with pathways to
-      shared solutions pitched. Longer term, we'll look at developing shared
-      tools identified as key to the success of our movements - but at these
-      founding stages, ProgTech is focussing on redistributing the skills &
-      tools we have already, and collectively building allignment on the most
-      strategic direction for progressive tech in Australia 2021 and beyond.
+      Our organisations are unions, environmental organisations, community groups, progressive tech agencies and vendors, First Nations organisations, anti-racist groups, women's rights campaigners, LGBTQIA+ organisations & more. We are all committed to intersectional system change - and we are committed to teaming up on tech because we recognise that our fights are bound together.
       </p>
+
+      <p>  ProgTech is for progressive campaigning and movement building organisations, and the technologists and vendors that support us - apolitical businesses contribute great things, but aren't a fit for this network. ProgTech is also not a network for political parties.</p>
 
 <p>
       If this is something your organisation or activist group would like to be
