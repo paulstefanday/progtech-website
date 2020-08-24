@@ -12,7 +12,7 @@ const list = [
   "/images/logo-vthc.png",
 ];
 
-const marginBottom = "60px" 
+const marginBottom = "60px"
 
 const Description = () => (
   <Box width={[1, 1 / 2]} pr={[0, 5]}>
@@ -24,18 +24,13 @@ const Description = () => (
     </p>
 
     <p>
-      ProgTech is in its founding stages - and so focussing on learning about our shared needs, 
+      ProgTech is in its founding stages - and so focussing on learning about our shared needs,
       and the key interventions we can make through collaboration. When the network launches in late
-      August, members will have access to a library of shared tools, resources and code; training and 
+      August, members will have access to a library of shared tools, resources and code; training and
       mentorship programs; and a networked community who work together on solutions to shared challenges.
     </p>
-  
-  <p>
-      Longer term, ProgTech aims to follow in the footstep of projects like the Movement Cooperative in the
-      US - collective bargaining, and pooling resources to build the tools we need for powerful, intersectional,
-      and just movements. Through collaboration, we can create tools that are driven not by profit motives, or 
-      the needs of large US based organisations - but by the needs of those at the forefronts of our movements here.</p>
 
+  
     <p style={{ marginBottom }}>
       Our founding team is a group of people working across the progressive
       sector - Edie Shepherd (Original Power); Sara Smylie (UWU); Clodagh Schofield (AYCC); Moira Cully (VTHC);
@@ -87,10 +82,10 @@ const Description = () => (
     <p style={{ marginBottom }}>
       ProgTech is made up of partner organisations, and their staff, volunteers and
       activists. Our organisations are unions, environmental organisations, community groups,
-      progressive tech agencies and vendors, First Nations organisations, anti-racist groups, 
+      progressive tech agencies and vendors, First Nations organisations, anti-racist groups,
       women's rights campaigners, LGBTQIA+ organisations & more. We are all committed to intersectional
       system change - and we are committed to teaming up on tech because we recognise that our
-      fights are bound together. 
+      fights are bound together.
     </p>
 
     <p> You can express interest in your organisation joining <a href="https://progtech.net.au/join">here</a>, and a member of the team
@@ -102,13 +97,13 @@ const Description = () => (
     <p>
       After listening, testing and incubating, ProgTech is now preparing for launch.
       Consultation through sessions at FWD+Organise 2019 and the largest sector consultation
-      on tech informed key interventions the network has tested. 
+      on tech informed key interventions the network has tested.
     </p>
 
     <p>
       Mentorship pilots ran in the first half of 2020 - pairing a cohort of women, first nations,
       and non-binary campaigners, organisers, and communcations mentees with amazing
-      progressive technologists. Skills based trainings were trialled and refined - focussing on 
+      progressive technologists. Skills based trainings were trialled and refined - focussing on
       React and SQL, which were identified as key areas organisations wanted to see staff cultivate
       skills in.
     </p>
@@ -118,7 +113,7 @@ const Description = () => (
       and activists at the forefront of progressive change - first nations and people of colour led
       groups - to ensure the network is grounded from the start in supporting this vital work. We're developing
       structured mentorships, and technical volunteering programs to bring in expertise from inside and
-      outside the sector to add extra support without the extra hassle. 
+      outside the sector to add extra support without the extra hassle.
     </p>
   </Box>
 );
