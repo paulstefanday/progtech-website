@@ -32,8 +32,7 @@ const Form = () => (
 
         <Box width={1}>
           <Label htmlFor="canOffer">
-            Let us know a bit about your self and how you are keen to get
-            involved
+            Let us know a bit about what you want to share
           </Label>
           <Textarea id="canOffer" name="canOffer" />
         </Box>

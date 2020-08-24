@@ -19,7 +19,7 @@ const Form = () => (
       </p>
       <p>We will be talking to organisations to find out key shared issues across the sector as well as smaller one off projects to help grassroots organisations. Fill out the form below and we will let you know about upcomming projects.</p>
       <br />
-      <Link href="https://progtech.typeform.com/to/QGD6dgX2" target="_blank"><Button>Apply Here</Button></Link>
+      <Link href="https://progtech.typeform.com/to/QGD6dgX2" target="_blank" variant="buttons.primary">Apply Here</Link>
     </Box>
   </>
 );

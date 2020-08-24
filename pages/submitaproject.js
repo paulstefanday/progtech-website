@@ -17,7 +17,7 @@ const Form = () => (
       <p style={{ marginTop: 0 }}>
         We have a team of skilled volunteers and project managers to help
         support your organisation. Let us know what projects you need help with.
-        Weather it's a big or small project we can try and bring resoruces
+        Whether it's a big or small project we can try and bring resources
         together to help. Let us know a bit more about your idea and we will be
         in touch.
       </p>
@@ -27,7 +27,7 @@ const Form = () => (
         href="https://progtech.typeform.com/to/iDIWKxGY"
         target="_blank"
       >
-        Apply Here
+        Submit idea here
       </Link>
     </Box>
   </>
