@@ -30,7 +30,7 @@ const Description = () => (
       mentorship programs; and a networked community who work together on solutions to shared challenges.
     </p>
 
-  
+
     <p style={{ marginBottom }}>
       Our founding team is a group of people working across the progressive
       sector - Edie Shepherd (Original Power); Sara Smylie (UWU); Clodagh Schofield (AYCC); Moira Cully (VTHC);
@@ -39,47 +39,23 @@ const Description = () => (
 
     <Heading variant="highlight.green">Why do we exist?</Heading>
     <p>
-      There are frustrations with the way ‘digital’ or ‘tech’ operates in
-      Australia that can be summed up as:
+      It’s hard enough to win progressive change. It’s harder when our tech doesn’t work for us, and when we’re trying to solve our common challenges in isolation.
     </p>
-    <ul>
-      <li>
-        We don’t share our skills, resources, lessons between organisations
-        apart from at events which shut people and organisations out
-      </li>
-      <li>
-        Different organisations are constantly reinventing the wheel and wasting
-        resources
-      </li>
-      <li>
-        The space can be exclusionary - it’s male and white and prizes hard tech
-        skills (like coding)
-      </li>
-      <li>
-        A heap of our tech is brought over from the US and doesn’t suit our
-        needs. Individual organisations understandably don’t want to or can’t
-        resource development on their own or extract changes from large
-        companies - but if we teamed up on shared requests we could shift them.
-      </li>
-    </ul>
-
     <p>
-      There are some really obvious (and genuine) reasons why the above is the
-      case - everything from resourcing, to internal competition, to not wanting
-      to get bogged down in a massive process every time you want to do
-      something.
+    We’ve just run the biggest ever tech consultation with the progressive sector in Australia. Our results, plus meetings with key stakeholders and our own experience, tell us strongly that the progressive sector is lagging behind.
     </p>
-
+    <p>
+    Organisations report that they’re constantly reinventing the wheel, operating in silos, using inadequate tools with insufficient skills, making do with minimal investment, that the tech space is exclusionary, that tech staff are often unsupported, and that we’re not doing the long term movement wide thinking on tech that we need.
+    </p>
+    <p>It doesn’t have to be this way. Networks like the Progressive Coders Network (US); the Movement Cooperative (US) and the OPEN Tech Network (international) show us how much we have to gain from working and learning together here in Australia.
+    </p>
     <p style={{ marginBottom }}>
-      We’re going into this with our eyes wide open - it won’t be easy. But this
-      network is an attempt to change our siloed approach to tech - and networks
-      like the Progressive Coders Network and the Movement Cooperative in the US
-      and the OPEN Tech network internationally show us how much we have to gain
-      from collaborating and learning together here in Australia.
-    </p>
+    But it will take organisations coming together as a network to build the relationships and trust needed for tech collaboration to take root. </p>
+
+
 
     <Heading variant="highlight.purple">Who can join?</Heading>
-    <p style={{ marginBottom }}>
+    <p >
       ProgTech is made up of partner organisations, and their staff, volunteers and
       activists. Our organisations are unions, environmental organisations, community groups,
       progressive tech agencies and vendors, First Nations organisations, anti-racist groups,
@@ -88,13 +64,13 @@ const Description = () => (
       fights are bound together.
     </p>
 
-    <p> You can express interest in your organisation joining <a href="https://progtech.net.au/join">here</a>, and a member of the team
+    <p style={{ marginBottom }}> You can express interest in your organisation joining <a href="https://progtech.net.au/join">here</a>, and a member of the team
       will be in touch. ProgTech is for progressive campaigning and movement building organisations,
       and the technologists and vendors that support us - apolitical businesses contribute great things,
       but aren't a fit for this network. ProgTech is also not a network for political parties.</p>
 
     <Heading variant="highlight.orange">What have we done to date? </Heading>
-    <p>
+    <p style={{ marginBottom }}>
       After listening, testing and incubating, ProgTech is now preparing for launch.
       Consultation through sessions at FWD+Organise 2019 and the largest sector consultation
       on tech informed key interventions the network has tested.
