@@ -20,21 +20,16 @@ const Description = () => (
       trainings, a growing shared library of tools, code and resources, skilled
       volunteers, and our Slack community.
       </p>
-
-<p>
-      Our organisations are unions, environmental organisations, community groups, progressive tech agencies and vendors, First Nations organisations, anti-racist groups, women's rights campaigners, LGBTQIA+ organisations & more. We are all committed to intersectional system change - and we are committed to teaming up on tech because we recognise that our fights are bound together.
-      </p>
+      <p>
+            If this is something your organisation or activist group would like to be
+            a part of, get in touch. We have so much to gain from working together.
+            Joining the network means sharing what you have to offer - which is
+            different for different organisations. If you're interested in seeing your
+            organisation join the network, share what you're keen to get out of it,
+            and what your organisation could offer in the form.
+          </p>
 
       <p>  ProgTech is for progressive campaigning and movement building organisations, and the technologists and vendors that support us - apolitical businesses contribute great things, but aren't a fit for this network. ProgTech is also not a network for political parties.</p>
-
-<p>
-      If this is something your organisation or activist group would like to be
-      a part of, get in touch. We have so much to gain from working together.
-      Joining the network means sharing what you have to offer - which is
-      different for different organisations. If you're interested in seeing your
-      organisation join the network, share what you're keen to get out of it,
-      and what your organisation could offer in the form.
-    </p>
 
     <p>
       We share with each other in good faith, and ensure we share on clear terms
