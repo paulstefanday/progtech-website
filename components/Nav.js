@@ -62,7 +62,7 @@ const MobileNav = () => {
       target: "_blank",
     },
   ];
-  
+
   if (!open)
     return (
       <>
@@ -126,6 +126,9 @@ const DesktopNav = () => (
     <Link className="dropdown" href="#!">
       Programmes
       <Box className="dropdown-content">
+        <NextLink href="https://2020report.progtech.net.au">
+          <a>Sector Consultation</a>
+        </NextLink>
         <NextLink href="/mentorship">
           <a>Mentorship</a>
         </NextLink>
