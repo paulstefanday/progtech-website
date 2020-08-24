@@ -136,7 +136,7 @@ const DesktopNav = () => (
           <a>Mentorship</a>
         </NextLink>
        {/* <Link href="/events">Workshops & events</Link> */}
-              <Link href="/sharecode">Share Code</Link> 
+              {/* <Link href="/sharecode">Share Code</Link>  */}
               <Link href="/volunteer">Volunteer</Link> 
               <Link href="/submitaproject">Submit a project</Link> 
       </Box>
