@@ -54,16 +54,14 @@ const list = [
     bio: (
       <>
         <p>
-          Moira is a digital strategist and technologist specialising in
-          supporting unions in best practice digital recruitment and
-          campaigning. She leads one of the most effective technological
-          collaborations between Australian unions, Megaphone, facilitating
-          digital growth and campaign impact across the sector.
+          Moira is a data and digital organiser at Vic Trades Hall specialising
+          in supporting unions in best practice digital campaigning. 
         </p>
         <p>
-          Moira brings expertise in network organising and using digital to
-          scale the union movement, and leads the training program and
-          institutional fundraising work of ProgTech.
+        She leads one of the most effective technological
+        collaborations between Australian unions, Megaphone, facilitating
+        digital growth and campaign impact across the sector. Moira brings
+        expertise in network organising and using digital to scale the union movement.
         </p>
       </>
     ),
