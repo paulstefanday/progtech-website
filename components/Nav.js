@@ -148,7 +148,7 @@ const DesktopNav = () => (
     <NextLink href="/join">Organisations</NextLink>
     </Box>
   </Link>
-    <NextLink
+    <Link
       target="_blank"
       className="active"
       href="https://form.typeform.com/to/ZAU0MgR5"
