@@ -20,6 +20,14 @@ const Description = () => (
       trainings, a growing shared library of tools, code and resources, skilled
       volunteers, and our Slack community.
       </p>
+
+      <p>
+        We share with each other in good faith, and ensure we share on clear terms
+        - because we all share the same goals. We’re working together to prevent
+        climate devastation, and to create a society where everyone, no matter
+        your background, your gender, your ability or your skin colour, can
+        thrive.
+      </p>
       <p>
             If this is something your organisation or activist group would like to be
             a part of, get in touch. We have so much to gain from working together.
@@ -29,15 +37,9 @@ const Description = () => (
             and what your organisation could offer in the form.
           </p>
 
-      <p>  ProgTech is for progressive campaigning and movement building organisations, and the technologists and vendors that support us - apolitical businesses contribute great things, but aren't a fit for this network. ProgTech is also not a network for political parties.</p>
+      <p>  Please note that ProgTech is for progressive campaigning and movement building organisations, and the technologists and vendors that support us - apolitical businesses contribute great things, but aren't a fit for this network. ProgTech is also not a network for political parties.</p>
 
-    <p>
-      We share with each other in good faith, and ensure we share on clear terms
-      - because we all share the same goals. We’re working together to prevent
-      climate devastation, and to create a society where everyone, no matter
-      your background, your gender, your ability or your skin colour, can
-      thrive.
-    </p>
+
     <br />
     <br />
     {/* <Heading variant="highlight.orange">
