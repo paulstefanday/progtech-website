@@ -37,7 +37,7 @@ const Description = () => (
             and what your organisation could offer in the form.
           </p>
 
-      <p>  Please note that ProgTech is for progressive campaigning and movement building organisations, and the technologists and vendors that support us - apolitical businesses contribute great things, but aren't a fit for this network. ProgTech is also not a network for political parties.</p>
+      <p>  <strong>Please note that ProgTech is for progressive campaigning and movement building organisations, and the technologists and vendors that support us - apolitical businesses contribute great things, but aren't a fit for this network. ProgTech is also not a network for political parties.</strong></p>
 
 
     <br />
