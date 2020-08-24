@@ -16,7 +16,6 @@ export default async function handle(req, res) {
 
   // send to asana
   if(form === "PARTNER") {
-    // 1/5744038961411:86ae70d2c493c275940f1069f44b61a2
   }
 
   // send to slack
@@ -24,7 +23,7 @@ export default async function handle(req, res) {
     const { email } = req.body;
     if (email && email !== "") {
       const url =
-        "https://hooks.slack.com/services/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";
+        process.env.SLACK;
       const webhook = new IncomingWebhook(url);
       await webhook.send({ text: `*New Newsletter Signup:* ${email}` });
     }
@@ -36,7 +35,7 @@ export default async function handle(req, res) {
     } = req.body;
     if (email && email !== "") {
       const url =
-        "https://hooks.slack.com/services/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";
+        process.env.SLACK;
       const webhook = new IncomingWebhook(url);
       await webhook.send({
         text: `*New Contact Form:* \n*Email:* ${email}\n*Name:* ${name}\n*Message:* ${message}`,
@@ -57,7 +56,7 @@ export default async function handle(req, res) {
     } = req.body;
     if (email && email !== "") {
       const url =
-        "https://hooks.slack.com/services/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";
+        process.env.SLACK_PARTNER;
       const webhook = new IncomingWebhook(url);
       await webhook.send({
         text: `*Email:* ${email}
