@@ -70,12 +70,11 @@ const Description = () => (
       but aren't a fit for this network. ProgTech is also not a network for political parties.</p>
 
     <Heading variant="highlight.orange">What have we done to date? </Heading>
-    <p style={{ marginBottom }}>
+    <p >
       After listening, testing and incubating, ProgTech is now preparing for launch.
       Consultation through sessions at FWD+Organise 2019 and the largest sector consultation
       on tech informed key interventions the network has tested.
     </p>
-
     <p>
       Mentorship pilots ran in the first half of 2020 - pairing a cohort of women, non-binary
       and First Nations campaigners, organisers, and communcations mentees with amazing
@@ -84,7 +83,7 @@ const Description = () => (
       skills in.
     </p>
 
-<p>
+<p style={{ marginBottom }}>
       Before launching in late August, ProgTech is focussing on consulting with the organisations
       and activists at the forefront of progressive change - first nations and people of colour led
       groups - to ensure the network is grounded from the start in supporting this vital work. We're developing
