@@ -116,15 +116,22 @@ const Form = () => (
   </Box>
 );
 
+const Apply = () =>  <Link href="https://progtech.typeform.com/to/pfsA07mJ" target="_blank" variant="buttons.primary" pt={4} pb={4} width={1}>
+Apply to join
+</Link>
+
 const App = (props) => {
   return (
     <Flex flexWrap="wrap">
       <PageHeading heading="Join the network - Expression of interest" />
       <Flex p={[4, 5]} width={1}>
         <Container maxWidth={1200}>
-        <Box width={[1, 1/2]}><Form />
+        <Box width={[1, 1/2]}>
           <Description />
-          <Form />
+          <Apply />
+          </Box>
+          <Box display={["none", "block"]} width={[1, 1/2]} pl={5}>
+          <Apply />
           </Box>
         </Container>
       </Flex>
