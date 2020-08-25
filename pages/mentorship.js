@@ -61,33 +61,33 @@ const Description = () => (
     <p style={{ marginTop: 0 }}>
       <Heading variant="highlight.pink">Overview</Heading>
       <p>
-       We have amazing progressive technologists in our movements - and 
-  a lot of people with a lot of potential to have impact with the right support. 
-  ProgTech's first mentorship program saw campaigners, organisers and communications 
-  workers underrepresented in tech - women, non binary people, and first nations people 
-  - supported by experienced techies to develop skills. The next round will launch later 
+       We have amazing progressive technologists in our movements - and
+  a lot of people with a lot of potential to have impact with the right support.
+  ProgTech's first mentorship program saw campaigners, organisers and communications
+  workers underrepresented in tech - women, non binary people, and first nations people
+  - supported by experienced techies to develop skills. The next round will launch later
   in 2020 - please apply if you've skills you'd like to develop, or share!
-<br />This mentorship project seeks to provide mentees with practical support with a 
-  challenge they're keen to solve with tech, as well as have a broader conversation 
+<br />This mentorship project seeks to provide mentees with practical support with a
+  challenge they're keen to solve with tech, as well as have a broader conversation
   aimed at demystifying careers in tech.
       </p>
       <br /><br />
       <Heading variant="highlight.orange">Who mentees are</Heading>
 
       <p>
-        You’re working in or around tech - this covers both technical and non-technical 
-  roles (eg maybe you’re not a developer, but you’re working with digital platforms and 
+        You’re working in or around tech - this covers both technical and non-technical
+  roles (eg maybe you’re not a developer, but you’re working with digital platforms and
   technologies).</p>
-<p>You can commit to 6 mentorship meetings over an 12 week period (via video calls), 
-  and you have an idea for a key project you'd like to work on or develop that will support 
+<p>You can commit to 6 mentorship meetings over an 12 week period (via video calls),
+  and you have an idea for a key project you'd like to work on or develop that will support
 your work as a progressive campaigner.
       </p>
       <br /><br />
-      <Heading variant="highlight.green">Who Mentors are</Heading>
+      <Heading variant="highlight.green">Who mentors are</Heading>
       <p>
-        Our mentors are seasoned techies keen to build skills in our movement, particularly in people 
-who've had less access to tech skills because of gender, race, class and other factors. If you’re 
-interested but you've never mentored someone before, please apply! Mentors are provided with 
+        Our mentors are seasoned techies keen to build skills in our movement, particularly in people
+who've had less access to tech skills because of gender, race, class and other factors. If you’re
+interested but you've never mentored someone before, please apply! Mentors are provided with
 support to step up.
       </p>
       {/* We don't have applications open for our next mentorshop program yet but please register your interest and we will get back to you.  */}
