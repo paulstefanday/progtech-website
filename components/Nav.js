@@ -141,7 +141,7 @@ const DesktopNav = () => (
               <Link href="/submitaproject">Submit a project</Link>
       </Box>
     </Link>
-    <Link className="dropdown"href="#!">
+    <Link className="dropdown" href="#!">
       Join
     <Box className="dropdown-content">
     <NextLink href="/volunteer">Skilled Volunteers</NextLink>
