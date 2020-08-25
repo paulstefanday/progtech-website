@@ -66,8 +66,8 @@ const Description = () => (
   ProgTech's first mentorship program saw campaigners, organisers and communications
   workers underrepresented in tech - women, non binary people, and first nations people
   - supported by experienced techies to develop skills. The next round will launch later
-  in 2020 - please apply if you've skills you'd like to develop, or share!
-<br />This mentorship project seeks to provide mentees with practical support with a
+  in 2020 - please apply if you've skills you'd like to develop, or share!</p>
+<p>This mentorship project seeks to provide mentees with practical support with a
   challenge they're keen to solve with tech, as well as have a broader conversation
   aimed at demystifying careers in tech.
       </p>
