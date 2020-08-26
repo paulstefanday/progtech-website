@@ -9,7 +9,7 @@ import JoinNewsletter from "../components/JoinNewsletter";
 
 const Description = () => (
   <Flex flexDirection="column" width={[1, 1 / 2]} pr={[0, 5]}>
-    <p>We're building skilled tech capacity for organisations across the progressive movement. We're currently finalising the dates and trainers for these events, but you can register your interest
+    <p>We're building skilled tech capacity for organisations across the progressive movement. While we're currently finalising the dates and trainers for these events, you can register your interest
   here for upcoming trainings, including: </p>
     <Heading variant="highlight.pink">Custom metrics for NationBuilder & intro to SQL</Heading>
     <p>Data analysis can be hard for progressive organisations, especially when your tools aren't fit for purpose and you don't have the budget for it. This training course will run over 6 sessions and take you through the basics of setting up a metrics app for your Nation, learning how to use Metabase dashboards, and how to use SQL to find out what you need to know about your data.</p>
