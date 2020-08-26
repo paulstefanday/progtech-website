@@ -35,7 +35,7 @@ const Form = () => (
 const App = (props) => {
   return (
     <Flex flexWrap="wrap">
-      <PageHeading heading="Submit a Project" />
+      <PageHeading heading="Need solidarity tech support?" />
       <Box width={1} p={[4, 5]}>
         <Container maxWidth={1200}>
           <Form />

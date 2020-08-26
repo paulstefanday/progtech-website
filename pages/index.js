@@ -41,7 +41,7 @@ const sliderContent = [
 const JumboContent = () => {
   const [email, setEmail] = useState("");
   const [buttonText, setButtonText] = useState(
-    "Sign up to hear about the next steps"
+    "Hear about next steps"
   );
 
   const submit = async (e) => {
@@ -87,7 +87,7 @@ const JumboContent = () => {
         >
           <Input
             bg="white"
-            width={[1, 1 / 3]}
+            width={[1, 1 /2]}
             mb={0}
             sx={{ borderBottom: 0 }}
             id="email"
@@ -97,7 +97,7 @@ const JumboContent = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <Button onClick={submit} width={[1, 2 / 3]} variant="primary">
+          <Button onClick={submit} width={[1, 1/2]} variant="primary">
             {buttonText}
           </Button>
         </Flex>
@@ -115,6 +115,7 @@ const App = (props) => {
       <Jumbotron>
         <JumboContent />
       </Jumbotron>
+      <SingleAction />
       <Programmes />
       {/* <Slider content={sliderContent} /> */}
       {/* <Partners /> */}
@@ -123,7 +124,7 @@ const App = (props) => {
           <ReactTypeformEmbed url="https://form.typeform.com/to/C8Sthe" />
         </Box>
       </Container> */}
-      <SingleAction />
+      
     </Flex>
   );
 };

@@ -129,11 +129,14 @@ const DesktopNav = () => (
     <Link className="dropdown" href="#!">
       Programmes
       <Box className="dropdown-content">
-        <NextLink target="_blank" href="https://2020report.progtech.net.au">
+        <Link target="_blank" href="https://2020report.progtech.net.au">
           Sector Consultation
-        </NextLink>
+        </Link>
         <NextLink href="/mentorship">
           <a>Mentorship</a>
+        </NextLink>
+        <NextLink href="/trainings">
+          <a>Trainings</a>
         </NextLink>
        {/* <Link href="/events">Workshops & events</Link> */}
               {/* <Link href="/sharecode">Share Code</Link>  */}
@@ -144,7 +147,7 @@ const DesktopNav = () => (
     <Link className="dropdown" href="#!">
       Join
     <Box className="dropdown-content">
-    <NextLink href="/volunteer">Skilled Volunteers</NextLink>
+    <NextLink href="/progtechie">Individuals</NextLink>
     <NextLink href="/join">Organisations</NextLink>
     </Box>
   </Link>
