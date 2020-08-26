@@ -18,7 +18,7 @@ const Description = () => (
     <p>Many organisations are using out-of-the-box tools that don't integrate well, and a key frustration for tech/digital staff is siloed data and having to repeat processes that could be automated. This training course will run over 4 sessions and will teach you how to use webhooks, and run basic Javascript and Python scripts in Zapier to better integrate between commonly-used platforms.</p>
     <p><Link href="https://progtech.typeform.com/to/BnGdlq#source=pt-z" target="_blank" variant="buttons.primary">Apply Here</Link></p>
     <Heading mt={4} variant="highlight.pink">Custom Action Network pages & intro to front-end</Heading>
-    <p>Action Network is a great tool for grassroots organisations. This training course will run over 4 sessions and cover an intro to HTML, CSS and Javascript, and how you can use them to customise your Action Network pages.</p>
+    <p>Action Network is a great progressive toolkit for grassroots organisations, especially those with small budgets. This training course will run over 4 sessions and cover an intro to HTML, CSS and Javascript, and how you can use them to customise your Action Network pages.</p>
     <p><Link href="https://progtech.typeform.com/to/BnGdlq#source=pt-an" target="_blank" variant="buttons.primary">Apply Here</Link></p>
     <p> We'll also be running some once-off sessions, including:
     <ul>
