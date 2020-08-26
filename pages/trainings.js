@@ -12,8 +12,7 @@ const Description = () => (
     <p>We're building skilled tech capacity for organisations across the progressive movement. We're currently finalising the dates and trainers for these events, but you can register your interest
   here for upcoming trainings, including: </p>
     <Heading variant="highlight.pink">Custom metrics for NationBuilder & intro to SQL</Heading>
-    <p>From our research a lot of organisations are on nation builder and struggle to do good data analysis. Especially if they don't have a budget for it. So we have put together a course that runs for
-    6 sessions where you will learn to set up the AYCC's metrics apps and better analyise your data.</p>
+    <p>Data analysis can be hard for progressive organisations, especially when your tools aren't fit for purpose and you don't have the budget for it. This training will run over 6 courses and take you through the basics of setting up a metrics app for your Nation, learning how to use Metabase dashboards, and how to use SQL to find out what you need to know about your data.</p>
     <p><Link href="https://progtech.typeform.com/to/BnGdlq#source=pt-nb" target="_blank" variant="buttons.primary">Apply Here</Link></p>
     <Heading mt={4} variant="highlight.pink">Advanced Zapier integrations</Heading>
     <p>Many small orgs are using out of the box tools, and a key frustration for a small team is siloed data and having to repeat processes that could be automated. So this course will teach you how to use webhooks and run scripts in Zapier to better integrate between platforms.</p>
