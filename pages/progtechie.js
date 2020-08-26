@@ -26,11 +26,18 @@ const Form = () => (
         <li>Share some tech with the Progtech community</li>
       </ul>
 
+  <p>We are looking for a range of skills including:</p>
+  <ul>
+        <li>Frontend web developer</li>
+        <li>Backend web developer</li>
+        <li>Devops</li>
+        <li>Digital (social media / services / campaigning tools)</li>
+      </ul>
       <p>
         We will be talking to organisations to find out key shared issues across
         the sector as well as smaller one off projects to help grassroots
         organisations. Fill out the form below and we will let you know about
-        upcomming projects and mentoring oppotunities.
+        upcoming projects and mentoring oppotunities.
       </p>
       <br />
       <Link
