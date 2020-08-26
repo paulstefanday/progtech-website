@@ -22,6 +22,7 @@ const Description = () => (
     <Heading mt={4} variant="highlight.pink">Advanced Zapier integrations by Raisely</Heading>
     <p>Many small orgs are using out of the box tools, and a key frustration for a small team is siloed data and having to repeat processes that could be automated. So this course will teach you how to use webhooks and run scripts in Zapier to better integrate between platforms.</p>
     <p><Link href="https://progtech.typeform.com/to/BnGdlq#source=pt-an" target="_blank" variant="buttons.primary">Apply Here</Link></p>
+    <p> Please note that these trainings are for the volunteers and staff of network members only. If there's a training that would help you, find out more about coming a member <a href="https://progtech.net.au/join">here</a>. If you need our help to speak to your manager about why joining the Progressive Tech Network is a good idea, get in touch at <a href="mailto:hello@progtech.net.au">hello@progtech.net.au</a></p>
   </Flex>
 );
 
