@@ -9,13 +9,25 @@ import JoinNewsletter from "../components/JoinNewsletter";
 
 const Description = () => (
   <Flex flexDirection="column" width={[1, 1 / 2]} pr={[0, 5]}>
-    <Heading variant="highlight.pink">Custom metrics for Nationbuilder + SQL training</Heading>
-    <p>From our research a lot of organisations are on nation builder and struggle to do good data analysis. Especially if they don't have a budget for it. So we have put together a course that runs for
-    6 sessions where you will learn to set up the AYCC's metrics apps and better analyise your data.</p>
-    <p><Link href="" target="_blank" variant="buttons.primary">Apply Here</Link></p>
-    <Heading mt={4} variant="highlight.pink">Advanced Zapier integrations by Raisely</Heading>
-    <p>Many small orgs are using out of the box tools, and a key frustration for a small team is siloed data and having to repeat processes that could be automated. So this course will teach you how to use webhooks and run scripts in Zapier to better integrate between platforms.</p>
-    <p><Link href="" target="_blank" variant="buttons.primary">Apply Here</Link></p>
+    <p>We're building skilled tech capacity for organisations across the progressive movement. While we're currently finalising the dates and trainers for these events, you can register your interest
+  here for upcoming trainings, including: </p>
+    <Heading variant="highlight.pink">Custom metrics for NationBuilder & intro to SQL</Heading>
+    <p>Data analysis can be hard for progressive organisations, especially when your tools aren't built for it and you don't have the budget for it. This training course will run over 6 sessions and take you through the basics of setting up a metrics app for your Nation, learning how to use Metabase dashboards, and how to use SQL to find out what you need to know about your data.</p>
+    <p><Link href="https://progtech.typeform.com/to/BnGdlq#source=pt-nb" target="_blank" variant="buttons.primary">Apply Here</Link></p>
+    <Heading mt={4} variant="highlight.pink">Advanced Zapier integrations</Heading>
+    <p>Many organisations are using out-of-the-box tools that don't integrate well, and a key frustration for tech/digital staff is siloed data and having to repeat processes that could be automated. This training course will run over 4 sessions and will teach you how to use webhooks, and run basic Javascript and Python scripts in Zapier to better integrate between commonly-used platforms.</p>
+    <p><Link href="https://progtech.typeform.com/to/BnGdlq#source=pt-z" target="_blank" variant="buttons.primary">Apply Here</Link></p>
+    <Heading mt={4} variant="highlight.pink">Custom Action Network pages & intro to front-end</Heading>
+    <p>Action Network is a great progressive toolkit for grassroots organisations, especially those with small budgets. This training course will run over 4 sessions and cover an intro to HTML, CSS and Javascript, and how you can use them to customise your Action Network pages.</p>
+    <p><Link href="https://progtech.typeform.com/to/BnGdlq#source=pt-an" target="_blank" variant="buttons.primary">Apply Here</Link></p>
+    <p> We'll also be running some once-off sessions, including:
+    <ul>
+    <li>How to make a decision about your tech stack</li>
+    <li>Excel for organisers</li>
+    <li>Internal cultural change: how to get your organisation to invest in digital/tech</li>
+    </ul>
+    </p>
+    <p> Please note that these trainings are for the volunteers and staff of network members only. If there's a training that would help you, find out more about how your organisation can join <a href="https://progtech.net.au/join">here</a>. If you need our help to speak to your manager about why joining the Progressive Tech Network is a good idea, get in touch at <a href="mailto:hello@progtech.net.au">hello@progtech.net.au</a></p>
   </Flex>
 );
 
