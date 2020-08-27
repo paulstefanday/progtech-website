@@ -24,8 +24,8 @@ export default async function handle(req, res) {
     if (email && email !== "") {
       const url =
         process.env.SLACK;
-      const webhook = new IncomingWebhook(url);
-      await webhook.send({ text: `*New Newsletter Signup:* ${email}` });
+      // const webhook = new IncomingWebhook(url);
+      // await webhook.send({ text: `*New Newsletter Signup:* ${email}` });
     }
   } else if (form === "CONTACT") {
     const {
@@ -36,10 +36,10 @@ export default async function handle(req, res) {
     if (email && email !== "") {
       const url =
         process.env.SLACK;
-      const webhook = new IncomingWebhook(url);
-      await webhook.send({
-        text: `*New Contact Form:* \n*Email:* ${email}\n*Name:* ${name}\n*Message:* ${message}`,
-      });
+      // const webhook = new IncomingWebhook(url);
+      // await webhook.send({
+      //   text: `*New Contact Form:* \n*Email:* ${email}\n*Name:* ${name}\n*Message:* ${message}`,
+      // });
     }
   } else if (form === "PARTNER") {
     const {
