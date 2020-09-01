@@ -144,19 +144,14 @@ const DesktopNav = () => (
               <Link href="/submitaproject">Submit a project</Link>
       </Box>
     </Link>
-    <Link className="dropdown" href="#!">
-      Join
-    <Box className="dropdown-content">
-    <NextLink href="/progtechie">Individuals</NextLink>
-    <NextLink href="/join">Organisations</NextLink>
-    </Box>
+    <Link href="/progtechie">
+      Volunteer
   </Link>
     <Link
-      target="_blank"
       className="active"
-      href="https://form.typeform.com/to/ZAU0MgR5"
+      href="/join"
     >
-      our launch
+      Join
     </Link>
   </>
 );
