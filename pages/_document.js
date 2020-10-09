@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
 
         <meta
           name="description"
-          content="We team up on tech to win to move to a world where progressive organisations 
+          content="We're teaming up on tech to win. We want progressive organisations 
 and activists have the best tools possible, and the skills & support to use them."
         />
         <meta name="author" content="Progressive Tech Network" />
@@ -42,7 +42,7 @@ and activists have the best tools possible, and the skills & support to use them
         <Main />
         <NextScript />
       </body>
-      
+
     </Html>
   );
 }
