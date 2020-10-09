@@ -8,26 +8,26 @@ import Bg, { styles } from "../components/Bg";
 
 const list = [
   
-  "/images/logo-uwu.jpg",
-  "/images/logo-vthc.jpg",
-  "/images/logo-progress.jpg",
-  "/images/logo-actionskills.jpg",
-  "/images/logo-actu.jpg",
-  "/images/logo-asu.jpg",
-  "/images/logo-aycc.jpg",
-  "/images/logo-codenation.jpg",
-  "/images/logo-cpsu.jpg",
-  "/images/logo-cpsuvic.jpg",
-  "/images/logo-democracyincolour.jpg",
-  "/images/logo-essential.jpg",
-  "/images/logo-friendsoftheearth.jpg",
-  "/images/logo-gratafund.jpg",
-  "/images/logo-newmode.jpg",
-  "/images/logo-originalpower.jpg",
-  "/images/logo-principleco.jpg",
+  { image:"/images/logo-uwu.jpg", link: "https://www.unitedworkers.org.au/" },
+  { image:"/images/logo-vthc.jpg", link: "https://www.weareunion.org.au/" },
+  { image:"/images/logo-progress.jpg", link: "https://www.australianprogress.org.au/" },
+  { image:"/images/logo-actionskills.jpg", link: "https://actionskills.co/" },
+  { image:"/images/logo-actu.jpg", link: "https://www.actu.org.au/" },
+  { image:"/images/logo-asu.jpg", link: "http://www.asu.asn.au/" },
+  { image:"/images/logo-aycc.jpg", link: "https://www.aycc.org.au/" },
+  { image:"/images/logo-codenation.jpg", link: "https://www.codenation.com/" },
+  { image:"/images/logo-cpsu.jpg", link: "https://www.cpsu.org.au/" },
+  { image:"/images/logo-cpsuvic.jpg", link: "https://www.cpsuvic.org/" },
+  { image:"/images/logo-democracyincolour.jpg", link: "https://democracyincolour.org/" },
+  { image:"/images/logo-essential.jpg", link: "https://essentialmedia.com.au/" },
+  { image:"/images/logo-friendsoftheearth.jpg", link: "https://www.foe.org.au/" },
+  { image:"/images/logo-gratafund.jpg", link: "https://www.gratafund.org.au/" },
+  { image:"/images/logo-newmode.jpg", link: "https://www.newmode.net/" },
+  { image:"/images/logo-originalpower.jpg", link: "https://www.originalpower.org.au/" },
+  { image:"/images/logo-principleco.jpg", link: "https://www.principleco.com.au/" },
   // "/images/logo-raisely.jpg",
-  "/images/logo-seed.jpg",
-  "/images/logo-tippingpoint.jpg",
+  { image:"/images/logo-seed.jpg", link: "https://www.seedmob.org.au/" },
+  { image:"/images/logo-tippingpoint.jpg", link: "https://www.tippingpoint.org.au/" },
 ];
 
 const Description = () => (
@@ -55,10 +55,13 @@ const Description = () => (
 
 const Partners = () => (
   <Flex width={[1]} flexWrap="wrap">
-    {list.map((url) => (
-      <Box width={1 / 5} minHeight={230} sx={styles}>
-        <Bg url={url} opacity={1} mb={5} />
+    {list.map(({ link, image }) => (
+      
+      <Box width={1/5} minHeight={230} sx={styles}>
+        <Bg url={image} opacity={1} mb={5} />
+        <a target="_blank" style={{ width: "100%", height: "100%", position: "absolute"}} href={link}></a>
       </Box>
+      
     ))}
   </Flex>
 );
