@@ -117,7 +117,7 @@ const DesktopNav = () => (
           <a>Overview</a>
         </NextLink>
         {/* <Link href="#!">News</Link> */}
-        {/* <Link href="/partners">Partners</Link> */}
+        <Link href="/partners">Partners</Link>
         <NextLink href="/team">
           <a>Team</a>
         </NextLink>

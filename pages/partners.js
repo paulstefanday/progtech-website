@@ -7,9 +7,25 @@ import Container from "../components/Container";
 import Bg, { styles } from "../components/Bg";
 
 const list = [
-  "/images/logo-raisely.jpg",
   "/images/logo-uwu.jpg",
   "/images/logo-vthc.jpg",
+  "/images/logo-actionskills.jpg",
+  "/images/logo-actu.jpg",
+  "/images/logo-asu.jpg",
+  "/images/logo-aycc.jpg",
+  "/images/logo-codenation.jpg",
+  "/images/logo-cpsu.jpg",
+  "/images/logo-cpsuvic.jpg",
+  "/images/logo-democracyincolour.jpg",
+  "/images/logo-essential.jpg",
+  "/images/logo-friendsoftheearth.jpg",
+  "/images/logo-gratafund.jpg",
+  "/images/logo-newmode.jpg",
+  "/images/logo-originalpower.jpg",
+  "/images/logo-principleco.jpg",
+  // "/images/logo-raisely.jpg",
+  "/images/logo-seed.jpg",
+  "/images/logo-tippingpoint.jpg",
 ];
 
 const Description = () => (
@@ -36,9 +52,9 @@ const Description = () => (
 );
 
 const Partners = () => (
-  <Flex width={[1, 1 / 2]} flexWrap="wrap">
+  <Flex width={[1]} flexWrap="wrap">
     {list.map((url) => (
-      <Box width={1 / 2} minHeight={230} sx={styles}>
+      <Box width={1 / 5} minHeight={230} sx={styles}>
         <Bg url={url} opacity={1} mb={5} />
       </Box>
     ))}
@@ -51,7 +67,7 @@ const App = (props) => {
       <PageHeading heading="Our Partners" />
       <Box width={1} p={[4, 5]}>
         <Container maxWidth={1200}>
-          <Description />
+          {/* <Description /> */}
           <Partners />
         </Container>
       </Box>

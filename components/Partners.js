@@ -5,9 +5,28 @@ import Bg, { styles } from './Bg';
 import Link from "next/link";
 
 const list = [
-  "/images/logo-raisely.jpg",
+  // "/images/logo-raisely.jpg",
   "/images/logo-uwu.jpg",
   "/images/logo-vthc.jpg",
+  "/images/logo-actionskills.jpg",
+  "/images/logo-actu.jpg",
+  "/images/logo-asu.jpg",
+  "/images/logo-aycc.jpg",
+  "/images/logo-codenation.jpg",
+  "/images/logo-cpsu.jpg",
+  "/images/logo-cpsuvic.jpg",
+  "/images/logo-democracyincolour.jpg",
+  "/images/logo-essential.jpg",
+  "/images/logo-friendsoftheearth.jpg",
+  "/images/logo-gratafund.jpg",
+  "/images/logo-newmode.jpg",
+  "/images/logo-originalpower.jpg",
+  "/images/logo-principleco.jpg",
+  "/images/logo-raisely.jpg",
+  "/images/logo-seed.jpg",
+  "/images/logo-tippingpoint.jpg",
+  // "/images/logo-.jpg",
+  
 ];
 
 const Partners = () => (
