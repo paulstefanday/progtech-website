@@ -11,8 +11,8 @@ const Description = () => (
   <Flex flexDirection="column" width={[1, 1 / 2]} pr={[0, 5]}>
     <p>We're building skilled tech capacity for organisations across the progressive movement. RSVP here for upcoming trainings, including: </p>
     <Heading variant="highlight.pink">Data automations with Zapier & custom webhooks</Heading>
-    <p><strong>Session 1: Getting started with Zapier, Thursday 22 October 11am - 12.30pm</strong><p>
-    <p><strong>Session 2: Zapier automations using webhooks and custom API requests, Thursday 29 October 11am - 12.30pm</strong><p>
+    <p><strong>Session 1: Getting started with Zapier, Thursday 22 October 11am - 12.30pm</strong></p>
+    <p><strong>Session 2: Zapier automations using webhooks and custom API requests, Thursday 29 October 11am - 12.30pm</strong></p>
     <p>Many organisations are using out-of-the-box tools that don't integrate well. It's frustrating working with siloed data and having to repeat processes that could be automated. This training course will run over 2 sessions and will teach you how to use webhooks and custom API requests in Zapier to better integrate between commonly-used platforms.</p>
     <p><Link href="https://progtech.typeform.com/to/dYZWQJEJ#source=progtech-website" target="_blank" variant="buttons.primary">RSVP Here</Link></p>
     <Heading mt={4} variant="highlight.pink">Intro to data science</Heading>
