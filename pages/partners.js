@@ -7,8 +7,10 @@ import Container from "../components/Container";
 import Bg, { styles } from "../components/Bg";
 
 const list = [
+  
   "/images/logo-uwu.jpg",
   "/images/logo-vthc.jpg",
+  "/images/logo-progress.jpg",
   "/images/logo-actionskills.jpg",
   "/images/logo-actu.jpg",
   "/images/logo-asu.jpg",
