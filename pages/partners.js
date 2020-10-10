@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Button } from "rebass";
+import { Box, Flex, Button, Image } from "rebass";
 import { Input, Label, Textarea } from "@rebass/forms";
 
 import PageHeading from "../components/PageHeading";
@@ -57,9 +57,9 @@ const Partners = () => (
   <Flex width={[1]} flexWrap="wrap">
     {list.map(({ link, image }) => (
       
-      <Box width={1/5} minHeight={230} sx={styles}>
-        <Bg url={image} opacity={1} mb={5} />
-        <a target="_blank" style={{ width: "100%", height: "100%", position: "absolute"}} href={link}></a>
+      <Box width={[1/2, 1/5]} minHeight={230} sx={styles}>
+        <a target="_blank" href={link}><Image src={image} width={[1]} opacity={1}  /></a>
+        {/* <a target="_blank" style={{ width: "100%", height: "100%", position: "absolute"}} href={link}></a> */}
       </Box>
       
     ))}
