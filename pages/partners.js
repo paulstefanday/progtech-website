@@ -23,7 +23,7 @@ const list = [
   { image:"/images/logo-friendsoftheearth.jpg", link: "https://www.foe.org.au/" },
   { image:"/images/logo-gratafund.jpg", link: "https://www.gratafund.org.au/" },
   { image:"/images/logo-newmode.jpg", link: "https://www.newmode.net/" },
-  { image:"/images/logo-originalpower.jpg", link: "https://www.originalpower.org.au/" },
+  // { image:"/images/logo-originalpower.jpg", link: "https://www.originalpower.org.au/" },
   { image:"/images/logo-principleco.jpg", link: "https://www.principleco.com.au/" },
   // "/images/logo-raisely.jpg",
   { image:"/images/logo-seed.jpg", link: "https://www.seedmob.org.au/" },
