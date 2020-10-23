@@ -132,7 +132,7 @@ const Team = () => (
         sx={styles}
       >
         <div style={{ width: "100%", height: "300px", overflow: "hidden" }}>
-          <Image src={url} mb={2} width="95%" />
+          <Image src={url} mb={2} width="85%" />
         </div>
         <br />
         <Heading variant={`highlight.${colors[getRandomInt(4)]}`}>
