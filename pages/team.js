@@ -131,7 +131,7 @@ const Team = () => (
         mb={5}
         sx={styles}
       >
-        <div style={{ width: "100%", height: "300px", overflow: "hidden" }}>
+        <div style={{ width: "100%", overflow: "hidden" }}>
           <Image src={url} mb={2} width="75%" />
         </div>
         <br />

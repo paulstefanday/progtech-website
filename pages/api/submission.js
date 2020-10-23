@@ -24,6 +24,8 @@ export default async function handle(req, res) {
 
   const { form } = req.body;
 
+try {
+
   // send to slack
   if (form === "NEWSLETTER") {
     const { email } = req.body;
@@ -111,5 +113,12 @@ ${wishYouCouldDo}`,
     }
   }
 
+  
+
+} catch(e) {
   res.json(result);
+  return;
+}
+res.json(result);
+
 }
