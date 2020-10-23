@@ -1,5 +1,15 @@
 import { PrismaClient } from "@prisma/client";
 import { IncomingWebhook } from "@slack/webhook";
+import md5 from "md5";
+
+// import Mailchimp from 'mailchimp-api-v3';
+import mailchimp from "@mailchimp/mailchimp_marketing";
+// const mailchimp = new Mailchimp(process.env.MAILCHIMP);
+mailchimp.setConfig({
+  apiKey: process.env.MAILCHIMP,
+  server: "us17"
+});
+
 
 const prisma = new PrismaClient();
 
@@ -14,18 +24,40 @@ export default async function handle(req, res) {
 
   const { form } = req.body;
 
-  // send to asana
-  if(form === "PARTNER") {
-  }
-
   // send to slack
   if (form === "NEWSLETTER") {
     const { email } = req.body;
     if (email && email !== "") {
-      const url =
-        process.env.SLACK;
-      // const webhook = new IncomingWebhook(url);
-      // await webhook.send({ text: `*New Newsletter Signup:* ${email}` });
+      // slack integration
+      const url = process.env.SLACK;
+      const webhook = new IncomingWebhook(url);
+      await webhook.send({ text: `*New Newsletter Signup:* ${email}` });
+
+      // mailchimp integration
+      const list = "a33ad53bfe";
+      const mailResponse = await mailchimp.lists.addListMember(list, {
+        email_address: email,
+        status: "subscribed",
+      });
+
+      // add newsletter tag
+      const subscriberHash = md5(email.toLowerCase());
+      const tagResponse = await mailchimp.lists.updateListMemberTags(
+        list,
+        subscriberHash,
+        {
+          body: {
+            tags: [
+              {
+                name: "Newsletter",
+                status: "active",
+              },
+            ],
+          },
+        }
+      );
+
+      
     }
   } else if (form === "CONTACT") {
     const {
@@ -36,10 +68,10 @@ export default async function handle(req, res) {
     if (email && email !== "") {
       const url =
         process.env.SLACK;
-      // const webhook = new IncomingWebhook(url);
-      // await webhook.send({
-      //   text: `*New Contact Form:* \n*Email:* ${email}\n*Name:* ${name}\n*Message:* ${message}`,
-      // });
+      const webhook = new IncomingWebhook(url);
+      await webhook.send({
+        text: `*New Contact Form:* \n*Email:* ${email}\n*Name:* ${name}\n*Message:* ${message}`,
+      });
     }
   } else if (form === "PARTNER") {
     const {

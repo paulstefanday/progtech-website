@@ -8,11 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.22",
     "@prisma/client": "^2.0.1",
     "@rebass/forms": "^4.0.6",
     "@slack/webhook": "^5.0.3",
     "emotion-theming": "^10.0.27",
     "isomorphic-unfetch": "^3.0.0",
+    "mailchimp-api-v3": "^1.14.0",
+    "md5": "^2.3.0",
     "next": "^9.3.3",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
