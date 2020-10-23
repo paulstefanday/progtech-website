@@ -42,6 +42,20 @@ const list = [
     ),
   },
   {
+    url: "/images/team-bridger.png",
+    name: "Bridger Rossiter",
+    bio: (
+      <>
+        <p>
+          Bridger brings extensive experience, working for 6 years as GetUp’s Digital Director alongside inspiration drawn from working on Bernie Sanders’ tech team to the Network Board.
+          </p>
+        <p>
+          He’s driven by a vision of powerful movement scale tools possible only through strategic collaboration - and his contribution to the ProgTech lies in mapping shared need across the sector to pitch projects with widespread and scalable impact potential.
+          </p>
+      </>
+    ),
+  },
+  {
     url: "/images/team-moira.png",
     name: "Moira Cully",
     bio: (
@@ -104,20 +118,7 @@ const list = [
       </>
     ),
   },
-  {
-    url: "/images/team-bridger.png",
-    name: "Bridger Rossiter",
-    bio: (
-      <>
-        <p>
-          Bridger brings extensive experience, working for 6 years as GetUp’s Digital Director alongside inspiration drawn from working on Bernie Sanders’ tech team to the Network Board.
-          </p>
-        <p>
-          He’s driven by a vision of powerful movement scale tools possible only through strategic collaboration - and his contribution to the ProgTech lies in mapping shared need across the sector to pitch projects with widespread and scalable impact potential.
-          </p>
-      </>
-    ),
-  },
+
 ];
 
 const Team = () => (
@@ -131,7 +132,7 @@ const Team = () => (
         sx={styles}
       >
         <div style={{ width: "100%", height: "300px", overflow: "hidden" }}>
-          <Image src={url} mb={2} width="100%" />
+          <Image src={url} mb={2} width="95%" />
         </div>
         <br />
         <Heading variant={`highlight.${colors[getRandomInt(4)]}`}>
