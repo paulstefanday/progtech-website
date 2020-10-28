@@ -14,71 +14,50 @@ import Partners from "../components/Partners";
 import SingleAction from "../components/SingleAction";
 import Link from "next/link";
 
-// const ReactTypeformEmbed = dynamic(
-//   () => import("react-typeform-embed/lib/ReactTypeformEmbed"),
-//   {
-//     ssr: false,
-//   }
-// );
-
-const sliderContent = [
-  {
-    title: "Share tools, resources & code",
-    copy:
-      "Our ambitious movements need the best tools we can get - but often, we end up build the same tools over and over, reinventing the wheel in isolation from each other. We’re starting a shared library of tech - including tools like custom metrics for Nationbuilder, website themes, and code for integrations between common platforms.",
-    buttonText: "Get Involved",
-    buttonLink: "/sharecode",
-  },
-  {
-    title: "Mentorship program",
-    copy:
-      "The next round of ProgTech's mentorship program is open for applications - providing practical support for women, non binary people, and BIPOC campaigners in building tech skills for progressive campaigning work, as well as demystifying careers in tech.",
-    buttonText: "Apply",
-    buttonLink: "/mentorship",
-  },
-];
 
 const JumboContent = () => {
-  const [email, setEmail] = useState("");
-  const [buttonText, setButtonText] = useState(
-    "Hear about next steps"
-  );
+  // const [email, setEmail] = useState("");
+  // const [buttonText, setButtonText] = useState(
+  //   "Hear about next steps"
+  // );
 
-  const submit = async (e) => {
-    e.preventDefault();
+  // const submit = async (e) => {
+  //   e.preventDefault();
 
-    const body = {
-      email,
-      form: "NEWSLETTER",
-    };
-    const url = `${window.location.protocol}://${window.location.hostname}${
-      window.location.port && ":" + window.location.port
-    }`;
-    setButtonText("Loading...");
-    try {
-      const res = await fetch(`/api/submission`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body),
-      });
-      const data = await res.json();
-      setButtonText("Success");
-      setEmail("");
-      toast.dark("Thanks. We will be in touch.");
-    } catch (error) {
-      console.error(error);
-      setButtonText("An Error Occured");
-    }
-  };
+  //   const body = {
+  //     email,
+  //     form: "NEWSLETTER",
+  //   };
+  //   const url = `${window.location.protocol}://${window.location.hostname}${
+  //     window.location.port && ":" + window.location.port
+  //   }`;
+  //   setButtonText("Loading...");
+  //   try {
+  //     const res = await fetch(`/api/submission`, {
+  //       method: "POST",
+  //       headers: { "Content-Type": "application/json" },
+  //       body: JSON.stringify(body),
+  //     });
+  //     const data = await res.json();
+  //     setButtonText("Success");
+  //     setEmail("");
+  //     toast.dark("Thanks. We will be in touch.");
+  //   } catch (error) {
+  //     console.error(error);
+  //     setButtonText("An Error Occured");
+  //   }
+  // };
   return (
     <Container maxWidth={1200}>
       <Box width={1}>
-        <Heading fontSize={[25, 50]} sx={{ maxWidth: "500px" }}>
-          It’s time we teamed up on progressive tech, don’t you think?
+        <Heading fontSize={[25, 55]} mb={0} sx={{ maxWidth: "500px" }}>
+        We’re teaming up on tech to win 
         </Heading>
+        <Heading mb={4} fontSize={[14, 25]} sx={{ maxWidth: "700px" }}>Join our national collective of progressive organisations</Heading>
       </Box>
       <Box width={1} sx={{ maxWidth: "500px" }}>
-        <Flex
+      <Link href="/join"><Button width={[1/3]} variant="primary">Join Us</Button></Link>
+        {/* <Flex
           flexWrap="wrap"
           sx={{
             boxShadow: "0 2px 20px rgba(0, 0, 0, 0.225)",
@@ -100,7 +79,7 @@ const JumboContent = () => {
           <Button onClick={submit} width={[1, 1/2]} variant="primary">
             {buttonText}
           </Button>
-        </Flex>
+        </Flex> */}
       </Box>
     </Container>
   );

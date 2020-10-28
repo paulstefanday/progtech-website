@@ -108,6 +108,8 @@ export default () => (
       .active {
         opacity: 1;
       }
+
+      
       
     `}
     </style>

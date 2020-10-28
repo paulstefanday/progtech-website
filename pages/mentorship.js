@@ -61,18 +61,11 @@ const Description = () => (
     <p style={{ marginTop: 0 }}>
       <Heading variant="highlight.pink">Overview</Heading>
       <p>
-       We have amazing progressive technologists in our movements - and
-  a lot of people with a lot of potential to have impact with the right support.
-  ProgTech's first mentorship program saw campaigners, organisers and communications
-  workers underrepresented in tech - women, non binary people, and first nations people
-  - supported by experienced techies to develop skills. The next round will launch later
-  in 2020 - please apply if you've skills you'd like to develop, or share!</p>
-<p>This mentorship project seeks to provide mentees with practical support with a
-  challenge they're keen to solve with tech, as well as have a broader conversation
-  aimed at demystifying careers in tech.
+      We have amazing progressive technologists in our movements - and a lot of people with a lot of potential to have impact with the right support. ProgTech runs mentorship programs that connect emerging and experienced technologists, with a focus on redistributing skills, knowledge and experience to people underrepresented in tech - women, non binary people, and people of colour.
       </p>
+      {/* <Button>Send</Button> */}
       <br /><br />
-      <Heading variant="highlight.orange">Who mentees are</Heading>
+      {/* <Heading variant="highlight.orange">Who mentees are</Heading>
 
       <p>
         You’re working in or around tech - this covers both technical and non-technical
@@ -89,7 +82,7 @@ your work as a progressive campaigner.
 who've had less access to tech skills because of gender, race, class and other factors. If you’re
 interested but you've never mentored someone before, please apply! Mentors are provided with
 support to step up.
-      </p>
+      </p> */}
       {/* We don't have applications open for our next mentorshop program yet but please register your interest and we will get back to you.  */}
       {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

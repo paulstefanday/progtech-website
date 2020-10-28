@@ -32,14 +32,16 @@ const Programmes = () => {
 
         <Box sx={{ position: "relative", overflow: "hidden" }} bg="test7" width={[1, 1 / 3]}>
           <Box {...props} width={1} zIndex="1">
-            <Heading variant="highlight.orange">Mentorship program</Heading>
+            <Heading variant="highlight.orange">How do we win</Heading>
             <Text variant="p">
-              The next round of ProgTech's mentorship program is open for applications
-              - providing practical support for women, non binary people, and BIPOC campaigners
-              in building tech skills for progressive campaigning work, as well as demystifying
-              careers in tech.
+            <ol style={{ textAlign: "left"}}>
+            <li style={{ marginBottom: "15px" }}>We’re building a community of technologists</li>
+            <li style={{ marginBottom: "15px" }}>We’re creating pathways into tech</li>
+            <li style={{  marginBottom: "15px"}}>We’re widening access to tech</li>
+            <li style={{ marginBottom: "15px" }}>We’re driving collaboration across our sector</li>
+          </ol>
             </Text>
-            <Link href="/mentorship"><Button variant="primary">Learn More</Button></Link>
+        
           </Box>
         </Box>
 
