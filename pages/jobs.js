@@ -17,10 +17,21 @@ const marginBottom = "60px"
 const Description = () => (
   <Box width={[1, 1 / 2]} pr={[0, 5]}>
     <Heading variant="highlight.pink">Progressive Tech Network Director</Heading>
-    <p>
-      <strong>About the Progressive Tech Network</strong>
-    </p>
 
+    <p>
+    The Progtech Network Director will deliver against our mission to build the tech and digital infrastructure and capability across civil society. The Network Director will lead work to significantly scale up social change organisations’ technological expertise and infrastructure, including development of an open-source library of tech, training and mentoring programs, pathways into tech for people from diverse backgrounds, and a nationwide online network.
+    </p>
+    <p>
+    The Founding Network Director brings extensive understanding of the tech and digital infrastructure needs of civil society, and experience working in a senior tech or digital organiser role. They will have the ability to shape, lead and grow Progtech in a long term, sustainable resource for civil society.
+    </p>
+    <p>
+    The Director will provide strategic leadership and day-to-day project management of Progtech. They will have oversight from an elected board of network members who will help shape project strategy and priorities, and report to Australian Progress Impact Director.
+    </p>
+   
+    
+
+    <Heading variant="highlight.green">About the Progressive Tech Network</Heading>
+    
     <p>
     We are a network of progressive campaigning organisations, tech providers, agencies and individuals teaming up on tech to win. We’re building a world where progressive organisations and activists have the best tools possible, and the skills and support to use them to win.</p>
 
@@ -32,18 +43,6 @@ const Description = () => (
 <p>This project is the first of its kind in Australia, although similar models exist overseas, including the Progressive Coders Network (US), The Movement Cooperative (US) and the OPEN Tech Network (international).
 </p>
 <p>The Progressive Tech Network (Progtech) is a project of Australian Progress.</p>
-
-    <Heading variant="highlight.green">About the role</Heading>
-    <p>
-    The Progtech Network Director will deliver against our mission to build the tech and digital infrastructure and capability across civil society. The Network Director will lead work to significantly scale up social change organisations’ technological expertise and infrastructure, including development of an open-source library of tech, training and mentoring programs, pathways into tech for people from diverse backgrounds, and a nationwide online network.
-    </p>
-    <p>
-    The Founding Network Director brings extensive understanding of the tech and digital infrastructure needs of civil society, and experience working in a senior tech or digital organiser role. They will have the ability to shape, lead and grow Progtech in a long term, sustainable resource for civil society.
-    </p>
-    <p>
-    The Director will provide strategic leadership and day-to-day project management of Progtech. They will have oversight from an elected board of network members who will help shape project strategy and priorities, and report to Australian Progress Impact Director.
-    </p>
-
 
 
     <Heading variant="highlight.purple">Responsibilities</Heading>
@@ -116,6 +115,11 @@ The Progtech Network Director will work from a remote office. We have a preferen
   </Box>
 );
 
+const Partners = () => (
+  <Box width={[1, 1 / 2]} flexWrap="wrap">
+    <Image height="auto" src="/images/team-all.jpg" />
+  </Box>
+);
 
 const App = (props) => {
   return (
