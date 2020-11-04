@@ -115,6 +115,11 @@ The Progtech Network Director will work from a remote office. We have a preferen
   </Box>
 );
 
+const Partners = () => (
+  <Box width={[1, 1 / 2]} flexWrap="wrap">
+    <Image height="auto" src="/images/team-all.jpg" />
+  </Box>
+);
 
 const App = (props) => {
   return (
