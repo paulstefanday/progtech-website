@@ -11,13 +11,13 @@ const SingleAction = () => (
     </Box>
     <Box p={[4, 5]} width={[1, 2 / 3]}  bg="test2">
       <Container justifyContent="center">
-        <Heading textAlign="center"  variant="highlight.purple"> Who Is Progtech          
+        <Heading textAlign="center"  variant="highlight.purple"> Who is ProgTech?          
 </Heading>
         <Text width={1} variant="p">
-        ProgTech is a national collective of progressive organisations - non profits, unions, vendors, agencies and grassroots groups - collaborating on tech.
+        ProgTech is a growing national collective of progressive organisations - non profits, unions, vendors, agencies and grassroots groups - collaborating on tech.
        
         </Text>
-        <Link href="/overview"><Button variant="primary">Learn More</Button></Link>
+        <Link href="/partners"><Button variant="primary">Learn More</Button></Link>
         {/* <Link target="_blank" href="https://2020report.progtech.net.au/">
           <Button variant="primary">Read the report here</Button>
         </Link> */}
