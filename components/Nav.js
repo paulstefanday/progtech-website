@@ -147,6 +147,9 @@ const DesktopNav = () => (
     <Link href="/progtechie">
       Volunteer
   </Link>
+  <Link href="/jobs">
+      Jobs
+  </Link>
     <Link
       className="active"
       href="/join"
