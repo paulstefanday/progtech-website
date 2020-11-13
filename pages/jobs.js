@@ -112,6 +112,9 @@ The Progtech Network Director will work from a remote office. We have a preferen
 <p>We are always actively looking for applicants from a diverse range of genders, cultures, language groups, abilities, and experiences. In particular, we encourage Aboriginal and Torres Strait Islander people, people with disability, people of colour, and people with experience seeking asylum to apply.</p>
 <p>Some interstate travel may be required once Covid-19 restrictions are lifted.</p>
 <p>For more information, or to set up a confidential conversation about the role, please contact Australian Progress Impact Director, Elise Dalley, on <a href="mailto:elise@australianprogress.org.au">elise@australianprogress.org.au</a>, using the subject line: Progressive Tech Network Director enquiry.</p>
+
+<Heading variant="highlight.orange">How to apply</Heading>
+<p>Find out more info and how to apply here: <a href="https://www.ethicaljobs.com.au/members/australianprogress/progressive-tech-network-director">https://www.ethicaljobs.com.au/members/australianprogress/progressive-tech-network-director</a></p>
   </Box>
 );
 
