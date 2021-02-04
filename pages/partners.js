@@ -17,7 +17,7 @@ const list = [
   { image:"/images/logo-aycc.png", link: "https://www.aycc.org.au/" },
   { image:"/images/logo-codenation.png", link: "https://www.codenation.com/" },
   { image:"/images/logo-cpsu.png", link: "https://www.cpsu.org.au/" },
-  { image:"/images/logo-cpsuvic.jpg", link: "https://www.cpsuvic.org/" },
+ // { image:"/images/logo-cpsuvic.jpg", link: "https://www.cpsuvic.org/" },
   { image:"/images/logo-defiance.png", link: "https://defiancedigital.co/" },
   { image:"/images/logo-dic.png", link: "https://democracyincolour.org/" },
   { image:"/images/logo-dogooder.png", link: "https://dogooder.co/" },
