@@ -48,7 +48,7 @@ const Programmes = () => {
 
         <Box sx={{ position: "relative", overflow: "hidden" }} bg="test3" width={[1, 1 / 3]}>
           <Box {...props} width={1} zIndex="1">
-            <Heading variant="highlight.pink">Trainings and Events</Heading>
+            <Heading variant="highlight.pink">Upcoming Trainings and Events</Heading>
             <Text variant="p">
               We are running events and training sessions for progressive campaigners, organisers, comms whizzes, and techies.
             </Text>
