@@ -14,6 +14,21 @@ const colors = ["purple", "orange", "green", "pink"];
 
 const list = [
   {
+    url: "/images/team-lee.png",
+    name: "Hunter Lee",
+    bio: (
+      <>
+        <p>
+          Hunter Lee is the Director of the Progressive Tech Network. 
+        </p>
+        <p>
+          Previously, they spent three years as the Founder and National Director at Tomorrow Movement, a national youth-led organisation fighting for a society with good jobs, great public services and a safe climate for all. They have ten years of experience working in digital and technology as a Strategist, Campaigner and Producer for over 30 organisations across the progressive movement.        
+        </p>
+      </>
+    ),
+  },
+  
+  {
     url: "/images/team-sara.png",
     name: "Sara Smylie",
     bio: (
