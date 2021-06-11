@@ -37,7 +37,7 @@ const Description = () => (
 
     <Heading variant="highlight.green">What’s our plan?</Heading>
     <p>
-      Our strategic 2021/2022 plans have been developed from collaboration with Progressive Tech Members who have identified key thematic needs and voted for the Progressive Tech projects they want to see in the world.
+      Our strategic 2021/2022 plans have been developed with Progressive Tech Members who have identified key thematic needs and voted for the Progressive Tech projects they want to see in the world.
     </p>
     
      <p>
