@@ -25,11 +25,13 @@ const Description = () => (
       Together we’re building the digital and tech capability of the progressive movement to campaign and organise. We believe to create the digital and tech needed to win we need a member-led community built on shared contribution.
     </p>
   
-      <p>
+    <p>
       ProgTech is in its founding stages with a key focus on learning about the shared needs of the sector, developing the key interventions we can make through collaboration and expanding our membership network on a national scale to amplify our impact.
-      </p>
+    </p>
 
-      <p>ProgressiveTech is incubated by the Centre for Australian Progress.</p>
+    <p>
+      ProgressiveTech is incubated by the Centre for Australian Progress.
+    </p>
 
 
 
