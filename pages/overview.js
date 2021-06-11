@@ -18,23 +18,36 @@ const Description = () => (
   <Box width={[1, 1 / 2]} pr={[0, 5]}>
     <Heading variant="highlight.pink">Who are we?</Heading>
     <p>
-      The Progressive Tech Network is building a world progressive organisations and activists have the best tools possible, and the skills and support to use them to win.
+      Founded in August 2020 Progressive Tech Network brings together 30+ Members and Partners from across civil society teaming up on tech and digital to win social change.
     </p>
 
+    <p> 
+      Together we’re building the digital and tech capability of the progressive movement to campaign and organise. We believe to create the digital and tech needed to win we need a member-led community built on shared contribution.
+    </p>
+  
+      <p>
+      ProgTech is in its founding stages with a key focus on learning about the shared needs of the sector, developing the key interventions we can make through collaboration and expanding our membership network on a national scale to amplify our impact.
+      </p>
+
+      <p>ProgressiveTech is incubated by the Centre for Australian Progress.</p>
+
+
+
+    <Heading variant="highlight.green">What’s our strategic plan?</Heading>
     <p>
-    To achieve this, we're  bringing together a national collective of nonprofits, campaigning organisations, unions, vendors, agencies, and grassroots groups to build a thriving community, create accessible pathways to tech, widen access to innovative tech and drive collaboration across the sector.
+      Our strategic 2021/2022 plans have been developed from collaboration with Progressive Tech Members who have identified key thematic needs and voted for the Progressive Tech projects they want to see in the world.
     </p>
-  <p>
-  ProgTech is in its founding stages with a key focus on learning about the shared needs of the sector, developing the key interventions we can make through collaboration and expanding our membership network on a national scale to amplify our impact.
-  </p>
-  <p>ProgTech is incubated by the Centre for Australian Progress.</p>
-
-
-
-    <Heading variant="highlight.green">Why do we exist?</Heading>
-    <p>
-      It’s hard enough to win progressive change. It’s harder when our tech doesn’t work for us, and when we’re trying to solve our common challenges in isolation.
+    
+     <p>
+      ProgressiveTech network has three key focus areas for the next two years:
     </p>
+    
+     <ol style={{ textAlign: "left"}}>
+            <li style={{ marginBottom: "15px" }}>Scaling our campaign technology in the lead up to the Federal Election </li>
+            <li style={{ marginBottom: "15px" }}>Building our digital organising capabilities and technology</li>
+            <li style={{ marginBottom: "15px" }}>Developing skills in strategy and data-based decision making </li>
+          </ol> 
+
     <p>
     In 2020, we ran a tech consultation with more than 50 organisations across the progressive sector in Australia. Our results, plus meetings with key stakeholders and our own experience, tell us strongly that the progressive sector is lagging behind.
     </p>
