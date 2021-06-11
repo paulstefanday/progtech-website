@@ -14,13 +14,9 @@ const Programmes = () => {
       <>
         <Box sx={{ position: "relative", overflow: "hidden" }} bg="test1" width={[1, 1 / 3]}>
           <Box {...props} width={1} zIndex="1">
-            <Heading variant="highlight.green">Share tools & code</Heading>
+            <Heading variant="highlight.green">Progressive Tech Network </Heading>
             <Text variant="p">
-              Our ambitious movements need the best tools we can get - but often,
-              we end up build the same tools over and over, reinventing the wheel in
-              isolation from each other. We’re starting a shared library of tech -
-              including tools like custom metrics for Nationbuilder, website themes, and
-              code for integrations between common platforms.
+           Joining Progressive Tech will tap you into a community of over 120 tech, digital and communication practitioners across the progressive movement. 
             </Text>
             <Link href="/sharecode"><Button variant="primary">Get Involved</Button></Link>
           </Box>
@@ -32,14 +28,15 @@ const Programmes = () => {
 
         <Box sx={{ position: "relative", overflow: "hidden" }} bg="test7" width={[1, 1 / 3]}>
           <Box {...props} width={1} zIndex="1">
-            <Heading variant="highlight.orange">How do we win</Heading>
+            <Heading variant="highlight.orange">How we will do it </Heading>
             <Text variant="p">
             <ol style={{ textAlign: "left"}}>
-            <li style={{ marginBottom: "15px" }}>We’re building a community of technologists</li>
-            <li style={{ marginBottom: "15px" }}>We’re creating pathways into tech</li>
-            <li style={{  marginBottom: "15px"}}>We’re widening access to tech</li>
-            <li style={{ marginBottom: "15px" }}>We’re driving collaboration across our sector</li>
-          </ol>
+            <li style={{ marginBottom: "15px" }}>Building a community practicing great digital and tech together</li>
+            <li style={{ marginBottom: "15px" }}>Delivering practical training to level up our tech and digital skills</li>
+            <li style={{ marginBottom: "15px" }}>Solving tech and digital challenges through peer to peer coaching </li>
+            <li style={{  marginBottom: "15px"}}>Creating a library of shared resources and research </li>
+            <li style={{ marginBottom: "15px" }}>Investing in better progressive tech products through research, product development and building strategic partnerships</li>
+          </ol> 
             </Text>
         
           </Box>
@@ -51,11 +48,9 @@ const Programmes = () => {
 
         <Box sx={{ position: "relative", overflow: "hidden" }} bg="test3" width={[1, 1 / 3]}>
           <Box {...props} width={1} zIndex="1">
-            <Heading variant="highlight.pink">Skill-shares and trainings</Heading>
+            <Heading variant="highlight.pink">Trainings and Events</Heading>
             <Text variant="p">
-              We're gearing up to launch a series of trainings for progressive campaigners,
-              organisers, comms whizzes, and techies - from Excel tips for
-              organisers online sessions, through to coding fellowships.
+              We are running events and training sessions for progressive campaigners, organisers, comms whizzes, and techies.
             </Text>
             <Link href="/trainings"><Button variant="primary">Learn More</Button></Link>
           </Box>
