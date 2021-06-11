@@ -35,7 +35,7 @@ const Description = () => (
 
 
 
-    <Heading variant="highlight.green">What’s our strategic plan?</Heading>
+    <Heading variant="highlight.green">What’s our plan?</Heading>
     <p>
       Our strategic 2021/2022 plans have been developed from collaboration with Progressive Tech Members who have identified key thematic needs and voted for the Progressive Tech projects they want to see in the world.
     </p>
@@ -51,35 +51,57 @@ const Description = () => (
           </ol> 
 
     <p>
-    In 2020, we ran a tech consultation with more than 50 organisations across the progressive sector in Australia. Our results, plus meetings with key stakeholders and our own experience, tell us strongly that the progressive sector is lagging behind.
+              We have a range of interventions across community, coaching, training, resources and product that will directly impact our focus areas. 
     </p>
-    <p>
-    Organisations report that they’re constantly reinventing the wheel, operating in silos, using inadequate tools with insufficient skills, making do with minimal investment, that the tech space is exclusionary, that tech staff are often unsupported, and that we’re not doing the long term movement wide thinking on tech that we need.
-    </p>
-    <p>It doesn’t have to be this way. Networks like the Progressive Coders Network (US); the Movement Cooperative (US) and the OPEN Tech Network (international) show us how much we have to gain from working and learning together here in Australia.
-    </p>
-    <p style={{ marginBottom }}>
-    But it will take organisations coming together as a network to build the relationships and trust needed for tech collaboration to take root. </p>
 
+ <Heading variant="highlight.purple">Impact to date</Heading>
+   <ol style={{ textAlign: "left"}}>
+             <li style={{ marginBottom: "15px" }}>Built a community of over 100 tech, digital and communication practioners.</li>
+            <li style={{ marginBottom: "15px" }}> Mentorship Programs for both product development and emerging technologists. </li>
+            <li style={{ marginBottom: "15px" }}>Skill-Based Trainings in integrations, data science and analytics.</li>
+            <li style={{ marginBottom: "15px" }}>State of Progressive Tech Report </li>
+          </ol> 
 
-
-    <Heading variant="highlight.purple">Who can join?</Heading>
+    <Heading variant="highlight.pink">Why do we exist?</Heading>
     <p >
-      ProgTech is made up of partner organisations, and their staff, volunteers and
-      activists. Our organisations are unions, environmental organisations, community groups,
-      progressive tech agencies and vendors, First Nations organisations, anti-racist groups,
-      women's rights campaigners, LGBTQIA+ organisations & more. We are all committed to intersectional
-      system change - and we are committed to teaming up on tech because we recognise that our
-      fights are bound together.
+      It’s hard enough to win progressive change. It’s harder when our tech doesn’t work for us, and when we’re trying to solve our common challenges in isolation.
+    </p>
+    
+     <p >
+      In 2020, we ran a tech consultation with more than 50 organisations across the progressive sector in Australia. Our results, plus meetings with key stakeholders and our own experience, tell us strongly that the progressive sector is lagging behind.
+    </p>
+
+     <p >
+      Organisations report that they’re constantly reinventing the wheel, operating in silos, using inadequate tools with insufficient skills, making do with minimal investment, that the tech space is exclusionary, that tech staff are often unsupported, and that we’re not doing the long term movement wide thinking on tech that we need.
+    </p>
+    
+     <p >
+      It doesn’t have to be this way. Networks like the Progressive Coders Network (US); the Movement Cooperative (US) and the OPEN Tech Network (international) show us how much we have to gain from working and learning together here in Australia.
+    </p>
+
+    <p >
+      But it will take organisations coming together as a network to build the relationships and trust needed for tech collaboration to take root.
+    </p>
+    
+    <Heading variant="highlight.purple">Who can join?</Heading>
+     <p >
+      ProgressiveTech Network is a diverse network of Members and Partners who collaborate on progressive tech to win.
+    </p>
+    
+    <p >
+      Progressive Tech Members are grassroots groups, nonprofits, waged and unwaged activists campaigning and organising for social good. 
+    </p>
+    
+    <p >
+      Progressive Tech Partners are vendors, community partners, agencies or similar entities that work in partnership with Progressive Tech Members to help lift their digital and tech capabilities.
     </p>
 
     <p style={{ marginBottom }}> You can express interest in your organisation joining <a href="https://progtech.net.au/join">here</a>, and a member of the team
       will be in touch. ProgTech is for progressive campaigning and movement building organisations,
       and the technologists and vendors that support us - apolitical businesses contribute great things,
       but aren't a fit for this network. ProgTech is also not a network for political parties.</p>
-
-
-  </Box>
+  
+</Box>
 );
 
 const Partners = () => (
