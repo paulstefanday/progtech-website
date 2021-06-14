@@ -110,11 +110,17 @@ const DesktopNav = () => (
     <Link className="dropdown" href="/overview">
       About
       <Box className="dropdown-content">
+        
         <NextLink href="/overview">
           <a>Overview</a>
         </NextLink>
+  
         {/* <Link href="#!">News</Link> */}
-        <Link href="/partners">Partners</Link>
+        
+        <NextLink href="/partners">
+          <a>Partners</a>
+        </NextLink>
+        
         <NextLink href="/team">
           <a>Team</a>
         </NextLink>
@@ -130,7 +136,6 @@ const DesktopNav = () => (
         <Link target="_blank" href="https://2020report.progtech.net.au">
           Sector Consultation
         </Link>
-        </NextLink>
 
         <NextLink href="/projects">
         <a>Projects</a>
@@ -139,6 +144,7 @@ const DesktopNav = () => (
         <NextLink href="/trainings">
         <a>Trainings and Events</a>
         </NextLink>
+
        {/* <Link href="/events">Workshops & events</Link> */}
               {/* <Link href="/sharecode">Share Code</Link>  */}
 
