@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Button, Image, Heading } from "rebass";
+import { Box, Flex, Button, Image, Heading, Link } from "rebass";
 import { Input, Label, Textarea, Checkbox } from "@rebass/forms";
 
 import PageHeading from "../components/PageHeading";
