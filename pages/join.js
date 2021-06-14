@@ -10,34 +10,65 @@ const Description = () => (
   // <Box width={[1, 1 / 2]} pr={[0, 5]}>
   <Box width={1}>
     <Heading variant="highlight.pink">
-      What does it mean to be a member organisation of the Progressive Tech
-      Network?
+      What does it mean to be a member organisation of the Progressive Tech Network?
     </Heading>
     <p>
-      ProgTech is made up of progressive campaigning organisations, grassroots
-      groups, and the progressive agencies and vendors who support us. From
-      launch, member organisations have access to mentorship programs,
-      trainings, a growing shared library of tools, code and resources, skilled
-      volunteers, and our Slack community.
-      </p>
+      Progressive Tech is made up of progressive campaigning organisations, grassroots groups, and the progressive agencies and vendors who support us. 
+      Membership includes access to our online community, events, coaching, resources, research and product tools with training free or heavily discounted. 
+      Partners also have access to our community events, research and our Slack community. They also will have opportunities to work on partner-specific projects that are purpose-aligned to Progressive Tech.
+      Please note that Progressive is for progressive campaigning and movement building organisations, and the technologists and vendors that support us - apolitical businesses contribute great things, but aren't a fit for this network. Progressive Tech is also not a network for political parties.
+    </p>
 
-      <p>
-        We share with each other in good faith, and ensure we share on clear terms
-        - because we all share the same goals. We’re working together to prevent
-        climate devastation, and to create a society where everyone, no matter
-        your background, your gender, your ability or your skin colour, can
-        thrive.
-      </p>
-      <p>
-            If this is something your organisation or activist group would like to be
-            a part of, get in touch. We have so much to gain from working together.
-            Joining the network means sharing what you have to offer - which is
-            different for different organisations. If you're interested in seeing your
-            organisation join the network, share what you're keen to get out of it,
-            and what your organisation could offer in the form.
-          </p>
+     <Heading variant="highlight.orange">
+      Can you tell me more?
+    </Heading>
+      
+     <p>
+     As part of the Progressive Tech Network, you’ll have access to our toolbox:
+     <p>
+        
+     <p><strong>Community </strong></p>
+     <p>
+     We’re building a community practicing great digital and tech together through regular in-person meet ups, our Slack community of over 130+ tech, digital and communication practitioners and leadership roundtables. 
+     </p>  
 
-      <p>  <strong>Please note that ProgTech is for progressive campaigning and movement building organisations, and the technologists and vendors that support us - apolitical businesses contribute great things, but aren't a fit for this network. ProgTech is also not a network for political parties.</strong></p>
+     <p><strong>Coaching </strong></p>
+     <p>
+     We’re delivering practical training to level up our tech and digital skills in data, strategy and digital organising.
+     </p>  
+
+     <p><strong> Training </strong></p>
+     <p>
+      We’re solving tech and digital challenges through regular Tech Help Please coaching days kicking off in August.
+     </p>  
+    
+     <p><strong> Resources </strong></p>
+     <p>
+     We’re creating a library of shared resources and research including a a Progressive Tech tool database and scoping opportunities for movement-wide tech leading up to the federal election.
+     </p> 
+
+     <p><strong> Product </strong></p>
+     <p>
+     We’re investing in better progressive tech products through research, product development and building strategic partnerships
+     </p> 
+    
+    <Heading variant="highlight.purple">
+    Membership Contribution 
+    </Heading>
+     
+     <p>
+      Progressive Tech is committed to equity by providing free access to our membership offering for any activist, cause and not-profit. We ask that members that have financial resources to donate to keep us running.
+     </p> 
+     
+      <ol style={{ textAlign: "left"}}>
+            <li style={{ marginBottom: "15px" }}>First nations, disability rights, racial justice, refugee and LGBTIQ+ organisations, causes and individual activist | Free </li>
+            <li style={{ marginBottom: "15px" }}>For non-profits with an annual budget of less than $500,000 | Free </li>
+            <li style={{ marginBottom: "15px" }}>For non-profits with an annual budget between $500,000 - $1 million  | $250 + GST </li>
+            <li style={{  marginBottom: "15px"}}>For non-profits with an annual budget between $1-3 million. | $750 + GST  </li>
+            <li style={{ marginBottom: "15px" }}>For non-profits with an annual budget between $3 million plus | $5,000 + GST</li>
+        </ol> 
+
+    
 
 
     <br />
@@ -80,7 +111,7 @@ const Description = () => (
       Once you have expressed interest
     </Heading>
     <p>
-      A member of the ProgTech team will get in touch to discuss further. If
+      A member of the ProgressiveTech team will get in touch to discuss further. If
       your organisation and the network are a good fit, we'll then form a
       membership agreement that outlines in detail what your organisation can
       share, and the key ways the network will support you in the tech you need
