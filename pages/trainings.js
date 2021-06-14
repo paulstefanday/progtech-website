@@ -19,7 +19,7 @@ const Description = () => (
     <p><strong>Date TBD, Registrations Open Soon</strong></p>
     <p>Find out more about our initial findings scoping movement-wide campaigning and organising product solutions.  In this piece of research we worked with eight progressive campaigning organisations exploring product solutions for  campaign technology, organising technology and data solutions required leading up to the Federal Election.</p>  
 
-    //<Heading mt={4} variant="highlight.pink">Intro to data science</Heading>
+    {/*<Heading mt={4} variant="highlight.pink">Intro to data science</Heading>
     //<p><strong>Wednesday 4 November, 5-6pm AEDT</strong></p>
     //<p>Everyone is excited about data science but a lot of orgs aren’t in a position to take advantage of it. This session will introduce data science concepts for campaigning, and start a convo about the kinds of data science projects we might like to work on collectively.</p>
     //<p><Link href="https://progtech.typeform.com/to/WPzYDrtD#source=progtech-website" target="_blank" variant="buttons.primary">RSVP Here</Link></p>
@@ -51,4 +51,4 @@ const App = (props) => {
   );
 };
 
-export default App;
+export default App;*/}
