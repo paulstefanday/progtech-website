@@ -7,7 +7,6 @@ import PageHeading from "../components/PageHeading";
 import Container from "../components/Container";
 
 const Description = () => (
-  // <Box width={[1, 1 / 2]} pr={[0, 5]}>
   <Box width={1}>
     <Heading variant="highlight.pink">
       What does it mean to be a member organisation of the Progressive Tech Network?
@@ -25,7 +24,7 @@ const Description = () => (
       
      <p>
      As part of the Progressive Tech Network, you’ll have access to our toolbox:
-     <p>
+     </p>
         
      <p><strong>Community </strong></p>
      <p>
