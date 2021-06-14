@@ -52,10 +52,7 @@ const MobileNav = () => {
 
   const menu = [
     { title: "About", href: "/overview" },
-    { title: "Mentorship", href: "/mentorship" },
-    { title: "Volunteer", href: "/volunteer" },
-    { title: "Submit a project", href: "/submitaproject" },
-    { title: "Share Code", href: "/sharecode" },
+    { title: "Projects", href: "/projects" },
     { title: "Team", href: "/team" },
     { title: "Join", href: "/join" },
     { title: "Contact Us", href: "/contact" },
@@ -132,20 +129,20 @@ const DesktopNav = () => (
         <Link target="_blank" href="https://2020report.progtech.net.au">
           Sector Consultation
         </Link>
-        <NextLink href="/mentorship">
-          <a>Mentorship</a>
+        {/*<NextLink href="/mentorship">*/}
+           {/*<a>Mentorship</a>*/}
         </NextLink>
         <NextLink href="/trainings">
-          <a>Trainings</a>
+          <a>Trainings and Events</a>
         </NextLink>
        {/* <Link href="/events">Workshops & events</Link> */}
               {/* <Link href="/sharecode">Share Code</Link>  */}
 
-              <Link href="/submitaproject">Submit a project</Link>
+               {/*<Link href="/submitaproject">Submit a project</Link>*/}
       </Box>
-    </Link>
-    <Link href="/progtechie">
-      Volunteer
+     {/*</Link>*/}
+    {/*<Link href="/progtechie">*/}
+       {/*Volunteer*/}
   </Link>
     <Link
       className="active"
