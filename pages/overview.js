@@ -104,11 +104,11 @@ const Description = () => (
 </Box>
 );
 
-const Partners = () => (
+//const Partners = () => (
   //<Box width={[1, 1 / 2]} flexWrap="wrap">
     //<Image height="auto" src="/images/team-all.jpg" />
   //</Box>
-);
+//);
 
 const App = (props) => {
   return (
@@ -117,7 +117,6 @@ const App = (props) => {
       <Box width={1} p={[4, 5]}>
         <Container maxWidth={1200}>
           <Description />
-          <Partners />
         </Container>
       </Box>
     </Flex>
