@@ -82,7 +82,7 @@ const Description = () => (
         <Heading variant="highlight.purple">Movement Tech Product Scoping Paper</Heading>
          <p>
             State of Progressive Tech Report surveyed over 50 technology and digital staff. This report identified tech challenges and trends across the progressive tech sector.  
-            <p><Link href="https://progtech.net.au/" target="_blank" variant="buttons.primary">Read the report</Link></p
+            <p><Link href="https://progtech.net.au/" target="_blank" variant="buttons.primary">Read the report</Link></p>
           </p>
     
 
