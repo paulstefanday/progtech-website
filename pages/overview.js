@@ -105,9 +105,9 @@ const Description = () => (
 );
 
 const Partners = () => (
-  <Box width={[1, 1 / 2]} flexWrap="wrap">
+  //<Box width={[1, 1 / 2]} flexWrap="wrap">
     //<Image height="auto" src="/images/team-all.jpg" />
-  </Box>
+  //</Box>
 );
 
 const App = (props) => {
