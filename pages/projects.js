@@ -64,7 +64,7 @@ const Description = () => (
             We’re working with eight campaigning organisations to determine key opportunities for product and tech collaboration. This piece of research focuses on campaign technology, organising technology and data solutions required leading up to the Federal Election.    
           </p>
         
-        <Heading variant="highlight.yellow">Tech Help Please</Heading>
+        <Heading variant="highlight.orange">Tech Help Please</Heading>
          <p>
             We’re setting up a monthly peer to peer coaching day for Progressive Tech Members to access peer to peer learning and technical volunteers. If you’re interested in becoming a coach contact Hunter Lee at lee@australinprogress.org.au 
          </p>
@@ -74,14 +74,14 @@ const Description = () => (
             Progresssive Tech Talks & Drinks are bi-monthly in-person events in Sydney and Melbourne to build community connections, share knowledge and seed collaborations. If you’re outside these cities and would like to start one up contact Hunter Lee at lee@australianprogress.org.au 
           </p>
 
-         <Heading variant="highlight.yellow">Movement Tech Product Scoping Paper</Heading>
+         <Heading variant="highlight.orange">Movement Tech Product Scoping Paper</Heading>
          <p>
             ProgresssiveTech is partnering with Citiva, a non-profit releasing the power of data to everyone, to develop an ActionNetwork analytics dashboard product. We are working with four organisations to develop a minimum viable analytics dashboard for campaigners and organisers.
           </p>
         
         <Heading variant="highlight.purple">Movement Tech Product Scoping Paper</Heading>
          <p>
-            State of Progressive Tech Report surveyed over 50 technology and digital staff. This report identified tech challenges and trends across the progressive tech sector. Read the report here.
+            State of Progressive Tech Report surveyed over 50 technology and digital staff. This report identified tech challenges and trends across the progressive tech sector. Read the report { text:"here", link: "https://progtech.net.au/" },.
           </p>
     
 
@@ -122,7 +122,7 @@ support to step up.
 const App = (props) => {
   return (
     <Flex flexWrap="wrap">
-      <PageHeading heading="Mentorship" />
+      <PageHeading heading="Projects" />
       <Box width={1} p={[4, 5]}>
         <Container maxWidth={1200}>
           <Description />
