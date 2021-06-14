@@ -71,7 +71,7 @@ const Description = () => (
 
          <Heading variant="highlight.orange">Tech Help Please</Heading>
          <p>
-            We’re setting up a monthly peer to peer coaching day for Progressive Tech Members to access peer to peer learning and technical volunteers. If you’re interested in becoming a coach contact Hunter Lee at lee@australinprogress.org.au 
+            We’re setting up a monthly peer to peer coaching day for Progressive Tech Members to access peer to peer learning and technical volunteers. If you’re interested in becoming a coach contact Hunter Lee at lee@australianprogress.org.au 
          </p>
 
          <Heading variant="highlight.orange">Movement Tech Product Scoping Paper</Heading>
