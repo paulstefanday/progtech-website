@@ -59,10 +59,33 @@ const Form = () => (
 const Description = () => (
   <Box width={[1, 1 / 2]} pr={[0, 5]}>
     <p style={{ marginTop: 0 }}>
-      <Heading variant="highlight.pink">Overview</Heading>
-      <p>
-      We have amazing progressive technologists in our movements - and a lot of people with a lot of potential to have impact with the right support. ProgTech runs mentorship programs that connect emerging and experienced technologists, with a focus on redistributing skills, knowledge and experience to people underrepresented in tech - women, non binary people, and people of colour.
-      </p>
+        <Heading variant="highlight.pink">State of Progressive Tech Report</Heading>
+          <p>
+            We’re working with eight campaigning organisations to determine key opportunities for product and tech collaboration. This piece of research focuses on campaign technology, organising technology and data solutions required leading up to the Federal Election.    
+          </p>
+        
+        <Heading variant="highlight.yellow">Tech Help Please</Heading>
+         <p>
+            We’re setting up a monthly peer to peer coaching day for Progressive Tech Members to access peer to peer learning and technical volunteers. If you’re interested in becoming a coach contact Hunter Lee at lee@australinprogress.org.au 
+         </p>
+
+         <Heading variant="highlight.pink">Progressive Tech Talks & Drinks</Heading>
+         <p>
+            Progresssive Tech Talks & Drinks are bi-monthly in-person events in Sydney and Melbourne to build community connections, share knowledge and seed collaborations. If you’re outside these cities and would like to start one up contact Hunter Lee at lee@australianprogress.org.au 
+          </p>
+
+         <Heading variant="highlight.yellow">Movement Tech Product Scoping Paper</Heading>
+         <p>
+            ProgresssiveTech is partnering with Citiva, a non-profit releasing the power of data to everyone, to develop an ActionNetwork analytics dashboard product. We are working with four organisations to develop a minimum viable analytics dashboard for campaigners and organisers.
+          </p>
+        
+        <Heading variant="highlight.purple">Movement Tech Product Scoping Paper</Heading>
+         <p>
+            State of Progressive Tech Report surveyed over 50 technology and digital staff. This report identified tech challenges and trends across the progressive tech sector. Read the report here.
+          </p>
+    
+
+      
       {/* <Button>Send</Button> */}
       <br /><br />
       {/* <Heading variant="highlight.orange">Who mentees are</Heading>
