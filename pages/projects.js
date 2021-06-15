@@ -64,22 +64,22 @@ const Description = () => (
             We’re working with eight campaigning organisations to determine key opportunities for product and tech collaboration. This piece of research focuses on campaign technology, organising technology and data solutions required leading up to the Federal Election.    
           </p>
          
-         <Heading variant="highlight.pink">Progressive Tech Talks & Drinks</Heading>
+         <Heading variant="highlight.orange">Progressive Tech Talks & Drinks</Heading>
          <p>
             Progresssive Tech Talks & Drinks are bi-monthly in-person events in Sydney and Melbourne to build community connections, share knowledge and seed collaborations. If you’re outside these cities and would like to start one up contact Hunter Lee at lee@australianprogress.org.au 
           </p>        
 
-         <Heading variant="highlight.orange">Tech Help Please</Heading>
+         <Heading variant="highlight.purple">Tech Help Please</Heading>
          <p>
             We’re setting up a monthly peer to peer coaching day for Progressive Tech Members to access peer to peer learning and technical volunteers. If you’re interested in becoming a coach contact Hunter Lee at lee@australianprogress.org.au 
          </p>
 
-         <Heading variant="highlight.orange">Movement Tech Product Scoping Paper</Heading>
+         <Heading variant="highlight.orange">ActionNetwork Dashboard Working Group</Heading>
          <p>
             ProgresssiveTech is partnering with Citiva, a non-profit releasing the power of data to everyone, to develop an ActionNetwork analytics dashboard product. We are working with four organisations to develop a minimum viable analytics dashboard for campaigners and organisers.
           </p>
         
-        <Heading variant="highlight.purple">Movement Tech Product Scoping Paper</Heading>
+        <Heading variant="highlight.pink">State of Progressive Tech</Heading>
          <p>
             State of Progressive Tech Report surveyed over 50 technology and digital staff. This report identified tech challenges and trends across the progressive tech sector.  
             <p><Link href="https://progtech.net.au/" target="_blank" variant="buttons.primary">Read the report</Link></p>
