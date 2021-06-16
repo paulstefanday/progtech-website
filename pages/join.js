@@ -58,7 +58,7 @@ const Description = () => (
     </Heading>
      
      <p>
-      Progressive Tech is committed to equity by providing free access to our membership offering for any activist, cause and not-profit that has limited resources. We ask that members that have financial resources to donate to keep us running.
+      Progressive Tech is committed to equity by providing free access to our membership offering for any activist, cause and not-profit that has limited resources. We ask that members that have financial resources to contribute a membership fee to keep us running.
      </p> 
      
       <ol style={{ textAlign: "left"}}>
