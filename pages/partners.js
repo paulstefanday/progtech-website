@@ -14,7 +14,7 @@ const list = [
   { image:"/images/logo-actu.png", link: "https://www.actu.org.au/" },
   { image:"/images/logo-asu-nsw-act.png", link: "http://www.asu.asn.au/" },
   { image:"/images/logo-aycc.png", link: "https://www.aycc.org.au/" },
-  { image:"/images/logo-civita.jpg", link: "https://civita.org.au/" },
+  { image:"/images/logo-civita.png", link: "https://civita.org.au/" },
   { image:"/images/logo-codenation.png", link: "https://www.codenation.com/" },
   { image:"/images/logo-cpsu.png", link: "https://www.cpsu.org.au/" },
  // { image:"/images/logo-cpsuvic.jpg", link: "https://www.cpsuvic.org/" },
