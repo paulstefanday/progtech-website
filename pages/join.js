@@ -12,8 +12,10 @@ const Description = () => (
       What does it mean to be a member organisation of the Progressive Tech Network?
     </Heading>
     <p>
-      Progressive Tech is made up of progressive campaigning organisations, grassroots groups, and the progressive agencies and vendors who support us. 
-      Membership includes access to our online community, events, coaching, resources, research and product tools with training free or heavily discounted. 
+      Progressive Tech is made up of progressive campaigning organisations, grassroots groups, and the progressive agencies and vendors who support us.   </p> 
+     
+     <p>
+       Membership includes access to our online community, events, coaching, resources, research and product tools with training free or heavily discounted. 
       Partners also have access to our community events, research and our Slack community. They also will have opportunities to work on partner-specific projects that are purpose-aligned to Progressive Tech.
       Please note that Progressive is for progressive campaigning and movement building organisations, and the technologists and vendors that support us - apolitical businesses contribute great things, but aren't a fit for this network. Progressive Tech is also not a network for political parties.
     </p>
@@ -28,27 +30,27 @@ const Description = () => (
         
      <p><strong>Community </strong></p>
      <p>
-     We’re building a community practicing great digital and tech together through regular in-person meet ups, our Slack community of over 130+ tech, digital and communication practitioners and leadership roundtables. 
+    Access to community events and networking including regular in-person meet ups, a Slack community of over 130+ tech, digital and communication practitioners and leadership roundtables. 
      </p>  
 
      <p><strong>Coaching </strong></p>
      <p>
-     We’re delivering practical training to level up our tech and digital skills in data, strategy and digital organising.
+   Practical training to level up tech and digital skills specifically in data, strategy and digital organising.
      </p>  
 
      <p><strong> Training </strong></p>
      <p>
-      We’re solving tech and digital challenges through regular Tech Help Please coaching days kicking off in August.
+    Solving tech and digital challenges through regular Tech Help Please coaching days
      </p>  
     
      <p><strong> Resources </strong></p>
      <p>
-     We’re creating a library of shared resources and research including a a Progressive Tech tool database and scoping opportunities for movement-wide tech leading up to the federal election.
+        A library of shared resources and research including a Progressive Tech tool database and scoping opportunities for movement-wide tech leading up to the federal election.
      </p> 
 
      <p><strong> Product </strong></p>
      <p>
-     We’re investing in better progressive tech products through research, product development and building strategic partnerships
+        Investing in better progressive tech products through research, product development and building strategic partnerships
      </p> 
     
     <Heading variant="highlight.purple">
@@ -56,7 +58,7 @@ const Description = () => (
     </Heading>
      
      <p>
-      Progressive Tech is committed to equity by providing free access to our membership offering for any activist, cause and not-profit. We ask that members that have financial resources to donate to keep us running.
+      Progressive Tech is committed to equity by providing free access to our membership offering for any activist, cause and not-profit that has limited resources. We ask that members that have financial resources to donate to keep us running.
      </p> 
      
       <ol style={{ textAlign: "left"}}>
