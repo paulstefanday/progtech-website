@@ -18,7 +18,7 @@ const Programmes = () => {
             <Text variant="p">
            Joining Progressive Tech will tap you into a community of over 120 tech, digital and communication practitioners across the progressive movement. 
             </Text>
-            <Link href="/sharecode"><Button variant="primary">Get Involved</Button></Link>
+            <Link href="/overview"><Button variant="primary">Find out more</Button></Link>
           </Box>
         </Box>
 
