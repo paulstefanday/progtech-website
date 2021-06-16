@@ -22,7 +22,10 @@ const list = [
           Hunter Lee is the Director of the Progressive Tech Network. 
         </p>
         <p>
-          Previously, they spent three years as the Founder and National Director at Tomorrow Movement, a national youth-led organisation fighting for a society with good jobs, great public services and a safe climate for all. They have ten years of experience working in digital and technology as a Strategist, Campaigner and Producer for over 30 organisations across the progressive movement.        
+          Previously, they spent three years as the Founder and National Director at Tomorrow Movement, a national youth-led organisation fighting for a society with good jobs, great public services and a safe climate for all, and at The Equality Campaign where they lead digital products that helped win the YES campaign for marriage equality. 
+</p> 
+         
+        <p> They are a leading digital campaigner with ten years of experience working in digital and technology as a Senior Strategist, Campaigner and Producer for over 30 organisations across the progressive movement.        
         </p>
       </>
     ),
