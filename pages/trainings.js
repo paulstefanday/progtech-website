@@ -17,7 +17,7 @@ const Description = () => (
 
     <Heading mt={4} variant="highlight.orange"> Movement Tech Product Scoping Paper Briefing </Heading>
     <p><strong>Date TBD, Registrations Open Soon</strong></p>
-    <p>Find out more about our initial findings scoping movement-wide campaigning and organising product solutions.  In this piece of research we worked with eight progressive campaigning organisations exploring product solutions for  campaign technology, organising technology and data solutions required leading up to the Federal Election.</p>  
+    <p>Find out more about our initial findings scoping movement-wide campaigning and organising product solutions. This research paper worked with eight progressive campaigning organisations to explore product solutions for campaign technology, organising technology and data solutions leading up to the Federal Election.</p>  
 
     <p>More coming soon! Please note that these trainings are for the volunteers and staff of network members only. If there's a training that would help you, find out more about how your organisation can join <a href="https://progtech.net.au/join">here</a>. If you need our help to speak to your manager about why joining the Progressive Tech Network is a good idea, get in touch at <a href="mailto:hello@progtech.net.au">hello@progtech.net.au</a></p>
   </Flex>
