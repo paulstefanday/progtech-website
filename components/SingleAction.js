@@ -17,7 +17,7 @@ const SingleAction = () => (
         Progressive Tech is a growing national collective of progressive organisations - non profits, unions, vendors, agencies and grassroots groups - building the digital and tech capability of the progressive movement to campaign and organise. 
        
         </Text>
-        <Link href="/partners"><Button variant="primary">Learn More</Button></Link>
+        <Link href="/partners"><Button variant="primary">Our Network</Button></Link>
         {/* <Link target="_blank" href="https://2020report.progtech.net.au/">
           <Button variant="primary">Read the report here</Button>
         </Link> */}
