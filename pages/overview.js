@@ -18,7 +18,7 @@ const Description = () => (
   <Box width={[1, 1 / 2]} pr={[0, 5]}>
     <Heading variant="highlight.pink">Who are we?</Heading>
     <p>
-      Founded in August 2020 Progressive Tech Network brings together 30+ Members and Partners from across civil society teaming up on tech and digital to win social change.
+      Founded in August 2020 ProgressiveTech Network brings together 30+ Members and Partners from across civil society teaming up on tech and digital to win social change.
     </p>
 
     <p> 
@@ -26,7 +26,7 @@ const Description = () => (
     </p>
   
     <p>
-      ProgTech is in its founding stages with a key focus on learning about the shared needs of the sector, developing the key interventions we can make through collaboration and expanding our membership network on a national scale to amplify our impact.
+      Progressive Tech is in its founding stages with a key focus on learning about the shared needs of the sector, developing the key interventions we can make through collaboration and expanding our membership network on a national scale to amplify our impact.
     </p>
 
     <p>
@@ -37,7 +37,7 @@ const Description = () => (
 
     <Heading variant="highlight.green">What’s our plan?</Heading>
     <p>
-      Our strategic 2021/2022 plans have been developed with Progressive Tech Members who have identified key thematic needs and voted for the Progressive Tech projects they want to see in the world.
+      Our strategic 2021/2022 plans have been developed with ProgressiveTech Members who have identified key thematic needs and voted for the ProgressiveTech projects they want to see in the world.
     </p>
     
      <p>
@@ -89,17 +89,17 @@ const Description = () => (
     </p>
     
     <p >
-      Progressive Tech Members are grassroots groups, nonprofits, waged and unwaged activists campaigning and organising for social good. 
+      ProgressiveTech Members are grassroots groups, nonprofits, waged and unwaged activists campaigning and organising for social good. 
     </p>
     
     <p >
-      Progressive Tech Partners are vendors, community partners, agencies or similar entities that work in partnership with Progressive Tech Members to help lift their digital and tech capabilities.
+      ProgressiveTech Partners are vendors, community partners, agencies or similar entities that work in partnership with ProgressiveTech Members to help lift their digital and tech capabilities.
     </p>
 
     <p style={{ marginBottom }}> You can express interest in your organisation joining <a href="https://progtech.net.au/join">here</a>, and a member of the team
-      will be in touch. ProgTech is for progressive campaigning and movement building organisations,
+      will be in touch. ProgressiveTech is for progressive campaigning and movement building organisations,
       and the technologists and vendors that support us - apolitical businesses contribute great things,
-      but aren't a fit for this network. ProgTech is also not a network for political parties.</p>
+      but aren't a fit for this network. ProgressiveTech is also not a network for political parties.</p>
   
 </Box>
 );
