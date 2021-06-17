@@ -66,19 +66,24 @@ const Description = () => (
          
          <Heading variant="highlight.orange">Progressive Tech Talks & Drinks</Heading>
          <p>
-            Progresssive Tech Talks & Drinks are bi-monthly in-person events in Sydney and Melbourne to build community connections, share knowledge and seed collaborations. If you’re outside these cities and would like to start one up contact Hunter Lee at lee@australianprogress.org.au 
+            Progressive Tech Talks & Drinks are bi-monthly in-person events in Sydney and Melbourne to build community connections, share knowledge and seed collaborations. If you’re outside these cities and would like to start one up contact Hunter Lee at lee@australianprogress.org.au 
           </p>        
 
          <Heading variant="highlight.purple">Tech Help Please</Heading>
          <p>
-            We’re setting up a monthly peer to peer coaching day for Progressive Tech Members to access peer to peer learning and technical volunteers. If you’re interested in becoming a coach contact Hunter Lee at lee@australianprogress.org.au 
+            We’re setting up a monthly peer to peer coaching day for Progressive Tech Members to access peer to peer learning and technical volunteers. <br />
+            
+         <Link href="https://airtable.com/shrGlWp6wgz7qDeO2"><Button variant="primary">Apply to be a coach</Button></Link>
+
          </p>
 
          <Heading variant="highlight.orange">ActionNetwork Dashboard Working Group</Heading>
          <p>
-            ProgresssiveTech is partnering with Citiva, a non-profit releasing the power of data to everyone, to develop an ActionNetwork analytics dashboard product. We are working with four organisations to develop a minimum viable analytics dashboard for campaigners and organisers.
-          </p>
-    
+            ProgresssiveTech is partnering with Citiva, a non-profit releasing the power of data to everyone, to develop an ActionNetwork analytics dashboard product. 
+            We are working with four organisations to develop a minimum viable analytics dashboard for campaigners and organisers. 
+ 
+         </p>
+
       
       {/* <Button>Send</Button> */}
       <br /><br />
