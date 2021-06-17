@@ -18,7 +18,7 @@ const Description = () => (
   <Box width={[1, 1 / 2]} pr={[0, 5]}>
     <Heading variant="highlight.pink">Who are we?</Heading>
     <p>
-      Founded in August 2020 ProgressiveTech Network brings together 30+ Members and Partners from across civil society teaming up on tech and digital to win social change.
+      Founded in August 2020 Progressive Tech Network brings together 30+ Members and Partners from across civil society teaming up on tech and digital to win social change.
     </p>
 
     <p> 
