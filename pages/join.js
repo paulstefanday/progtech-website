@@ -62,7 +62,7 @@ const Description = () => (
      </p> 
      
       <ol style={{ textAlign: "left"}}>
-            <li style={{ marginBottom: "15px" }}>First nations, disability rights, racial justice, refugee and LGBTIQ+ organisations, causes and individual activist | Free </li>
+            <li style={{ marginBottom: "15px" }}>First Nations, Disability Rights, Racial Justice, Refugee and LGBTIQ+ individual activists, causes and organisations | Free </li>
             <li style={{ marginBottom: "15px" }}>For non-profits with an annual budget of less than $500,000 | Free </li>
             <li style={{ marginBottom: "15px" }}>For non-profits with an annual budget between $500,000 - $1 million  | $250 + GST </li>
             <li style={{  marginBottom: "15px"}}>For non-profits with an annual budget between $1-3 million. | $750 + GST  </li>
