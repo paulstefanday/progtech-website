@@ -16,7 +16,7 @@ const Description = () => (
     <Heading mt={4} variant="highlight.pink">Coaches for 10 August</Heading>
     <p><ul>
       <li><b>Aaron Takizad (National Coordinator of Digital Organising, Media and Entertainment Arts Alliance).</b> Aaron is responsible for developing strategies and implementing new technologies to meet the challenges of organising freelance and gig economy workers. He is also completing a B. Science (Computer Science) at UNSW. He can help with: automation, data analytics/data science, digital campaigning, digital organising, digital strategy, front and back end development, Google Analytics, WordPress.</li>
-      <li><b>Bridger Rossiter (Board Member and Product Lead, Progressive Tech Network).</b> Bridger is leading the Progressive Tech Network's movement-wide product scoping project. He has previously worked for 6 years at GetUp's Digital Director and on Bernie Sanders' tech team. He can help with: NationBuilder, automation, digital strategy, front and back-end development.</li>
+      <li><b>Bridger Rossiter (Board Member and Product Lead, Progressive Tech Network).</b> Bridger is leading the Progressive Tech Network's movement-wide product scoping project, looking at movement-wide campaigning, organising and data product solutions in the lead up to the Federal Election. He has previously worked for 6 years at GetUp's Digital Director and on Bernie Sanders' tech team. He can help with: NationBuilder, automation, digital strategy, front and back-end development.</li>
       <li><b>Corey McCann (Digital Director, Code Nation).</b> Corey has been working at Code Nation for 7 years building websites, data automations and webapps. He can help with website and coding questions (HTML, CSS, JavaScript, React.js, Next.js, Ruby, Rails) as well as general support for data management and automation requirements, or helping deploy existing open source tools that organisations might want to try (e.g. Metabase for data analytics, existing NationBuilder integrations etc).</li>
       <li><b>Fred Stark (Software Developer, Fingerprint for Success).</b> Former organiser - community and digital - now senior software developer outside the movement. Paying off activist guilt by helping wherever possible. He can help with: NationBuilder, automation, back and front end development, digital campaigning, digital organising, digital strategy, and data analytics/data science.</li>
       <li><b>Jack Alexander (Digital Strategy and Comms Organiser, Victorian Trades Hall Council).</b> Jack is a strategic content specialist and digital designer. Over the last few years they have worked with small businesses, not-for-profits, artists and startups in social media management, strategic consulting, website designs and builds, photography and audio editing. They can help with: digital communications, digital marketing, digital strategy.</li>
@@ -36,7 +36,7 @@ const Description = () => (
 const App = (props) => {
   return (
     <Flex flexWrap="wrap">
-      <PageHeading heading="Upcoming Coaching Days" />
+      <PageHeading heading="Tech Help Please Coaching Day" />
       <Box width={1} p={[4, 5]}>
         <Container maxWidth={1200}>
           <Description />
