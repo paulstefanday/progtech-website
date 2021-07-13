@@ -28,6 +28,7 @@ const Description = () => (
     <p>
          <Link href="https://airtable.com/shrGlWp6wgz7qDeO2"><Button variant="primary">Apply to be a coach here</Button></Link>
     </p>
+    </Flex>
 );
 
 const App = (props) => {
