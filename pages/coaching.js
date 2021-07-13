@@ -19,7 +19,7 @@ const Description = () => (
       <li><b>Corey McCann</b>, Code Nation</li>
       <li><b>David Kohn</b>, Australian Youth Climate Coalition</li>
       <li><b>Fred Stark</b>, Fingerprint for Success</li>
-      <li><b>Georgia Kriz</b>, Australian Council of Trades Unions</li>
+      <li><b>Georgia Kriz</b>, Australian Council of Trade Unions</li>
       <li><b>Glenn Todd</b>, actionskills.co</li>
       <li><b>Luke Marshall</b>, Digital Marketing Consultant</li>
       </ul></p>
@@ -39,7 +39,7 @@ const App = (props) => {
         <Container maxWidth={1200}>
           <Description />
           <Box width={[1, 1 / 2]} flexWrap="wrap">
-          <p><script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr7QJENmCKms2hBE?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="2584" style="background: transparent; border: 1px solid #ccc;"></iframe></p>
+          
           </Box>
         </Container>
       </Box>
