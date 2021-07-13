@@ -13,6 +13,10 @@ const Description = () => (
     <p>If you have a tech or digital problem or project you need help with,<a href="https://airtable.com/shr7QJENmCKms2hBE">let us know here</a>! Problems or projects of any size are invited (e.g. help to set up website events in Google Analytics, fix a weird NationBuilder bug, review a digital strategy, analyse fundraising statistics), but sessions will run for a maximum of 2 hours.</p>
     <p>Coaching is open to all progressive organisations, not just network members.</p>
 
+    <p>
+         <Link href="https://airtable.com/shr7QJENmCKms2hBE"><Button variant="primary">Submit your tech help problem</Button></Link>
+    </p>
+
     <Heading mt={4} variant="highlight.pink">Coaches for 10 August</Heading>
     <p><ul>
       <li><b>Aaron Takizad (National Coordinator of Digital Organising, Media and Entertainment Arts Alliance).</b> Aaron is responsible for developing strategies and implementing new technologies to meet the challenges of organising freelance and gig economy workers. He is also completing a B. Science (Computer Science) at UNSW. He can help with: automation, data analytics/data science, digital campaigning, digital organising, digital strategy, front and back end development, Google Analytics, WordPress.</li>
