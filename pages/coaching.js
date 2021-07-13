@@ -9,8 +9,8 @@ import JoinNewsletter from "../components/JoinNewsletter";
 
 const Description = () => (
   <Flex flexDirection="column" width={[1, 1 / 2]} pr={[0, 5]}>
-    <p>The Progressive Tech Network is coordinating a monthly Tech Help Please coaching day on the second Tuesday of every month from 10am to 4pm. The upcoming dates are August 10th, September 7th and October 12th.</p>
-    <p>If you have a tech or digital problem you need help with,<a href="https://airtable.com/embed/shr7QJENmCKms2hBE?backgroundColor=blue">let us know here</a> and you will be paired with a coach for a 1 to 2 hour session on Tuesday 10 August.</p>
+    <p>We're coordinating a monthly <em>Tech Help Please!</em> coaching day on the second Tuesday of every month. The next one is from 10am-4pm on Tuesday 10th August.</p>
+    <p>If you have a tech or digital problem or project you need help with,<a href="https://airtable.com/shr7QJENmCKms2hBE">let us know here</a>! Problems or projects of any size are invited (e.g. help to set up website events in Google Analytics, fix a weird NationBuilder bug, review a digital strategy, analyse fundraising statistics), but sessions will run for a maximum of 2 hours.</p>
     <p>Coaching is open to all progressive organisations, not just network members.</p>
 
     <Heading mt={4} variant="highlight.pink">Coaches for 10 August</Heading>
@@ -25,9 +25,9 @@ const Description = () => (
       <li><b>Luke Marshall (Digital Training and Growth Consultant, <a href="https://www.lukemarshall.net/">lukemarshall.net</a>).</b> 15 years of digital marketing, sales and tech. Interested in NFP and mental health. He can help with: automation, digital marketing, digital strategy, Google Analytics, NoCode/proof of concept.</li>
       </ul></p>
 
-    <p>These will be monthly sessions, so if you can't make it this time don't worry! Let us know about your problem here:</p>
+    <p>These will be monthly sessions, so if you can't make it this time don't worry! Let us know about your problem or project here:</p>
     <p>
-         <Link href="https://airtable.com/embed/shr7QJENmCKms2hBE?backgroundColor=blue"><Button variant="primary">Submit your tech help problem</Button></Link>
+         <Link href="https://airtable.com/shr7QJENmCKms2hBE"><Button variant="primary">Submit your tech help problem</Button></Link>
     </p>
     <p>Or <a href="mailto:hello@progtech.net.au">get in touch</a> if you'd like to volunteer as a coach.</p>
   </Flex>
