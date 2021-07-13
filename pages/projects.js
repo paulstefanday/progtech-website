@@ -71,9 +71,7 @@ const Description = () => (
 
          <Heading variant="highlight.purple">Tech Help Please</Heading>
          <p>
-            We’re setting up a monthly peer to peer coaching day for Progressive Tech Members to access peer to peer learning and technical volunteers. <br />
-            
-         <Link href="https://airtable.com/shrGlWp6wgz7qDeO2"><Button variant="primary">Apply to be a coach</Button></Link>
+            We’re setting up a monthly peer to peer coaching day for Progressive Tech Members to access peer to peer learning and technical volunteers. <a href="https://airtable.com/shrGlWp6wgz7qDeO2">Apply to be a coach</a> or <a href="https://airtable.com/shr7QJENmCKms2hBE">submit your problem/project</a>.
 
          </p>
 

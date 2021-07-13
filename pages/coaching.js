@@ -9,8 +9,8 @@ import JoinNewsletter from "../components/JoinNewsletter";
 
 const Description = () => (
   <Flex flexDirection="column" width={[1, 1 / 2]} pr={[0, 5]}>
-    <p>We're coordinating a monthly <em>Tech Help Please!</em> coaching day on the second Tuesday of every month. The next one is from 10am-4pm on Tuesday 10th August.</p>
-    <p>If you have a tech or digital problem or project you need help with,<a href="https://airtable.com/shr7QJENmCKms2hBE">let us know here</a>! Problems or projects of any size are invited (e.g. help to set up website events in Google Analytics, fix a weird NationBuilder bug, review a digital strategy, analyse fundraising statistics), but sessions will run for a maximum of 2 hours.</p>
+    <p>We're coordinating a monthly <em>Tech Help Please!</em> peer-to-peer coaching day on the second Tuesday of every month. The next one is from 10am-4pm on Tuesday 10th August.</p>
+    <p>Sign up now to get help from digital and tech coaches. If you have a tech or digital problem or project you need help with,<a href="https://airtable.com/shr7QJENmCKms2hBE">let us know here</a>! Problems or projects of any size are invited (e.g. help to set up website events in Google Analytics, fix a weird NationBuilder bug, review a digital strategy, analyse fundraising statistics), but sessions will run for a maximum of 2 hours.</p>
     <p>Coaching is open to all progressive organisations, not just network members.</p>
 
     <p>
