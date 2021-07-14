@@ -45,7 +45,7 @@ const App = (props) => {
         <Container maxWidth={1200}>
           <Description />
           <Box width={[1, 1 / 2]} flexWrap="wrap">
-          <iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr7QJENmCKms2hBE?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="2584" style="background: transparent; border: 1px solid #ccc;"></iframe>
+          <p>I can write something here</p>
           </Box>
         </Container>
       </Box>
