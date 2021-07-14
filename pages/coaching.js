@@ -45,7 +45,6 @@ const App = (props) => {
         <Container maxWidth={1200}>
           <Description />
           <Box width={[1, 1 / 2]} flexWrap="wrap">
-          <p>I can write something here</p>
           </Box>
         </Container>
       </Box>
