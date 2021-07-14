@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Flex, Button, Image, Heading, Text, Link } from "rebass";
 import { Input, Label, Textarea } from "@rebass/forms";
+import Script from 'next/script';
 // import Link from "next/link";
 import PageHeading from "../components/PageHeading";
 import Container from "../components/Container";
@@ -10,12 +11,8 @@ import JoinNewsletter from "../components/JoinNewsletter";
 const Description = () => (
   <Flex flexDirection="column" width={[1, 1 / 2]} pr={[0, 5]}>
     <p>We're coordinating a monthly <em>Tech Help Please!</em> peer-to-peer coaching day on the second Tuesday of every month. The next one is from 10am-4pm on Tuesday 10th August.</p>
-    <p>Sign up now to get help from digital and tech coaches. If you have a tech or digital problem or project you need help with,<a href="https://airtable.com/shr7QJENmCKms2hBE">let us know here</a>! Problems or projects of any size are invited (e.g. help to set up website events in Google Analytics, fix a weird NationBuilder bug, review a digital strategy, analyse digital fundraising statistics), but sessions will run for a maximum of 2 hours.</p>
+    <p>Sign up now to get help from digital and tech coaches. If you have a tech or digital problem or project you need help with, let us know in the form on this page! Problems or projects of any size are invited (e.g. help to set up website events in Google Analytics, fix a weird NationBuilder bug, review a digital strategy, analyse digital fundraising statistics), but sessions will run for a maximum of 2 hours.</p>
     <p>Coaching is open to all progressive organisations, not just network members.</p>
-
-    <p>
-         <Link href="https://airtable.com/shr7QJENmCKms2hBE"><Button variant="primary">Submit your tech help problem</Button></Link>
-    </p>
 
     <Heading mt={4} variant="highlight.pink">Coaches for 10 August</Heading>
     <p><ul>
@@ -29,10 +26,7 @@ const Description = () => (
       <li><b>Luke Marshall (Digital Training and Growth Consultant, <a href="https://www.lukemarshall.net/">lukemarshall.net</a>).</b> 15 years of digital marketing, sales and tech. Interested in NFP and mental health. He can help with: automation, digital marketing, digital strategy, Google Analytics, NoCode/proof of concept.</li>
       </ul></p>
 
-    <p>These will be monthly sessions, so if you can't make it this time don't worry! Let us know about your problem or project here:</p>
-    <p>
-         <Link href="https://airtable.com/shr7QJENmCKms2hBE"><Button variant="primary">Submit your tech help problem</Button></Link>
-    </p>
+    <p>These will be monthly sessions, so if you can't make it this time don't worry! Let us know about your problem or project using the form on this page.</p>
     <p>Or <a href="mailto:hello@progtech.net.au">get in touch</a> if you'd like to volunteer as a coach.</p>
   </Flex>
 );
@@ -45,6 +39,11 @@ const App = (props) => {
         <Container maxWidth={1200}>
           <Description />
           <Box width={[1, 1 / 2]} flexWrap="wrap">
+            <Script
+              src="https://static.airtable.com/js/embed/embed_snippet_v1.js"
+              strategy="lazyOnload"
+            />
+            <iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr7QJENmCKms2hBE?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="2584" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
           </Box>
         </Container>
       </Box>
