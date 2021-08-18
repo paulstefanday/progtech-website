@@ -22,7 +22,7 @@ Over four half-days in October, the program will coach participants to develop a
     <p>Find out more about our initial findings scoping movement-wide campaigning and organising product solutions. This research paper worked with eight progressive campaigning organisations to explore product solutions for campaign technology, organising technology and data solutions leading up to the Federal Election.</p>  
     <p> <Link href="https://www.eventbrite.com.au/e/progressive-tech-product-scoping-briefing-tickets-162385203515"><Button variant="primary">Register Now</Button></Link> </p>
 
-    <p>More coming soon! If there's a training that would help you, find out more about how your organisation can join <a href="https://progtech.net.au/join">here</a>. If you need our help to speak to your manager about why joining the Progressive Tech Network is a good idea, get in touch at <a href="mailto:hello@progtech.net.au">hello@progtech.net.au</a></p>
+    <p>More coming soon! If there's a training that would help you please get in touch and find out more about how your organisation can join <a href="https://progtech.net.au/join">here</a>. If you need our help to speak to your manager about why joining the Progressive Tech Network is a good idea, get in touch at <a href="mailto:hello@progtech.net.au">hello@progtech.net.au</a></p>
   
 </Flex>
 );
