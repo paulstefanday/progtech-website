@@ -25,7 +25,7 @@ Over four half-days in October, the program will coach participants to develop a
          <Link href="https://www.eventbrite.com.au/e/progressive-tech-product-scoping-briefing-tickets-162385203515"><Button variant="primary">Register Now</Button></Link>
     </p>
 
-    <p>More coming soon! Please note that these trainings are for the volunteers and staff of network members only. If there's a training that would help you, find out more about how your organisation can join <a href="https://progtech.net.au/join">here</a>. If you need our help to speak to your manager about why joining the Progressive Tech Network is a good idea, get in touch at <a href="mailto:hello@progtech.net.au">hello@progtech.net.au</a></p>
+    <p>More coming soon! If there's a training that would help you, find out more about how your organisation can join <a href="https://progtech.net.au/join">here</a>. If you need our help to speak to your manager about why joining the Progressive Tech Network is a good idea, get in touch at <a href="mailto:hello@progtech.net.au">hello@progtech.net.au</a></p>
   </Flex>
 );
 
