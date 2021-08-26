@@ -10,11 +10,16 @@ import JoinNewsletter from "../components/JoinNewsletter";
 
 const Description = () => (
   <Flex flexDirection="column" width={[1, 1 / 2]} pr={[0, 5]}>
-    <p>We're coordinating a monthly <em>Tech Help Please!</em> peer-to-peer coaching day on the second Tuesday of every month. The next one is from 10am-4pm on Tuesday 10th August.</p>
-    <p>Sign up now to get help from digital and tech coaches. If you have a tech or digital problem or project you need help with, let us know in the form on this page! Problems or projects of any size are invited (e.g. help to set up website events in Google Analytics, fix a weird NationBuilder bug, review a digital strategy, analyse digital fundraising statistics), but sessions will run for a maximum of 2 hours.</p>
-    <p>Coaching is open to all progressive organisations, not just network members.     </p>
+    <p> <b> Tuesday, September 9th, 2021 from 10am - 4pm. </b> </p>
+    <p> On the first Tuesday of every month we offer progressives free coaching sessions with digital and tech experts. </p>
+    <p> Digital tech projects of any size are encouraged! Our coaches can help out with things like setting up Google Analytics website events, fixing NationBuilder bugs, advise on your digital strategy and digital fundraising program analysis. </p>
+    <p> Pop in an application form and we will do our best to pair you with a suitable coach. </p>
+    <p> <b> Got questions?</b> Shoot an email to Hunter Lee at lee@australianprogress.org.au  </p>
+    <p> <b> Want to sign up as a coach?</b>  Fill in this form <a href="https://airtable.com/shrGlWp6wgz7qDeO2">here</a> </p>
 
-    <Heading mt={4} variant="highlight.pink">Coaches for 10 August</Heading>
+
+
+    <Heading mt={4} variant="highlight.pink">Previous coaches have included:</Heading>
     <p><ul>
       <li><b>Aaron Takizad (National Coordinator of Digital Organising, Media and Entertainment Arts Alliance).</b> Aaron is responsible for developing strategies and implementing new technologies to meet the challenges of organising freelance and gig economy workers. He is also completing a B. Science (Computer Science) at UNSW. He can help with: automation, data analytics/data science, digital campaigning, digital organising, digital strategy, front and back end development, Google Analytics, WordPress.</li>
       <li><b>Bridger Rossiter (Board Member and Product Lead, Progressive Tech Network).</b> Bridger is leading the Progressive Tech Network's movement-wide product scoping project, looking at movement-wide campaigning, organising and data product solutions in the lead up to the Federal Election. He has previously worked for 6 years at GetUp's Digital Director and on Bernie Sanders' tech team. He can help with: NationBuilder, automation, digital strategy, front and back-end development.</li>
@@ -27,14 +32,13 @@ const Description = () => (
       </ul></p>
 
     <p>These will be monthly sessions, so if you can't make it this time don't worry! Let us know about your problem or project using the form on this page.</p>
-    <p>Or <a href="mailto:hello@progtech.net.au">get in touch</a> if you'd like to volunteer as a coach.</p>
   </Flex>
 );
 
 const App = (props) => {
   return (
     <Flex flexWrap="wrap">
-      <PageHeading heading="Tech Help Please Coaching Day" />
+      <PageHeading heading="Tech Help Please" />
       <Box width={1} p={[4, 5]}>
         <Container maxWidth={1200}>
           <Description />
