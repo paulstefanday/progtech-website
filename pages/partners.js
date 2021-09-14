@@ -7,7 +7,7 @@ import Container from "../components/Container";
 import Bg, { styles } from "../components/Bg";
 
 const list = [
-  
+  { image:"/images/logo-350.png", link: "https://350.org.au/" },
   { image:"/images/logo-uwu.png", link: "https://www.unitedworkers.org.au/" },
   { image:"/images/logo-ap.png", link: "https://www.australianprogress.org.au/" },
   { image:"/images/logo-actionskills.png", link: "https://actionskills.co/" },
@@ -42,6 +42,8 @@ const list = [
   { image:"/images/logo-tippingpoint.png", link: "https://www.tippingpoint.org.au/" },
   { image:"/images/logo-vthc.png", link: "https://www.weareunion.org.au/" },
   { image:"/images/logo-wela.jpg", link: "https://welaprogram.org.au/" },
+  { image:"/images/logo-wwc.jpg", link: "https://wwcsa.org.au/" },
+
 ];
 
 const Description = () => (
