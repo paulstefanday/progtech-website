@@ -71,16 +71,10 @@ const Description = () => (
 
          <Heading variant="highlight.purple">Tech Help Please</Heading>
          <p>
-            We’re setting up a monthly peer to peer coaching day for Progressive Tech Members to access peer to peer learning and technical volunteers. <a href="https://airtable.com/shrGlWp6wgz7qDeO2">Apply to be a coach</a> or <a href="https://airtable.com/shr7QJENmCKms2hBE">submit your problem/project</a>.
-
+            We run a monthly peer to peer coaching day on the first Tuesday of every month for Progressive Tech Members to access peer to peer learning and technical volunteers. <a href="https://airtable.com/shrGlWp6wgz7qDeO2">Apply to be a coach</a> or <a href="https://airtable.com/shr7QJENmCKms2hBE">submit your problem/project</a>.
          </p>
 
-         <Heading variant="highlight.orange">ActionNetwork Dashboard Working Group</Heading>
-         <p>
-            ProgresssiveTech is partnering with Citiva, a non-profit releasing the power of data to everyone, to develop an ActionNetwork analytics dashboard product. 
-            We are working with four organisations to develop a minimum viable analytics dashboard for campaigners and organisers. 
- 
-         </p>
+   
 
       
       {/* <Button>Send</Button> */}
