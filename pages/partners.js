@@ -42,7 +42,7 @@ const list = [
   { image:"/images/logo-tippingpoint.png", link: "https://www.tippingpoint.org.au/" },
   { image:"/images/logo-vthc.png", link: "https://www.weareunion.org.au/" },
   { image:"/images/logo-wela.jpg", link: "https://welaprogram.org.au/" },
-  { image:"/images/logo-wwc.jpg", link: "https://wwcsa.org.au/" },
+  { image:"/images/logo-wwc.png", link: "https://wwcsa.org.au/" },
 
 ];
 
