@@ -11,7 +11,7 @@ import JoinNewsletter from "../components/JoinNewsletter";
 const Description = () => (
   <Flex flexDirection="column" width={[1, 1 / 2]} pr={[0, 5]}>
     <p> <b> Tuesday, October 12th, 2021 from 10am - 4pm. </b> </p>
-    <p> On the first Tuesday of every month we offer progressives free coaching sessions with digital and tech experts. </p>
+    <p> On the second Tuesday of every month we offer progressives free coaching sessions with digital and tech experts. </p>
     <p> Digital tech projects of any size are encouraged! Our coaches can help out with things like setting up Google Analytics website events, fixing NationBuilder bugs, advise on your digital strategy and digital fundraising program analysis. </p>
     <p> Pop in an application form and we will do our best to pair you with a suitable coach. </p>
     <p> <b> Got questions?</b> Shoot an email to Hunter Lee at lee@australianprogress.org.au  </p>
