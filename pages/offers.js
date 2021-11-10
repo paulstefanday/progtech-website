@@ -17,10 +17,7 @@ const marginBottom = "60px"
 const Description = () => (
   <Box width={[1, 1 / 2]} pr={[0, 5]}>
   
-<p>
-As part of the Progressive Tech Network you'll have access to the following membership offerings.
-</p>
-    <Heading variant="highlight.pink">Supporter Base</Heading>
+Heading variant="highlight.pink">Supporter Base</Heading>
 <p>
 SupporterBase was launched in 2019 by the same team of digital experts behind the award-winning creative agency for progressives, Code Nation. This tool powered by NationBuilder
 empowers your volunteers to organise their own local groups, host events, contact supporters and build your community of action.
