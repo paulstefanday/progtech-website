@@ -17,6 +17,10 @@ const marginBottom = "60px"
 const Description = () => (
   <Box width={[1, 1 / 2]} pr={[0, 5]}>
   
+<p>
+As part of the Progressive Tech Network you'll have access to the following membership offerings.
+</p>
+
 Heading variant="highlight.pink">Supporter Base</Heading>
 <p>
 SupporterBase was launched in 2019 by the same team of digital experts behind the award-winning creative agency for progressives, Code Nation. This tool powered by NationBuilder
@@ -28,11 +32,11 @@ Leading up to the Australian Federal Election, Progressive Tech members are elig
 </p>
     
 <p>
-Check out <a href="https://www.supporterbase.com/"> Supporter Base </a>).
+Check out <a href="https://www.supporterbase.com/"> Supporter Base </a>
 </p>
 
 <p>
-Want more info? Contact Rhys Forsyth at rhys@codenation.com </a>).
+Want more info? Contact Rhys Forsyth at rhys@codenation.com 
 </p>
 
 </Box>
