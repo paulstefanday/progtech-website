@@ -17,7 +17,7 @@ const marginBottom = "60px"
 const Description = () => (
   <Box width={[1, 1 / 2]} pr={[0, 5]}>
   
-   <p> As part of the Progressive Tech Network you're eligible for the following offerings </p>
+   <p> As part of the Progressive Tech Network you're eligible for the following offerings: </p>
   
   <Heading variant="highlight.pink">Supporter Base</Heading>
     <p>
