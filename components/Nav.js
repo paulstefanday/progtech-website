@@ -56,7 +56,11 @@ const MobileNav = () => {
     { title: "Team", href: "/team" },
     { title: "Join", href: "/join" },
     { title: "Contact Us", href: "/contact" },
-    
+    {
+      title: "Survey",
+      href: "https://form.typeform.com/to/C8Sthe",
+      target: "_blank",
+    },
   ];
 
   if (!open)
@@ -141,17 +145,13 @@ const DesktopNav = () => (
         <a>Trainings and Events</a>
         </NextLink>
 
-        <NextLink href="/coaching">
-        <a>Tech Help Please Coaching Day</a>
-        </NextLink>
-    
-
        {/* <Link href="/events">Workshops & events</Link> */}
               {/* <Link href="/sharecode">Share Code</Link>  */}
 
                {/*<Link href="/submitaproject">Submit a project</Link>*/}
-      </Box>  
-
+      </Box>
+     
+  </Link>
     <Link
       className="active"
       href="/join"
