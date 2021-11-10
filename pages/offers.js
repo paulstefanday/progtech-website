@@ -29,6 +29,7 @@ empowers your volunteers to organise their own local groups, host events, contac
 Leading up to the Australian Federal Election, Progressive Tech members are eligible for a 50%  discount with a 25% discount available for non-ProgTech members. 
 </p>
     
+<p> <b> Want to find out more?</b>  Check out Supporter Base <a href="https://www.supporterbase.com/">here</a> </p>
   
 
   
