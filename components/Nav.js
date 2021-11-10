@@ -150,15 +150,10 @@ const DesktopNav = () => (
               {/* <Link href="/sharecode">Share Code</Link>  */}
 
                {/*<Link href="/submitaproject">Submit a project</Link>*/}
-      </Box>
+      </Box>  
 
-  <Link
-      className="active"
-      href="/offers"
-    >
+  <Link className="dropdown" href="offers">
       Member Offers
-    </Link>     
-
   </Link>
     <Link
       className="active"
