@@ -19,14 +19,13 @@ const Description = () => (
   
    <p> As part of the Progressive Tech Network you're eligible for the following offerings: </p>
   
-  <Heading variant="highlight.pink">Supporter Base</Heading>
+  <Heading variant="highlight.pink">SupporterBase</Heading>
     <p>
-    SupporterBase was launched in 2019 by the same team of digital experts behind the award-winning creative agency for progressives, Code Nation. This tool powered by NationBuilder
-empowers your volunteers to organise their own local groups, host events, contact supporters and build your community of action.
+    SupporterBase was launched in 2019 by the same team of digital experts behind the award-winning creative agency for progressives, Code Nation. This tool empowers your volunteers to organise their own local groups, host events, contact supporters and build your community of action, while syncing all data with your NationBuilder database. 
     </p>
 
 <p> 
-Leading up to the Australian Federal Election, Progressive Tech members are eligible for a 50%  discount with a 25% discount available for Non-Progressive Tech members. 
+Progressive Tech members who sign up between November and the Australian Federal Election will receive a 50% discount on their monthly subscription until election day, with a 25% discount available for Non-Progressive Tech members.
 </p>
     
 <p> <b> Want to find out more?</b>  Check out Supporter Base <a href="https://www.supporterbase.com/">here</a> </p>
