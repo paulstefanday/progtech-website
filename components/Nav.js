@@ -129,6 +129,7 @@ const DesktopNav = () => (
         </NextLink>
       </Box>
     </Link>
+
     <Link className="dropdown" href="#!">
       Programmes
       <Box className="dropdown-content">
@@ -145,13 +146,15 @@ const DesktopNav = () => (
         <a>Trainings and Events</a>
         </NextLink>
 
-       <Link href="/offers">Member Offers</Link>
               {/* <Link href="/sharecode">Share Code</Link>  */}
 
                {/*<Link href="/submitaproject">Submit a project</Link>*/}
       </Box>
      
   </Link>
+    
+    <Link href="/offers">Member Offers</Link>
+
     <Link
       className="active"
       href="/join"
